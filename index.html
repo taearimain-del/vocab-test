@@ -67,15 +67,25 @@
     color: var(--text); cursor: pointer; touch-action: manipulation;
   }
   .secondary-btn:disabled { opacity: 0.4; cursor: default; }
+  .danger-btn { border-color: var(--ng); color: var(--ng); }
+  .danger-btn:hover { background: var(--ng-bg); }
+  .mini-btn {
+    font-family: var(--font-body); font-size: 11px; font-weight: 600; padding: 4px 9px;
+    border-radius: 6px; border: 1px solid var(--border-strong); background: var(--surface);
+    color: var(--text-muted); cursor: pointer; touch-action: manipulation; white-space: nowrap;
+  }
+  .mini-btn:hover { border-color: var(--ok); color: var(--ok); }
 
   details.word-acc { margin-bottom: 8px; border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; }
   details.word-acc summary { padding: 9px 12px; font-size: 13px; font-weight: 700; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
   details.word-acc summary::-webkit-details-marker { display: none; }
   .lesson-progress { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); font-weight: 400; }
+  .lesson-acc-actions { display: flex; gap: 8px; padding: 8px 12px; flex-wrap: wrap; border-top: 1px solid var(--border); }
   .word-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
-  .word-table td { padding: 5px 8px; border-top: 1px solid var(--border); }
+  .word-table td { padding: 5px 8px; border-top: 1px solid var(--border); vertical-align: middle; }
   .word-table td.wt-en { font-weight: 700; }
   .word-table td.wt-count { font-family: var(--font-mono); text-align: right; white-space: nowrap; }
+  .word-table td.wt-action { text-align: right; white-space: nowrap; width: 1%; }
   .mastered-badge { color: var(--ok); font-weight: 700; }
 
   .test-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 26px 22px; text-align: center; min-height: 260px; display: flex; flex-direction: column; justify-content: center; }
@@ -164,6 +174,24 @@
     return n;
   }
 
+  // ===== リセット・手動習得 =====
+  function resetSetProgress(setId) {
+    progress[setId] = { correctCounts: {}, currentRound: 0, roundHistory: [] };
+    saveProgress();
+  }
+  function resetLessonProgress(setId, lessonNumber) {
+    var sp = ensureSetProgress(setId);
+    allWords(setId).forEach(function (item) {
+      if (item.lessonNumber === lessonNumber) delete sp.correctCounts[item.key];
+    });
+    saveProgress();
+  }
+  function markMastered(setId, key) {
+    var sp = ensureSetProgress(setId);
+    sp.correctCounts[key] = MASTER_THRESHOLD;
+    saveProgress();
+  }
+
   // ===== 出題プールの決定 =====
   // correctCounts は「連続正解回数」。不正解を挟むと0に戻る。
   // 各ラウンドの出題対象は「まだ5連続正解に達していない語」全部＝間違えた語ほど何度も出てくる、
@@ -181,6 +209,7 @@
   // ===== 画面状態 =====
   var route = { name: 'home' };
   var testState = null; // { setId, queue, idx, revealed, results: {key: bool} }
+  var openLessonNumber = null; // renderSet内でアコーディオンを開いたまま再描画するための記憶
 
   function go(r) { route = r; render(); window.scrollTo(0, 0); }
 
@@ -260,6 +289,16 @@
     });
     app.appendChild(startBtn);
 
+    var resetSetRow = el('div', 'action-row');
+    var resetSetBtn = el('button', 'secondary-btn danger-btn', 'このセットの進捗を全部リセット');
+    resetSetBtn.addEventListener('click', function () {
+      if (!window.confirm(set.name + 'の進捗（習得済み・ラウンド・記録）を全部リセットします。よろしいですか？')) return;
+      resetSetProgress(setId);
+      render();
+    });
+    resetSetRow.appendChild(resetSetBtn);
+    app.appendChild(resetSetRow);
+
     if (sp.roundHistory.length) {
       var h2 = el('h2', null, 'これまでの記録');
       app.appendChild(h2);
@@ -282,6 +321,8 @@
       });
       var acc = document.createElement('details');
       acc.className = 'word-acc';
+      if (lesson.number === openLessonNumber) acc.open = true;
+      acc.addEventListener('toggle', function () { openLessonNumber = acc.open ? lesson.number : null; });
       var summary = document.createElement('summary');
       summary.innerHTML = '<span>DAY/LESSON ' + lesson.number + ' ' + esc(lesson.title) + '</span><span class="lesson-progress">' + lessonMastered + ' / ' + lesson.words.length + '</span>';
       acc.appendChild(summary);
@@ -295,14 +336,23 @@
         tr.innerHTML =
           '<td class="wt-en">' + esc(w.word) + '</td>' +
           '<td>' + esc(w.meaning) + '</td>' +
-          '<td class="wt-count">' + (isMastered ? '<span class="mastered-badge">習得済</span>' : ('連続' + cnt + '回')) + '</td>';
+          '<td class="wt-count">' + (isMastered ? '<span class="mastered-badge">習得済</span>' : ('連続' + cnt + '回')) + '</td>' +
+          '<td class="wt-action"></td>';
+        if (!isMastered) {
+          var markBtn = el('button', 'mini-btn', '覚えた');
+          markBtn.addEventListener('click', function () {
+            openLessonNumber = lesson.number;
+            markMastered(setId, key);
+            render();
+          });
+          tr.querySelector('.wt-action').appendChild(markBtn);
+        }
         table.appendChild(tr);
       });
       acc.appendChild(table);
 
       var lessonUnmastered = lesson.words.length - lessonMastered;
-      var lessonBtnRow = el('div', 'action-row');
-      lessonBtnRow.style.marginTop = '10px';
+      var lessonBtnRow = el('div', 'lesson-acc-actions');
       var lessonBtn = el('button', 'secondary-btn', lessonUnmastered > 0
         ? 'このレッスンをテストする（' + lessonUnmastered + '問）'
         : 'このレッスンは全語習得済み');
@@ -313,6 +363,15 @@
         go({ name: 'test' });
       });
       lessonBtnRow.appendChild(lessonBtn);
+
+      var lessonResetBtn = el('button', 'secondary-btn danger-btn', 'このレッスンをリセット');
+      lessonResetBtn.addEventListener('click', function () {
+        if (!window.confirm('DAY/LESSON ' + lesson.number + ' の進捗をリセットします。よろしいですか？')) return;
+        openLessonNumber = lesson.number;
+        resetLessonProgress(setId, lesson.number);
+        render();
+      });
+      lessonBtnRow.appendChild(lessonResetBtn);
       acc.appendChild(lessonBtnRow);
 
       app.appendChild(acc);
@@ -359,6 +418,13 @@
       app.appendChild(judgeRow);
     }
 
+    var skipRow = el('div', 'action-row');
+    skipRow.style.marginTop = '10px';
+    var skipBtn = el('button', 'mini-btn', 'もう知ってる（習得済みにする）');
+    skipBtn.addEventListener('click', function () { skipMastered(); });
+    skipRow.appendChild(skipBtn);
+    app.appendChild(skipRow);
+
     var quitLink = el('a', 'back-link', '‹ 中断してホームへ（ここまでの回答は保存されません）');
     quitLink.style.marginTop = '18px';
     quitLink.href = 'javascript:void(0)';
@@ -369,6 +435,21 @@
   function judge(correct) {
     var item = currentWordItem();
     testState.results[item.key] = correct;
+    testState.idx++;
+    testState.revealed = false;
+    if (testState.idx >= testState.queue.length) {
+      finishRound();
+    } else {
+      render();
+    }
+  }
+
+  // 「もう知ってる」：即座に習得済みにして次へ進む。judge()とは別ルートなので
+  // finishRound()の集計（testState.results）には含めず、二重にcorrectCountsを
+  // 更新しないようにする。
+  function skipMastered() {
+    var item = currentWordItem();
+    markMastered(testState.setId, item.key);
     testState.idx++;
     testState.revealed = false;
     if (testState.idx >= testState.queue.length) {
