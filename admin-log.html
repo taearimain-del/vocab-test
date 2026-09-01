@@ -1,0 +1,138 @@
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>単語テスト 操作ログ（管理者用）</title>
+<style>html{visibility:hidden}</style>
+<script src="https://my-portal-ryu.netlify.app/access-gate.js"></script>
+<style>
+  :root {
+    --bg: #faf6ee; --surface: #ffffff; --surface-2: #f3ede0;
+    --border: #e7ddc9; --border-strong: #d9cbac;
+    --text: #2a2620; --text-muted: #8a8171;
+    --accent: #b5762f; --accent-strong: #8f5a1f;
+    --ok: #3f7d4f; --ok-bg: #e7f3e9;
+    --ng: #b23a2e; --ng-bg: #f6e4e0;
+    --radius: 14px; --radius-sm: 9px;
+    --font-body: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, sans-serif;
+    --font-mono: 'Segoe UI', sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1a16; --surface: #262319; --surface-2: #2f2b20;
+      --border: #423c2c; --border-strong: #574f38;
+      --text: #eee6d6; --text-muted: #a99f89;
+      --accent: #e0a35c; --accent-strong: #f0b876;
+      --ok: #7fcf94; --ok-bg: #1e332356;
+      --ng: #e2897c; --ng-bg: #3a201c;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--font-body); }
+  #app { max-width: 760px; margin: 0 auto; padding: 28px 18px 60px; }
+  .eyebrow { font-size: 11px; letter-spacing: 0.14em; color: var(--text-muted); font-weight: 700; }
+  h1 { margin: 4px 0 18px; font-size: 22px; }
+  .toolbar { display: flex; gap: 8px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
+  select, button { font-family: var(--font-body); font-size: 13px; padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-strong); background: var(--surface); color: var(--text); cursor: pointer; }
+  button.primary { background: var(--accent); color: #fff; border: none; font-weight: 700; }
+  .status { font-size: 12px; color: var(--text-muted); margin-left: auto; }
+  .log-item { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px 16px; margin-bottom: 8px; font-size: 13px; }
+  .log-top { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
+  .log-account { font-weight: 700; }
+  .log-action { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 4px; background: var(--surface-2); color: var(--accent-strong); font-weight: 700; margin-left: 6px; }
+  .log-ts { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); }
+  .log-detail { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); word-break: break-all; }
+  .empty { text-align: center; color: var(--text-muted); padding: 40px 0; font-size: 13px; }
+</style>
+<div id="app">
+  <div class="eyebrow">VOCAB TEST · ADMIN ONLY</div>
+  <h1>操作ログ（Fort様専用）</h1>
+  <div class="toolbar">
+    <select id="account-filter">
+      <option value="">全アカウント</option>
+    </select>
+    <button class="primary" id="reload-btn">更新</button>
+    <span class="status" id="status-text"></span>
+  </div>
+  <div id="log-list"></div>
+</div>
+<script>
+(function () {
+  var SUPABASE_URL = 'https://bggwfdctijbdnihdfqhb.supabase.co';
+  var SUPABASE_KEY = 'sb_publishable_xqsFshtehk9nAkqaokOJhg_sGCLJaf9';
+  function supaHeaders() {
+    return { 'apikey': SUPABASE_KEY, 'Authorization': 'Bearer ' + SUPABASE_KEY };
+  }
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  var ACTION_LABEL = {
+    login: 'ログイン',
+    test_finish: 'ラウンド終了',
+    reset_set: 'セットリセット',
+    reset_lesson: 'レッスンリセット'
+  };
+  function formatTs(iso) {
+    try {
+      var d = new Date(iso);
+      return d.toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' });
+    } catch (e) { return iso; }
+  }
+
+  var list = document.getElementById('log-list');
+  var statusText = document.getElementById('status-text');
+  var accountFilter = document.getElementById('account-filter');
+  var reloadBtn = document.getElementById('reload-btn');
+  var allRows = [];
+
+  function renderAccountOptions() {
+    var names = [];
+    allRows.forEach(function (r) { if (names.indexOf(r.account_name) === -1) names.push(r.account_name); });
+    var cur = accountFilter.value;
+    accountFilter.innerHTML = '<option value="">全アカウント</option>' +
+      names.map(function (n) { return '<option value="' + esc(n) + '">' + esc(n) + '</option>'; }).join('');
+    accountFilter.value = names.indexOf(cur) !== -1 ? cur : '';
+  }
+
+  function renderList() {
+    var filter = accountFilter.value;
+    var rows = filter ? allRows.filter(function (r) { return r.account_name === filter; }) : allRows;
+    if (!rows.length) {
+      list.innerHTML = '<div class="empty">ログがまだありません。</div>';
+      return;
+    }
+    list.innerHTML = rows.map(function (r) {
+      var label = ACTION_LABEL[r.action] || r.action;
+      var detail = r.detail && Object.keys(r.detail).length ? esc(JSON.stringify(r.detail)) : '';
+      return '<div class="log-item">' +
+        '<div class="log-top">' +
+          '<span><span class="log-account">' + esc(r.account_name) + '</span><span class="log-action">' + esc(label) + '</span></span>' +
+          '<span class="log-ts">' + esc(formatTs(r.ts)) + '</span>' +
+        '</div>' +
+        (detail ? '<div class="log-detail">' + detail + '</div>' : '') +
+        '</div>';
+    }).join('');
+  }
+
+  function load() {
+    statusText.textContent = '読込中…';
+    fetch(SUPABASE_URL + '/rest/v1/vocab_test_log?select=*&order=ts.desc&limit=500', { headers: supaHeaders() })
+      .then(function (r) { return r.json(); })
+      .then(function (rows) {
+        allRows = rows || [];
+        statusText.textContent = allRows.length + '件（直近500件まで）';
+        renderAccountOptions();
+        renderList();
+      })
+      .catch(function () {
+        statusText.textContent = '読み込みに失敗しました。';
+        list.innerHTML = '<div class="empty">Supabaseへの接続に失敗しました。</div>';
+      });
+  }
+
+  reloadBtn.addEventListener('click', load);
+  accountFilter.addEventListener('change', renderList);
+  load();
+})();
+</script>

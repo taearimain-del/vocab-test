@@ -41,11 +41,40 @@
 ## デプロイ（GitHub Pages）
 - 独立GitHubリポジトリ：`taearimain-del/vocab-test`（Public）
 - 本番URL：https://taearimain-del.github.io/vocab-test/
-- `access-gate.js`（`my-portal-ryu.netlify.app`でホスト）によるパスワード/Googleログインの
-  ロック必須。`index.html`の`<head>`相当部分に組み込み済み。
+- `index.html`本体はパスワード保護なし（2026-09-01、アカウント方式への移行に伴い
+  access-gate.jsを撤去。下記「アカウント方式」参照）。
+  `admin-log.html`（管理者専用ログページ）だけは引き続きaccess-gate.jsで保護している。
 - `<meta name="robots" content="noindex, nofollow">`と`robots.txt`で検索エンジンからは隠す。
 
-## Supabase同期
+## アカウント方式（2026-09-01、8桁同期コード方式から全面移行）
+- 認証は一切なし。初回起動時（`localStorage['vocab-test-account']`が未設定）は
+  アカウント選択画面（`route:'account'`）が出る。Supabaseの`vocab_test_accounts`
+  テーブルから名前一覧を取得して並べるだけで、パスワードやPINは要求しない。
+  一覧が取れない場合は`FALLBACK_ACCOUNTS = ['Fort_Dex', '小山']`を表示。
+- 「新しい名前で追加」から誰でも自由に新規アカウントを作成できる
+  （`addAccount()`→`vocab_test_accounts`にinsert）。Fort様・小山以外の友人も想定。
+- アカウントを選ぶと`localStorage`に保存され、以後はその端末で自動ログインされる
+  （`boot()`時に`currentAccount`があれば自動で進捗をpullしてホーム画面へ）。
+  「アカウント切替」ボタン（ホーム/セット詳細画面の上部バッジ）でいつでも選び直せる。
+- 進捗の同期先は「アカウント名」そのもの。`writing_sync`テーブルの`sync_code`カラムに
+  `'vocab-test::' + アカウント名` を入れて保存・取得している（旧・ランダム8桁コードの
+  手動共有は廃止。同じアカウント名を選べばどの端末でも自動的に同じ進捗に同期される）。
+- Fort様専用の操作ログ：`vocab_test_log`テーブル（追記のみ、RLSで anon の insert/select
+  を許可）に`logAction(action, detail)`で記録している。記録している操作は
+  `login`（アカウント選択時）・`test_finish`（ラウンド終了時、正解数等）・
+  `reset_set`（セット全体リセット）・`reset_lesson`（レッスン単位リセット）の4種類
+  （単語ごとの「覚えた」ボタン押下はログ量が増えすぎるため対象外とした）。
+  `admin-log.html`（access-gate.js保護・Fort様専用）で全ログをアカウント別に一覧表示できる
+  （3D-bunkasai-2026の`pageview-log.html`のイメージを踏襲、実装はFirebaseではなくSupabase）。
+- Supabase側のテーブル定義（`vocab_test_accounts`: name主キー / `vocab_test_log`:
+  id・account_name・ts・action・detail jsonb）はSQL Editorで直接作成済み
+  （claude-in-chromeでの操作、2026-09-01）。
+- 今回は単語テストアプリでのパイロット実装。マイポータル本体・他の掲載アプリ
+  （英検準1級ライティング特訓・過去問プレイヤー・世界史/古文関連・音声教材ハブ等）への
+  同様のアカウントログイン機能の横展開は別途相談のうえ着手する（未着手）。
+
+## Supabase同期（テーブル共用について）
 - today-task.htmlと同じSupabaseプロジェクト（`writing_sync`テーブル）を間借りしている。
   ペイロードに`app: 'vocab-test'`を含めて区別しているだけで、テーブル自体は共用。
-  同期コードはtoday-task.html側とは別に生成されるので衝突しない。
+  `sync_code`列には`'vocab-test::' + アカウント名`という専用プレフィックス付きの値を
+  入れているので、today-task.html側のランダム8桁コードとは衝突しない。

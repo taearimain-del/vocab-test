@@ -2,8 +2,6 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>単語テスト</title>
-<style>html{visibility:hidden}</style>
-<script src="https://my-portal-ryu.netlify.app/access-gate.js"></script>
 <style>
   :root {
     --bg: #faf6ee; --surface: #ffffff; --surface-2: #f3ede0;
@@ -125,6 +123,17 @@
   .sync-btn { font-size: 12px; padding: 6px 10px; border-radius: 7px; border: 1px solid var(--border-strong); background: var(--surface); color: var(--text); cursor: pointer; }
   .sync-input { font-family: var(--font-mono); font-size: 13px; text-transform: uppercase; width: 100px; padding: 6px 7px; border-radius: 7px; border: 1px solid var(--border-strong); background: var(--surface-2); color: var(--text); }
 
+  .account-gate { min-height: 70vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 24px 16px; }
+  .account-gate h1 { margin: 6px 0 4px; }
+  .account-gate p { color: var(--text-muted); font-size: 13.5px; margin-bottom: 22px; }
+  .account-list { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 320px; }
+  .account-item { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 14px 18px; font-size: 16px; font-weight: 700; cursor: pointer; text-align: left; }
+  .account-item:hover { border-color: var(--accent); }
+  .account-add-row { display: flex; gap: 8px; margin-top: 18px; width: 100%; max-width: 320px; }
+  .account-add-row input { flex: 1; padding: 12px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-strong); background: var(--surface-2); color: var(--text); font-size: 14px; }
+  .account-add-row button { padding: 0 16px; border-radius: var(--radius-sm); border: none; background: var(--accent); color: #fff; font-weight: 700; cursor: pointer; }
+  .account-badge { cursor: pointer; }
+
   footer { text-align: center; font-size: 11.5px; color: var(--text-muted); margin-top: 30px; }
 </style>
 
@@ -144,7 +153,7 @@
   var MIN_THRESHOLD = 1;
   var MAX_THRESHOLD = 10;
   var PROGRESS_KEY = 'vocab-test-progress-v1';
-  var SYNC_CODE_KEY = 'vocab-test-sync-code';
+  var ACCOUNT_KEY = 'vocab-test-account';
 
   // ===== 進捗データ =====
   function loadProgress() {
@@ -242,7 +251,8 @@
 
   function render() {
     app.innerHTML = '';
-    if (route.name === 'home') renderHome();
+    if (route.name === 'account') renderAccountGate();
+    else if (route.name === 'home') renderHome();
     else if (route.name === 'set') renderSet(route.setId);
     else if (route.name === 'test') renderTest();
     else if (route.name === 'result') renderResult();
@@ -333,6 +343,7 @@
     resetSetBtn.addEventListener('click', function () {
       if (!window.confirm(set.name + 'の進捗（習得済み・ラウンド・記録）を全部リセットします。よろしいですか？')) return;
       resetSetProgress(setId);
+      logAction('reset_set', { setId: setId });
       render();
     });
     resetSetRow.appendChild(resetSetBtn);
@@ -398,7 +409,7 @@
       if (lessonUnmastered <= 0) lessonBtn.disabled = true;
       lessonBtn.addEventListener('click', function () {
         var lessonQueue = buildRoundQueue(setId, lesson.number);
-        testState = { setId: setId, queue: shuffle(lessonQueue.slice()), idx: 0, revealed: false, results: {} };
+        testState = { setId: setId, lessonNumber: lesson.number, queue: shuffle(lessonQueue.slice()), idx: 0, revealed: false, results: {} };
         go({ name: 'test' });
       });
       lessonBtnRow.appendChild(lessonBtn);
@@ -408,6 +419,7 @@
         if (!window.confirm('DAY/LESSON ' + lesson.number + ' の進捗をリセットします。よろしいですか？')) return;
         openLessonNumber = lesson.number;
         resetLessonProgress(setId, lesson.number);
+        logAction('reset_lesson', { setId: setId, lessonNumber: lesson.number });
         render();
       });
       lessonBtnRow.appendChild(lessonResetBtn);
@@ -518,6 +530,7 @@
     sp.currentRound++;
     sp.roundHistory.push({ roundNum: sp.currentRound, asked: testState.queue.length, correct: correctN, newlyMastered: newlyMastered, date: new Date().toISOString() });
     saveProgress();
+    logAction('test_finish', { setId: setId, lessonNumber: testState.lessonNumber || null, asked: testState.queue.length, correct: correctN, newlyMastered: newlyMastered, roundNum: sp.currentRound });
 
     go({ name: 'result', setId: setId, asked: testState.queue.length, correct: correctN, newlyMastered: newlyMastered, roundNum: sp.currentRound });
     testState = null;
@@ -556,96 +569,141 @@
     });
   }
 
-  // ===== Supabase 同期（today-task.htmlと同じ方式） =====
+  // ===== Supabase 同期（アカウントベース、2026-09-01〜） =====
+  // 旧・8桁コード手動共有方式は廃止。代わりにアカウント名（Fort_Dex/小山 等）を
+  // sync_codeの代わりに使い、同じアカウントを選べばどの端末でも自動的に同じ進捗に
+  // 同期される。writing_syncテーブルは他アプリ（today-task.html）と共用しているため、
+  // sync_codeの値には 'vocab-test::' プレフィックスを付けて衝突を避けている。
   var SUPABASE_URL = 'https://bggwfdctijbdnihdfqhb.supabase.co';
   var SUPABASE_KEY = 'sb_publishable_xqsFshtehk9nAkqaokOJhg_sGCLJaf9';
-  var syncCode = null;
-  try { syncCode = localStorage.getItem(SYNC_CODE_KEY); } catch (e) {}
+  var currentAccount = null;
+  try { currentAccount = localStorage.getItem(ACCOUNT_KEY); } catch (e) {}
   var syncPushTimer = null;
   var lastSyncedAt = null;
 
-  function genSyncCode() {
-    var chars = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
-    var s = '';
-    for (var i = 0; i < 8; i++) s += chars[Math.floor(Math.random() * chars.length)];
-    return s;
-  }
+  function accountSyncCode(name) { return 'vocab-test::' + name; }
   function supaHeaders(extra) {
     var h = { 'apikey': SUPABASE_KEY, 'Authorization': 'Bearer ' + SUPABASE_KEY, 'Content-Type': 'application/json' };
     if (extra) { for (var k in extra) h[k] = extra[k]; }
     return h;
   }
   function syncPush() {
-    if (!syncCode || !window.fetch) return;
+    if (!currentAccount || !window.fetch) return;
     fetch(SUPABASE_URL + '/rest/v1/writing_sync?on_conflict=sync_code', {
       method: 'POST',
       headers: supaHeaders({ 'Prefer': 'resolution=merge-duplicates,return=minimal' }),
-      body: JSON.stringify({ sync_code: syncCode, payload: { app: 'vocab-test', progress: progress } })
+      body: JSON.stringify({ sync_code: accountSyncCode(currentAccount), payload: { app: 'vocab-test', progress: progress } })
     }).then(function (r) { if (r.ok) { lastSyncedAt = new Date(); updateSyncUI(); } }).catch(function () {});
   }
   function schedulePush() {
-    if (!syncCode) return;
+    if (!currentAccount) return;
     if (syncPushTimer) clearTimeout(syncPushTimer);
     syncPushTimer = setTimeout(syncPush, 600);
   }
-  function syncPull(code, cb) {
+  function syncPull(name, cb) {
     if (!window.fetch) return cb(new Error('no fetch'));
-    fetch(SUPABASE_URL + '/rest/v1/writing_sync?sync_code=eq.' + encodeURIComponent(code) + '&select=payload', { headers: supaHeaders() })
+    fetch(SUPABASE_URL + '/rest/v1/writing_sync?sync_code=eq.' + encodeURIComponent(accountSyncCode(name)) + '&select=payload', { headers: supaHeaders() })
       .then(function (r) { return r.json(); })
       .then(function (rows) { cb(null, rows && rows[0]); })
       .catch(function (e) { cb(e); });
   }
 
+  // ===== アカウント一覧（vocab_test_accountsテーブル） =====
+  var FALLBACK_ACCOUNTS = ['Fort_Dex', '小山']; // 通信できない場合の最低限のフォールバック
+  function fetchAccountList(cb) {
+    if (!window.fetch) return cb(FALLBACK_ACCOUNTS.slice());
+    fetch(SUPABASE_URL + '/rest/v1/vocab_test_accounts?select=name&order=created_at.asc', { headers: supaHeaders() })
+      .then(function (r) { return r.json(); })
+      .then(function (rows) {
+        var names = (rows || []).map(function (r) { return r.name; });
+        cb(names.length ? names : FALLBACK_ACCOUNTS.slice());
+      })
+      .catch(function () { cb(FALLBACK_ACCOUNTS.slice()); });
+  }
+  function addAccount(name, cb) {
+    if (!window.fetch) return cb(new Error('no fetch'));
+    fetch(SUPABASE_URL + '/rest/v1/vocab_test_accounts?on_conflict=name', {
+      method: 'POST',
+      headers: supaHeaders({ 'Prefer': 'resolution=merge-duplicates,return=minimal' }),
+      body: JSON.stringify({ name: name })
+    }).then(function (r) { cb(r.ok ? null : new Error('failed')); }).catch(function (e) { cb(e); });
+  }
+  // Fort様だけが見る操作ログ（vocab_test_log、追記のみ）。失敗しても画面には影響させない。
+  function logAction(action, detail) {
+    if (!currentAccount || !window.fetch) return;
+    fetch(SUPABASE_URL + '/rest/v1/vocab_test_log', {
+      method: 'POST',
+      headers: supaHeaders({ 'Prefer': 'return=minimal' }),
+      body: JSON.stringify({ account_name: currentAccount, action: action, detail: detail || {} })
+    }).catch(function () {});
+  }
+
+  function selectAccount(name) {
+    currentAccount = name;
+    try { localStorage.setItem(ACCOUNT_KEY, name); } catch (e) {}
+    syncPull(name, function (err, row) {
+      if (!err && row && row.payload && row.payload.progress) {
+        progress = row.payload.progress;
+        try { localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress)); } catch (e2) {}
+      }
+      logAction('login', {});
+      go({ name: 'home' });
+    });
+  }
+  function switchAccount() {
+    currentAccount = null;
+    try { localStorage.removeItem(ACCOUNT_KEY); } catch (e) {}
+    go({ name: 'account' });
+  }
+
+  function renderAccountGate() {
+    var box = el('div', 'account-gate');
+    box.appendChild(el('div', 'eyebrow', 'VOCAB TEST'));
+    box.appendChild(el('h1', null, 'アカウントを選択'));
+    box.appendChild(el('p', null, '選んだアカウントの進捗が、この端末を含めどこからでも同期されます。'));
+    var list = el('div', 'account-list');
+    box.appendChild(list);
+    fetchAccountList(function (names) {
+      list.innerHTML = '';
+      names.forEach(function (name) {
+        var item = el('button', 'account-item', esc(name));
+        item.addEventListener('click', function () { selectAccount(name); });
+        list.appendChild(item);
+      });
+    });
+    var addRow = el('div', 'account-add-row');
+    var input = document.createElement('input');
+    input.placeholder = '新しい名前で追加';
+    var addBtn = el('button', null, '追加');
+    addBtn.addEventListener('click', function () {
+      var name = (input.value || '').trim();
+      if (!name) return;
+      addBtn.disabled = true;
+      addAccount(name, function (err) {
+        addBtn.disabled = false;
+        if (!err) selectAccount(name);
+      });
+    });
+    addRow.appendChild(input);
+    addRow.appendChild(addBtn);
+    box.appendChild(addRow);
+    app.appendChild(box);
+  }
+
   function syncCardEl() {
     var box = el('div', 'sync-card');
-    if (syncCode) {
-      box.innerHTML =
-        '<span><span class="sync-dot on"></span>同期コード: <b style="font-family:var(--font-mono);letter-spacing:0.08em;">' + esc(syncCode) + '</b>' + (lastSyncedAt ? '' : '') + '</span>';
-      var disc = el('button', 'sync-btn', '解除');
-      disc.addEventListener('click', function () {
-        syncCode = null;
-        try { localStorage.removeItem(SYNC_CODE_KEY); } catch (e) {}
-        render();
-      });
-      box.appendChild(disc);
-    } else {
-      box.innerHTML = '<span><span class="sync-dot"></span>この端末だけに保存中</span>';
-      var startBtn = el('button', 'sync-btn', '同期を始める');
-      startBtn.addEventListener('click', function () {
-        syncCode = genSyncCode();
-        try { localStorage.setItem(SYNC_CODE_KEY, syncCode); } catch (e) {}
-        syncPush();
-        render();
-      });
-      var input = document.createElement('input');
-      input.className = 'sync-input';
-      input.placeholder = '他端末のコード';
-      input.maxLength = 8;
-      var joinBtn = el('button', 'sync-btn', '接続');
-      joinBtn.addEventListener('click', function () {
-        var code = (input.value || '').trim().toUpperCase();
-        if (code.length !== 8) return;
-        syncCode = code;
-        try { localStorage.setItem(SYNC_CODE_KEY, syncCode); } catch (e) {}
-        syncPull(syncCode, function (err, row) {
-          if (!err && row && row.payload && row.payload.progress) {
-            progress = row.payload.progress;
-            try { localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress)); } catch (e2) {}
-          }
-          render();
-        });
-      });
-      box.appendChild(startBtn);
-      box.appendChild(input);
-      box.appendChild(joinBtn);
-    }
+    box.innerHTML =
+      '<span><span class="sync-dot on"></span>アカウント: <b class="account-badge" style="font-family:var(--font-mono);">' + esc(currentAccount || '') + '</b></span>';
+    var switchBtn = el('button', 'sync-btn', 'アカウント切替');
+    switchBtn.addEventListener('click', switchAccount);
+    box.appendChild(switchBtn);
     return box;
   }
   function updateSyncUI() { /* 現状の画面を再描画すれば十分反映される。頻繁な再描画は避け、必要時のみrender()側で対応 */ }
 
   function boot() {
-    if (syncCode) {
-      syncPull(syncCode, function (err, row) {
+    if (currentAccount) {
+      syncPull(currentAccount, function (err, row) {
         if (!err && row && row.payload && row.payload.progress) {
           progress = row.payload.progress;
           try { localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress)); } catch (e) {}
@@ -653,6 +711,7 @@
         render();
       });
     } else {
+      route = { name: 'account' };
       render();
     }
   }
