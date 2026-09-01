@@ -161,6 +161,22 @@
       "ipa": "/ɪkˈsepʃən/",
       "meaning": "例外",
       "booster": "ex-（外に）+capere（取る）が語源で、「全体の枠から外に取り出されたもの」のイメージ。exceptional（例外的な、傑出した）ともつながる。"
+    },
+    {
+      "word": "statistician",
+      "pos": "名",
+      "pronunciation": "スタティスティシャン",
+      "ipa": "stæ̀tistíʃən",
+      "meaning": "統計学者",
+      "booster": "statistics(統計学)+-ian(専門家)。"
+    },
+    {
+      "word": "relax",
+      "pos": "動",
+      "pronunciation": "リラックス",
+      "ipa": "rilǽks",
+      "meaning": "緩和する",
+      "booster": "re-(再び)+laxus(緩い、ラテン語)。本文では「規則を緩める」の意味で使われている(一般的な「くつろぐ」とは別の用法)。"
     }
   ]
 }

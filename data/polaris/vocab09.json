@@ -161,6 +161,22 @@
       "pronunciation": "ロングスタンディング",
       "meaning": "長年にわたる、根強い",
       "booster": "long(長い)+standing(立っている、存在している)の複合語で「長い間存在し続けている」が原義。本文のlong-standing debate(長年続く論争)のように、議論や伝統・問題に対してよく使われる。"
+    },
+    {
+      "word": "mesotherm",
+      "pos": "名",
+      "pronunciation": "メソサーム",
+      "ipa": "mézəθə̀ːrm",
+      "meaning": "中温動物",
+      "booster": "meso-(中間)+therm(熱)。ecto-(外)/endo-(内)の中間の代謝タイプを指す。"
+    },
+    {
+      "word": "paleobiologist",
+      "pos": "名",
+      "pronunciation": "ペイリオバイオロジスト",
+      "ipa": "pèilioubaiάlədʒist",
+      "meaning": "古生物学者",
+      "booster": "paleo-(古い)+biology(生物学)+-ist。paleontologistとほぼ同義の類語。"
     }
   ]
 }

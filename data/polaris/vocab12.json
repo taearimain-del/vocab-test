@@ -161,6 +161,46 @@
       "ipa": "/dɪˌskrɪməˈneɪʃən/",
       "meaning": "差別",
       "booster": "dis-（分けて）+crimen（区別、判断、ラテン語）が語源。discriminate against〜（〜を差別する）という動詞形とセットで覚えるとよい。"
+    },
+    {
+      "word": "normatively",
+      "pos": "副",
+      "pronunciation": "ノーマティヴリー",
+      "ipa": "nɔ́ːrmətivli",
+      "meaning": "規範的に",
+      "booster": "norm(規範)+-atively。「あるべき姿として」というイメージ。"
+    },
+    {
+      "word": "geopolitical",
+      "pos": "形",
+      "pronunciation": "ジオポリティカル",
+      "ipa": "dʒìːoupəlítikəl",
+      "meaning": "地政学的な",
+      "booster": "geo-(地理)+political(政治的な)。"
+    },
+    {
+      "word": "socioeconomic",
+      "pos": "形",
+      "pronunciation": "ソウシオイーコノミック",
+      "ipa": "sòusiouìːkənάmik",
+      "meaning": "社会経済的な",
+      "booster": "socio-(社会の)+economic(経済的な)。"
+    },
+    {
+      "word": "exploitation",
+      "pos": "名",
+      "pronunciation": "エクスプロイテイション",
+      "ipa": "èksplɔitéiʃən",
+      "meaning": "搾取",
+      "booster": "exploit(利用する、搾取する)+-ation。ラテン語explicare(広げる)が語源。"
+    },
+    {
+      "word": "entity",
+      "pos": "名",
+      "pronunciation": "エンティティ",
+      "ipa": "éntəti",
+      "meaning": "主体、団体",
+      "booster": "ラテン語ens(存在するもの)が語源。「独立した存在・組織」を指す。"
     }
   ]
 }

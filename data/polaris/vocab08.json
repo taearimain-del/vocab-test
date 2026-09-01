@@ -161,6 +161,30 @@
       "pronunciation": "ギャラクシー",
       "meaning": "銀河",
       "booster": "ギリシャ語galaxias「乳の(ような)」が語源。天の川(Milky Way)が乳白色に見えたことから名付けられた語で、galaxyとMilky Wayは同じ現象を指す。"
+    },
+    {
+      "word": "confirm",
+      "pos": "動",
+      "pronunciation": "コンファーム",
+      "ipa": "kənfə́ːrm",
+      "meaning": "確認する",
+      "booster": "con-(完全に)+firm(確固たる)。「完全に確固たるものにする」が原義。"
+    },
+    {
+      "word": "brightness",
+      "pos": "名",
+      "pronunciation": "ブライトネス",
+      "ipa": "bráitnis",
+      "meaning": "明るさ",
+      "booster": "bright(明るい)+-ness。"
+    },
+    {
+      "word": "mass",
+      "pos": "名",
+      "pronunciation": "マス",
+      "ipa": "mǽs",
+      "meaning": "質量",
+      "booster": "ギリシャ語maza(こねた塊)が語源。massive(巨大な)と同根。"
     }
   ]
 }

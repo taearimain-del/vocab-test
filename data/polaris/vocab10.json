@@ -161,6 +161,30 @@
       "ipa": "/ɪɡˌzæməˈniː/",
       "meaning": "被験者、受験者",
       "booster": "examine（検査する、試験する）に「〜される人」を表す接尾辞-eeがついた形。employ→employee（従業員）と同じ作りで、「調べられる側の人」を指す。"
+    },
+    {
+      "word": "swab",
+      "pos": "名",
+      "pronunciation": "スワブ",
+      "ipa": "swάb",
+      "meaning": "綿棒",
+      "booster": "本来「船の甲板をこするモップ」の意味から、「拭き取り採取用の綿棒」に転じた。"
+    },
+    {
+      "word": "saliva",
+      "pos": "名",
+      "pronunciation": "サライヴァ",
+      "ipa": "səláivə",
+      "meaning": "唾液",
+      "booster": "ラテン語saliva(唾)がそのまま語源。"
+    },
+    {
+      "word": "clinical",
+      "pos": "形",
+      "pronunciation": "クリニカル",
+      "ipa": "klínikəl",
+      "meaning": "臨床の",
+      "booster": "clinic(診療所、ギリシャ語kline=寝台)+-al。"
     }
   ]
 }

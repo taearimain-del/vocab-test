@@ -161,6 +161,30 @@
       "ipa": "ʌ́ltimətli",
       "meaning": "最終的に",
       "booster": "ultimate(究極の、最後の)+ly。ラテン語ultimus(最後の)が語源で、「あらゆる過程を経た末に」というニュアンスで文全体を修飾する。"
+    },
+    {
+      "word": "subject",
+      "pos": "名",
+      "pronunciation": "サブジェクト",
+      "ipa": "sʌ́bdʒikt",
+      "meaning": "被験者",
+      "booster": "sub-(下に)+jacere(投げる、ラテン語)。「実験の下に置かれる人」が原義。本文ではresearch subjects(研究対象者)として登場。"
+    },
+    {
+      "word": "sample size",
+      "pos": "名",
+      "pronunciation": "サンプル サイズ",
+      "ipa": "sǽmpl sàiz",
+      "meaning": "標本サイズ",
+      "booster": "sample(標本)+size(規模)。統計調査の基本用語。"
+    },
+    {
+      "word": "occupation",
+      "pos": "名",
+      "pronunciation": "アキュペイション",
+      "ipa": "ὰkjupéiʃən",
+      "meaning": "職業",
+      "booster": "occupy(占める)+-ation。「時間を占めるもの」が原義。"
     }
   ]
 }

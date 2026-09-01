@@ -161,6 +161,30 @@
       "pronunciation": "フール",
       "meaning": "だます",
       "booster": "名詞fool(愚か者)がそのまま動詞化した語で「(人を)愚か者にする」→「だます」。fool around(ふざける)などのイディオムも頻出なので合わせて押さえておきたい。"
+    },
+    {
+      "word": "qualitatively",
+      "pos": "副",
+      "pronunciation": "クオリタティヴリー",
+      "ipa": "kwάlətèitivli",
+      "meaning": "質的に",
+      "booster": "quality(質)+-tatively。quantitatively(量的に)の対義語。"
+    },
+    {
+      "word": "composition",
+      "pos": "名",
+      "pronunciation": "コンポジション",
+      "ipa": "kὰmpəzíʃən",
+      "meaning": "組成、構成",
+      "booster": "compose(組み立てる、com-共に+ponere置く)+-ition。"
+    },
+    {
+      "word": "object",
+      "pos": "動",
+      "pronunciation": "オブジェクト",
+      "ipa": "əbdʒékt",
+      "meaning": "異議を唱える",
+      "booster": "ob-(反対に)+jacere(投げる)。「反対に投げつける」が原義。名詞object(物体)とはアクセント位置が違う点に注意。"
     }
   ]
 }

@@ -161,6 +161,30 @@
       "ipa": "dʒínjəs",
       "meaning": "天才、才能",
       "booster": "ラテン語genius(守護霊、生まれ持った才能)が語源。generate(生み出す)やgene(遺伝子)と同じgen-(生まれる)ファミリーで、「生まれながらの特別な力」がコア。"
+    },
+    {
+      "word": "pattern recognition",
+      "pos": "名",
+      "pronunciation": "パターン レコグニション",
+      "ipa": "pǽtərn rèkəgníʃən",
+      "meaning": "パターン認識",
+      "booster": "pattern(型)+recognition(認識)。"
+    },
+    {
+      "word": "dimensional",
+      "pos": "形",
+      "pronunciation": "ディメンショナル",
+      "ipa": "dimménʃənəl",
+      "meaning": "次元の",
+      "booster": "dimension(次元)+-al。"
+    },
+    {
+      "word": "modeling",
+      "pos": "名",
+      "pronunciation": "モデリング",
+      "ipa": "mάdəliŋ",
+      "meaning": "モデル化",
+      "booster": "model(模型)+-ing。"
     }
   ]
 }

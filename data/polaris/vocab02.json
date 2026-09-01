@@ -161,6 +161,54 @@
       "ipa": "θrétn",
       "meaning": "脅かす",
       "booster": "threat(脅威、古英語þreat=圧迫)の動詞形。「圧をかけて危険にさらす」イメージで、名詞threatとセットで覚える。"
+    },
+    {
+      "word": "broaden",
+      "pos": "動",
+      "pronunciation": "ブロードゥン",
+      "ipa": "brɔ́ːdn",
+      "meaning": "広げる",
+      "booster": "broad(広い)+-en(動詞化)。widenと同じ作り方の語。"
+    },
+    {
+      "word": "not-for-profit",
+      "pos": "形",
+      "pronunciation": "ナット フォー プロフィット",
+      "ipa": "nὰt fər prάfit",
+      "meaning": "非営利の",
+      "booster": "not+for+profit(利益)。「利益のためではない」がそのまま意味。"
+    },
+    {
+      "word": "questionable",
+      "pos": "形",
+      "pronunciation": "クエスチョナブル",
+      "ipa": "kwéstʃənəbl",
+      "meaning": "疑わしい",
+      "booster": "question(疑問)+-able。"
+    },
+    {
+      "word": "readership",
+      "pos": "名",
+      "pronunciation": "リーダーシップ",
+      "ipa": "ríːdərʃìp",
+      "meaning": "読者層",
+      "booster": "reader(読者)+-ship(集団・状態)。leadership(指導力)と紛らわしいが別語。"
+    },
+    {
+      "word": "publishing",
+      "pos": "名",
+      "pronunciation": "パブリッシング",
+      "ipa": "pʌ́bliʃiŋ",
+      "meaning": "出版(業)",
+      "booster": "publish(出版する)+-ing。ラテン語publicare(公にする)が語源。"
+    },
+    {
+      "word": "literature",
+      "pos": "名",
+      "pronunciation": "リタラチャー",
+      "ipa": "lítərətʃər",
+      "meaning": "文学",
+      "booster": "ラテン語littera(文字)が語源。letter(手紙・文字)と同根。"
     }
   ]
 }

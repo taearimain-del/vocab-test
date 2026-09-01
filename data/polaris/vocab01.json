@@ -161,6 +161,142 @@
       "ipa": "ínfluəns",
       "meaning": "影響を与える",
       "booster": "in-(中へ)+fluere(流れる、ラテン語)。fluid(流動体)と同語根で、「見えない力が流れ込んで作用する」イメージ。"
+    },
+    {
+      "word": "diabetes",
+      "pos": "名",
+      "pronunciation": "ダイアビーティーズ",
+      "ipa": "dàiəbíːtiːz",
+      "meaning": "糖尿病",
+      "booster": "ギリシャ語diabainein(通り抜ける)が語源。過剰な尿の排出という古代の症状観察から名付けられた。"
+    },
+    {
+      "word": "genetically",
+      "pos": "副",
+      "pronunciation": "ジェネティカリー",
+      "ipa": "dʒənétikəli",
+      "meaning": "遺伝的に",
+      "booster": "gene(遺伝子)+-tic+-ally。genome・geneticsと同根。"
+    },
+    {
+      "word": "unbiased",
+      "pos": "形",
+      "pronunciation": "アンバイアスト",
+      "ipa": "ʌ̀nbáiəst",
+      "meaning": "偏りのない",
+      "booster": "un-(否定)+bias(偏り、フランス語biais=斜め)+-ed。"
+    },
+    {
+      "word": "variability",
+      "pos": "名",
+      "pronunciation": "ヴェアリアビリティ",
+      "ipa": "vὲəriəbíləti",
+      "meaning": "変動性、多様性",
+      "booster": "vary(変わる)+-ability。variable(変数)と同根。"
+    },
+    {
+      "word": "evolutionary",
+      "pos": "形",
+      "pronunciation": "エヴォルーショナリー",
+      "ipa": "èvəlúːʃənèri",
+      "meaning": "進化の",
+      "booster": "evolve(進化する、e-外へ+volvere巻く)+-tionary。"
+    },
+    {
+      "word": "breed",
+      "pos": "動",
+      "pronunciation": "ブリード",
+      "ipa": "bríːd",
+      "meaning": "品種改良する、繁殖させる",
+      "booster": "古英語bredan(温める、育てる)が語源。本文ではbred(過去分詞)の形で登場。"
+    },
+    {
+      "word": "antibiotic",
+      "pos": "名",
+      "pronunciation": "アンティバイオティック",
+      "ipa": "æ̀ntibaiάtik",
+      "meaning": "抗生物質",
+      "booster": "anti-(反)+bio(命、ギリシャ語)+-tic。「細菌の命に反する物質」が原義。"
+    },
+    {
+      "word": "genome",
+      "pos": "名",
+      "pronunciation": "ジーノウム",
+      "ipa": "dʒíːnoum",
+      "meaning": "ゲノム、全遺伝情報",
+      "booster": "gene(遺伝子)とchromosome(染色体)の混成語。"
+    },
+    {
+      "word": "metabolite",
+      "pos": "名",
+      "pronunciation": "メタボライト",
+      "ipa": "mətǽbəlàit",
+      "meaning": "代謝物",
+      "booster": "metabolism(代謝)+-ite。ギリシャ語metabole(変化)が語源。"
+    },
+    {
+      "word": "bloodstream",
+      "pos": "名",
+      "pronunciation": "ブラッドストリーム",
+      "ipa": "blʌ́dstrìːm",
+      "meaning": "血流",
+      "booster": "blood(血)+stream(流れ)。そのまま「血の流れ」。"
+    },
+    {
+      "word": "computational",
+      "pos": "形",
+      "pronunciation": "コンピュテーショナル",
+      "ipa": "kὰmpjutéiʃənəl",
+      "meaning": "計算による",
+      "booster": "compute(計算する)+-ational。"
+    },
+    {
+      "word": "fundamental",
+      "pos": "形",
+      "pronunciation": "ファンダメンタル",
+      "ipa": "fʌ̀ndəméntl",
+      "meaning": "根本的な",
+      "booster": "ラテン語fundus(底、基礎)が語源。foundation(基礎)と同根。"
+    },
+    {
+      "word": "capacity",
+      "pos": "名",
+      "pronunciation": "キャパスィティ",
+      "ipa": "kəpǽsəti",
+      "meaning": "能力、容量",
+      "booster": "ラテン語capax(収容できる)が語源。"
+    },
+    {
+      "word": "pathway",
+      "pos": "名",
+      "pronunciation": "パスウェイ",
+      "ipa": "pǽθwèi",
+      "meaning": "経路",
+      "booster": "path(道)+way(道)。「道」を重ねた強調表現。"
+    },
+    {
+      "word": "physiology",
+      "pos": "名",
+      "pronunciation": "フィズィアロジー",
+      "ipa": "fìziάlədʒi",
+      "meaning": "生理機能、生理学",
+      "booster": "physis(自然、ギリシャ語)+-logy(学問)。"
+    },
+    {
+      "word": "mechanistic",
+      "pos": "形",
+      "pronunciation": "メカニスティック",
+      "ipa": "mèkənístik",
+      "meaning": "機構的な、メカニズムに基づく",
+      "booster": "mechanism(仕組み)+-istic。"
+    },
+    {
+      "word": "recipient",
+      "pos": "名",
+      "pronunciation": "リスィピエント",
+      "ipa": "risípiənt",
+      "meaning": "受け手、受容者",
+      "booster": "re-(戻して)+capere(取る、ラテン語)。receive(受け取る)と同根。"
     }
   ]
 }

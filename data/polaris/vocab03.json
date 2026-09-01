@@ -161,6 +161,78 @@
       "ipa": "əláin",
       "meaning": "一致させる、揃える",
       "booster": "a-(〜へ)+line(線、ラテン語linea)。「同じ線の上に並べる」イメージから「調和させる・一致させる」を表す。"
+    },
+    {
+      "word": "overhead",
+      "pos": "名",
+      "pronunciation": "オウヴァーヘッド",
+      "ipa": "óuvərhèd",
+      "meaning": "諸経費、経常費",
+      "booster": "over(上に)+head(頭)。「頭上にのしかかる費用」というイメージ。"
+    },
+    {
+      "word": "workload",
+      "pos": "名",
+      "pronunciation": "ワークロード",
+      "ipa": "wə́ːrklòud",
+      "meaning": "仕事量",
+      "booster": "work(仕事)+load(負荷)。"
+    },
+    {
+      "word": "salaried",
+      "pos": "形",
+      "pronunciation": "サラリード",
+      "ipa": "sǽlərid",
+      "meaning": "給与制の",
+      "booster": "salary(給料、ラテン語salarium=塩を買う手当が語源)+-ed。"
+    },
+    {
+      "word": "juggle",
+      "pos": "動",
+      "pronunciation": "ジャグル",
+      "ipa": "dʒʌ́gl",
+      "meaning": "同時にこなす、やりくりする",
+      "booster": "本来は曲芸で複数の物を同時に操ること。「複数の仕事を同時にこなす」に転じた。"
+    },
+    {
+      "word": "afloat",
+      "pos": "形",
+      "pronunciation": "アフロウト",
+      "ipa": "əflóut",
+      "meaning": "浮いている、持ちこたえて",
+      "booster": "a-(状態)+float(浮く)。stay afloat(何とか持ちこたえる)の形で頻出。"
+    },
+    {
+      "word": "flexibility",
+      "pos": "名",
+      "pronunciation": "フレクシビリティ",
+      "ipa": "flèksəbíləti",
+      "meaning": "柔軟性",
+      "booster": "flex(曲げる)+-ibility。"
+    },
+    {
+      "word": "preventable",
+      "pos": "形",
+      "pronunciation": "プリヴェンタブル",
+      "ipa": "privéntəbl",
+      "meaning": "防げる",
+      "booster": "prevent(防ぐ)+-able。"
+    },
+    {
+      "word": "reemerge",
+      "pos": "動",
+      "pronunciation": "リーイマージ",
+      "ipa": "rìːimə́ːrdʒ",
+      "meaning": "再び現れる",
+      "booster": "re-(再び)+emerge(現れる、e-外へ+mergere沈む→浮かび上がる)。"
+    },
+    {
+      "word": "norm",
+      "pos": "名",
+      "pronunciation": "ノーム",
+      "ipa": "nɔ́ːrm",
+      "meaning": "標準、基準",
+      "booster": "ラテン語norma(定規)が語源。normal(標準の)と同根。"
     }
   ]
 }

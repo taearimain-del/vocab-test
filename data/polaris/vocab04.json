@@ -161,6 +161,30 @@
       "ipa": "démənstrèit",
       "meaning": "実証する、示す",
       "booster": "de-(強調)+monstrate(示す、ラテン語monstrare)。monster(怪物、本来は神の警告として示されるもの)と同語源で、「はっきりと示して見せる」がコア。"
+    },
+    {
+      "word": "neuroimaging",
+      "pos": "名",
+      "pronunciation": "ニューロイメイジング",
+      "ipa": "njùərouímidʒiŋ",
+      "meaning": "脳画像法",
+      "booster": "neuro-(神経)+imaging(画像化)。"
+    },
+    {
+      "word": "second-guess",
+      "pos": "動",
+      "pronunciation": "セカンド ゲス",
+      "ipa": "sékənd gés",
+      "meaning": "後から批判する、結果論で判断する",
+      "booster": "second(第二の)+guess(推測)。「後から別の推測をする」が原義。"
+    },
+    {
+      "word": "neural",
+      "pos": "形",
+      "pronunciation": "ニューラル",
+      "ipa": "njúərəl",
+      "meaning": "神経の",
+      "booster": "neuron(神経細胞、ギリシャ語)+-al。"
     }
   ]
 }
