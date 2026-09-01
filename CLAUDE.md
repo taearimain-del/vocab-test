@@ -48,11 +48,12 @@
 
 ## アカウント方式（2026-09-01、8桁同期コード方式から全面移行）
 - 認証は一切なし。初回起動時（`localStorage['vocab-test-account']`が未設定）は
-  アカウント選択画面（`route:'account'`）が出る。Supabaseの`vocab_test_accounts`
-  テーブルから名前一覧を取得して並べるだけで、パスワードやPINは要求しない。
-  一覧が取れない場合は`FALLBACK_ACCOUNTS = ['Fort_Dex', '小山']`を表示。
+  アカウント選択画面（`route:'account'`）が出る。Supabaseの`portal_accounts`
+  テーブル（マイポータルと共通、後述）から名前一覧を取得して並べるだけで、
+  パスワードやPINは要求しない。一覧が取れない場合は
+  `FALLBACK_ACCOUNTS = ['Fort_Dex', '小山']`を表示。
 - 「新しい名前で追加」から誰でも自由に新規アカウントを作成できる
-  （`addAccount()`→`vocab_test_accounts`にinsert）。Fort様・小山以外の友人も想定。
+  （`addAccount()`→`portal_accounts`にinsert）。Fort様・小山以外の友人も想定。
 - アカウントを選ぶと`localStorage`に保存され、以後はその端末で自動ログインされる
   （`boot()`時に`currentAccount`があれば自動で進捗をpullしてホーム画面へ）。
   「アカウント切替」ボタン（ホーム/セット詳細画面の上部バッジ）でいつでも選び直せる。
@@ -61,20 +62,43 @@
   手動共有は廃止。同じアカウント名を選べばどの端末でも自動的に同じ進捗に同期される）。
 - Fort様専用の操作ログ：`vocab_test_log`テーブル（追記のみ、RLSで anon の insert/select
   を許可）に`logAction(action, detail)`で記録している。記録している操作は
-  `login`（アカウント選択時）・`test_finish`（ラウンド終了時、正解数等）・
-  `reset_set`（セット全体リセット）・`reset_lesson`（レッスン単位リセット）の4種類
-  （単語ごとの「覚えた」ボタン押下はログ量が増えすぎるため対象外とした）。
-  `admin-log.html`（access-gate.js保護・Fort様専用）で全ログをアカウント別に一覧表示できる
-  （3D-bunkasai-2026の`pageview-log.html`のイメージを踏襲、実装はFirebaseではなくSupabase）。
-- Supabase側のテーブル定義（`vocab_test_accounts`: name主キー / `vocab_test_log`:
-  id・account_name・ts・action・detail jsonb）はSQL Editorで直接作成済み
-  （claude-in-chromeでの操作、2026-09-01）。
-- 今回は単語テストアプリでのパイロット実装。マイポータル本体・他の掲載アプリ
-  （英検準1級ライティング特訓・過去問プレイヤー・世界史/古文関連・音声教材ハブ等）への
-  同様のアカウントログイン機能の横展開は別途相談のうえ着手する（未着手）。
+  `login`（アカウント選択時。ポータル経由の自動ログイン時は`detail:{via:'portal'}`）・
+  `test_finish`（ラウンド終了時、正解数等）・`reset_set`（セット全体リセット）・
+  `reset_lesson`（レッスン単位リセット）の4種類（単語ごとの「覚えた」ボタン押下は
+  ログ量が増えすぎるため対象外とした）。`admin-log.html`（access-gate.js保護・
+  Fort様専用）で全ログをアカウント別に一覧表示できる（3D-bunkasai-2026の
+  `pageview-log.html`のイメージを踏襲、実装はFirebaseではなくSupabase）。
 
-## Supabase同期（テーブル共用について）
+## マイポータル起点のログイン連携（2026-09-01追加）
+- Fort様の本来の要望は「マイポータル（https://my-portal-f5d.pages.dev/）で一度アカウントを
+  選べば、そこから開く全アプリで再ログイン不要にする」こと。ブラウザはドメインをまたいで
+  localStorage/Cookieを共有できないため、以下の方式で実現している：
+  1. マイポータル（別リポジトリ`my-portal`）にアカウント選択UIを追加。選択結果は
+     ポータル自身の`localStorage['portal-account']`に保存される。
+  2. ポータルが生成する各アプリへのリンクURLに、選んだアカウント名を
+     `?account=名前` のクエリパラメータとして自動付与する（`withAccount()`関数）。
+  3. 単語テスト側は`boot()`の冒頭でURLの`account`パラメータを最優先で読み取り、
+     `localStorage['vocab-test-account']`を上書きしてから通常の起動処理に入る
+     （読み取り後は`history.replaceState`でURLからパラメータを消す）。
+  - この方式の限界：単語テストのURLを直接ブックマークして開いた場合はクエリパラメータが
+    付かないため、その端末・そのアプリでは初回だけ改めてアカウント選択が必要になる
+    （2回目以降はそのアプリのlocalStorageに保存された値で自動ログインされる）。
+    これはブラウザのオリジン分離という技術的な制約であり、Fort様にも説明・合意済み
+    （完全な連携には全アプリの独自ドメイン統一＋Cookie共有が必要だが、今回は見送り）。
+  - 対象は今回まず「マイポータル ⇔ 単語テスト」の1組でパターンを確立。他の掲載アプリ
+    （英検準1級ライティング特訓・過去問プレイヤー・世界史/古文関連・音声教材ハブ等）への
+    横展開は、同じ`withAccount()`＋`?account=`読み取りのパターンをそれぞれのアプリに
+    移植すれば実現できる（別途着手、未着手）。
+
+## Supabase同期・テーブル共用について
 - today-task.htmlと同じSupabaseプロジェクト（`writing_sync`テーブル）を間借りしている。
   ペイロードに`app: 'vocab-test'`を含めて区別しているだけで、テーブル自体は共用。
   `sync_code`列には`'vocab-test::' + アカウント名`という専用プレフィックス付きの値を
   入れているので、today-task.html側のランダム8桁コードとは衝突しない。
+- `portal_accounts`テーブルはアプリ横断の共通アカウント一覧（マイポータル・単語テスト
+  両方が同じテーブルを参照する）。元は`vocab_test_accounts`という単語テスト専用の名前で
+  作ったが、2026-09-01にポータル連携を実装した際`portal_accounts`にリネームした
+  （`alter table ... rename to`、データはそのまま引き継ぎ）。今後さらに他アプリへ
+  横展開する場合も、このテーブルをそのまま参照すればアカウント一覧は自動的に揃う。
+- `vocab_test_log`テーブルは単語テスト専用の操作ログ（アプリごとに専用ログテーブルを
+  持たせる設計。他アプリに展開する際は同様に`<app>_log`テーブルを別途作る想定）。

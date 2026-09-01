@@ -608,11 +608,14 @@
       .catch(function (e) { cb(e); });
   }
 
-  // ===== アカウント一覧（vocab_test_accountsテーブル） =====
+  // ===== アカウント一覧（portal_accountsテーブル、マイポータルと共通） =====
+  // 2026-09-01〜：マイポータル（my-portal-f5d.pages.dev）でアカウントを選ぶと、
+  // ここから開くリンクに ?account=名前 が付いてくる。同じ名前一覧をここでも参照するので、
+  // ポータル側でアカウントを追加すればこちらの選択画面にもそのまま出てくる。
   var FALLBACK_ACCOUNTS = ['Fort_Dex', '小山']; // 通信できない場合の最低限のフォールバック
   function fetchAccountList(cb) {
     if (!window.fetch) return cb(FALLBACK_ACCOUNTS.slice());
-    fetch(SUPABASE_URL + '/rest/v1/vocab_test_accounts?select=name&order=created_at.asc', { headers: supaHeaders() })
+    fetch(SUPABASE_URL + '/rest/v1/portal_accounts?select=name&order=created_at.asc', { headers: supaHeaders() })
       .then(function (r) { return r.json(); })
       .then(function (rows) {
         var names = (rows || []).map(function (r) { return r.name; });
@@ -622,7 +625,7 @@
   }
   function addAccount(name, cb) {
     if (!window.fetch) return cb(new Error('no fetch'));
-    fetch(SUPABASE_URL + '/rest/v1/vocab_test_accounts?on_conflict=name', {
+    fetch(SUPABASE_URL + '/rest/v1/portal_accounts?on_conflict=name', {
       method: 'POST',
       headers: supaHeaders({ 'Prefer': 'resolution=merge-duplicates,return=minimal' }),
       body: JSON.stringify({ name: name })
@@ -702,6 +705,18 @@
   function updateSyncUI() { /* 現状の画面を再描画すれば十分反映される。頻繁な再描画は避け、必要時のみrender()側で対応 */ }
 
   function boot() {
+    // マイポータル（my-portal-f5d.pages.dev）のリンク経由なら ?account=名前 が付いているので、
+    // 端末に保存済みの値より優先してそれを採用する（ポータルで選び直したアカウントに追従させる）。
+    try {
+      var qAccount = new URLSearchParams(window.location.search).get('account');
+      if (qAccount) {
+        currentAccount = qAccount;
+        localStorage.setItem(ACCOUNT_KEY, qAccount);
+        window.history.replaceState(null, '', window.location.pathname + window.location.hash);
+        logAction('login', { via: 'portal' });
+      }
+    } catch (e) {}
+
     if (currentAccount) {
       syncPull(currentAccount, function (err, row) {
         if (!err && row && row.payload && row.payload.progress) {
