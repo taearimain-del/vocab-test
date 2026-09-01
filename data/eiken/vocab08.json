@@ -1,0 +1,70 @@
+{
+  "number": 8,
+  "title": "フードデリバリーアプリの功罪",
+  "words": [
+    {
+      "word": "establishment",
+      "pos": "名",
+      "pronunciation": "イスタブリッシュメント",
+      "ipa": "istǽbliʃmənt",
+      "meaning": "店舗、施設",
+      "booster": "establish(設立する)+-ment(名詞化)。"
+    },
+    {
+      "word": "workforce",
+      "pos": "名",
+      "pronunciation": "ワークフォース",
+      "ipa": "wə́ːrkfɔ̀ːrs",
+      "meaning": "労働力",
+      "booster": "work(仕事)+force(力)。「働く力の総体」がそのまま意味になる。"
+    },
+    {
+      "word": "subsidize",
+      "pos": "動",
+      "pronunciation": "サブスィダイズ",
+      "ipa": "sʌ́bsədàiz",
+      "meaning": "補助金を出す",
+      "booster": "subsidy(補助金)の動詞形。"
+    },
+    {
+      "word": "underpaid",
+      "pos": "形",
+      "pronunciation": "アンダーペイド",
+      "ipa": "ʌ̀ndərpéid",
+      "meaning": "低賃金の",
+      "booster": "under-(不足)+paid(支払われた)。「支払いが不十分な」が原義。"
+    },
+    {
+      "word": "courier",
+      "pos": "名",
+      "pronunciation": "クリアー",
+      "ipa": "kʌ́ːriər",
+      "meaning": "配達員",
+      "booster": "ラテン語currere(走る)が語源。「(荷物を持って)走る人」がそのまま意味に。"
+    },
+    {
+      "word": "convenience",
+      "pos": "名",
+      "pronunciation": "コンヴィーニエンス",
+      "ipa": "kənvíːnjəns",
+      "meaning": "便利さ",
+      "booster": "con-(共に)+venire(来る)。「都合よく共にやってくる」→「便利」。"
+    },
+    {
+      "word": "benefit",
+      "pos": "名",
+      "pronunciation": "ベネフィット",
+      "ipa": "bénəfìt",
+      "meaning": "利益、恩恵",
+      "booster": "bene-(良い)+facere(行う)。「良いことをする」が原義。"
+    },
+    {
+      "word": "pandemic",
+      "pos": "名",
+      "pronunciation": "パンデミック",
+      "ipa": "pændémik",
+      "meaning": "(世界的)大流行",
+      "booster": "pan-(すべて)+demos(民衆、ギリシャ語)。「民衆全体に及ぶ流行」。"
+    }
+  ]
+}

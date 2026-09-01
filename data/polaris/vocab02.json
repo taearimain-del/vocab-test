@@ -1,0 +1,166 @@
+{
+  "number": 2,
+  "title": "子ども向けの本を男女別表示にするのをやめよう",
+  "words": [
+    {
+      "word": "stereotype",
+      "pos": "名",
+      "pronunciation": "ステレオタイプ",
+      "ipa": "stériətàip",
+      "meaning": "固定観念",
+      "booster": "ギリシャ語stereos(硬い・固体の)+type(型)。もとは印刷の「鋳型」を指した語で、そこから「型にはまった決まりきったイメージ」の意味に発展した。"
+    },
+    {
+      "word": "peddle",
+      "pos": "動",
+      "pronunciation": "ペドル",
+      "ipa": "pédl",
+      "meaning": "広める、売り歩く",
+      "booster": "行商人を意味するpeddler/pedlarの動詞形。足で歩き回って商品を売る様子から、噂や考え方を「広める」比喩にも使われる。"
+    },
+    {
+      "word": "reinforce",
+      "pos": "動",
+      "pronunciation": "リインフォース",
+      "ipa": "rìːinfɔ́ːrs",
+      "meaning": "強化する",
+      "booster": "re-(再び)+enforce(force=力を強いる)。forceが共通語根で、enforce(施行する)にさらに力を重ねるイメージで「補強する・強化する」。"
+    },
+    {
+      "word": "vulnerable",
+      "pos": "形",
+      "pronunciation": "ヴァルナラブル",
+      "ipa": "válnərəbl",
+      "meaning": "傷つきやすい",
+      "booster": "ラテン語vulnus(傷)+-able(〜され得る)。「傷つけられ得る」が原義で、名詞形vulnerability(脆弱性)も同じ語根を持つ。"
+    },
+    {
+      "word": "gendered",
+      "pos": "形",
+      "pronunciation": "ジェンダード",
+      "ipa": "dʒéndərd",
+      "meaning": "性別による",
+      "booster": "gender(性別)はラテン語genus(種類・生まれ)由来。generate(生み出す)やgenetic(遺伝の)と同じgen-(生む)の語根仲間。"
+    },
+    {
+      "word": "aggressively",
+      "pos": "副",
+      "pronunciation": "アグレッシブリー",
+      "ipa": "əgrésivli",
+      "meaning": "積極的に",
+      "booster": "ラテン語ad-(〜へ)+gradi(進む)由来のaggressive(攻撃的な)+-ly。gradiはgradual(徐々の)やprogress(前進)とも同根で、「前へぐいぐい進む」勢いのイメージ。"
+    },
+    {
+      "word": "assumptions",
+      "pos": "名",
+      "pronunciation": "アサンプションズ",
+      "ipa": "əsʌ́mpʃənz",
+      "meaning": "思い込み、仮定",
+      "booster": "ラテン語assumere(取り上げる、ad-+sumere取る)が語源。consume(消費する)やresume(再開する)と同じsume語根の仲間で、「勝手に取り上げた前提」のイメージ。"
+    },
+    {
+      "word": "predictably",
+      "pos": "副",
+      "pronunciation": "プリディクタブリー",
+      "ipa": "pridíktəbli",
+      "meaning": "予想通りに",
+      "booster": "pre-(前もって)+dict(言う、ラテン語dicere)+-ably。dictionary(辞書)やdictate(命令する)と同根で、「前もって言い当てられる」イメージで覚える。"
+    },
+    {
+      "word": "self-esteem",
+      "pos": "名",
+      "pronunciation": "セルフエスティーム",
+      "ipa": "sèlfistíːm",
+      "meaning": "自尊心",
+      "booster": "esteemはラテン語aestimare(評価する)由来。estimate(見積もる)と同語源で、「自分自身を評価する気持ち」がそのまま自尊心を表す。"
+    },
+    {
+      "word": "exceed",
+      "pos": "動",
+      "pronunciation": "イクシード",
+      "ipa": "iksíːd",
+      "meaning": "超える、上回る",
+      "booster": "ex-(外へ)+cedere(進む、ラテン語)。proceed(前進する)やsucceed(後に続く=成功する)と同根で、「限界の外へ進み出る」イメージ。"
+    },
+    {
+      "word": "inequality",
+      "pos": "名",
+      "pronunciation": "イニクオリティー",
+      "ipa": "ìnikwɑ́ləti",
+      "meaning": "不平等",
+      "booster": "in-(否定)+equal(等しい、ラテン語aequalis)+-ity。equator(赤道=地球を等分する線)と同じaequ-語根で、「等しくない状態」を表す。"
+    },
+    {
+      "word": "restrict",
+      "pos": "動",
+      "pronunciation": "リストリクト",
+      "ipa": "ristríkt",
+      "meaning": "制限する",
+      "booster": "re-(強意)+stringere(締めつける、ラテン語)。strict(厳格な)やstrain(緊張)と同根で、「きつく締めて範囲を狭める」イメージ。"
+    },
+    {
+      "word": "persuade",
+      "pos": "動",
+      "pronunciation": "パースエイド",
+      "ipa": "pərswéid",
+      "meaning": "説得する",
+      "booster": "per-(徹底的に)+suadere(勧める、ラテン語)。「相手が納得するまで徹底的に勧める」イメージで覚える。"
+    },
+    {
+      "word": "horizon",
+      "pos": "名",
+      "pronunciation": "ホライズン",
+      "ipa": "həráizn",
+      "meaning": "視野、地平線",
+      "booster": "ギリシャ語horizein(区切る)が語源。「見える範囲を区切る線」が原義で、比喩的に「視野・可能性の範囲」も表す。"
+    },
+    {
+      "word": "overlap",
+      "pos": "動",
+      "pronunciation": "オーバーラップ",
+      "ipa": "òuvərlǽp",
+      "meaning": "重なる",
+      "booster": "over(上に)+lap(重ねる部分)。競技のラップと同根で「一部が重なり合う」イメージから「範囲が重複する」を表す。"
+    },
+    {
+      "word": "massive",
+      "pos": "形",
+      "pronunciation": "マッシブ",
+      "ipa": "mǽsiv",
+      "meaning": "巨大な、多大な",
+      "booster": "mass(かたまり、ギリシャ語maza)+-ive。「かたまりのように大きい」イメージで、規模や量の大きさを表す。"
+    },
+    {
+      "word": "ridiculous",
+      "pos": "形",
+      "pronunciation": "リディキュラス",
+      "ipa": "ridíkjələs",
+      "meaning": "ばかげた",
+      "booster": "ラテン語ridere(笑う)が語源。ridicule(あざけり)と同根で、「笑ってしまうほどばかげている」様子を表す。"
+    },
+    {
+      "word": "morally",
+      "pos": "副",
+      "pronunciation": "モラリー",
+      "ipa": "mɔ́ːrəli",
+      "meaning": "道徳的に",
+      "booster": "moral(道徳的な、ラテン語mos=習慣)+-ly。「習わし・道徳」に関する行動や判断を指す副詞。"
+    },
+    {
+      "word": "establish",
+      "pos": "動",
+      "pronunciation": "エスタブリッシュ",
+      "ipa": "istǽbliʃ",
+      "meaning": "確立する",
+      "booster": "ラテン語stabilire(安定させる)由来。stable(安定した)と同根で、「しっかり安定した状態を作る」イメージ。"
+    },
+    {
+      "word": "threaten",
+      "pos": "動",
+      "pronunciation": "スレトゥン",
+      "ipa": "θrétn",
+      "meaning": "脅かす",
+      "booster": "threat(脅威、古英語þreat=圧迫)の動詞形。「圧をかけて危険にさらす」イメージで、名詞threatとセットで覚える。"
+    }
+  ]
+}

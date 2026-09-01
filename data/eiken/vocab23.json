@@ -1,0 +1,70 @@
+{
+  "number": 23,
+  "title": "高層集合住宅",
+  "words": [
+    {
+      "word": "accommodate",
+      "pos": "動",
+      "pronunciation": "アカモデイト",
+      "ipa": "əkάmədèit",
+      "meaning": "収容する、対応する",
+      "booster": "ac-(〜へ)+commodus(適した、ラテン語)。「適するようにする」が原義。"
+    },
+    {
+      "word": "densely",
+      "pos": "副",
+      "pronunciation": "デンスリー",
+      "ipa": "dénsli",
+      "meaning": "密集して",
+      "booster": "dense(密集した)+-ly(副詞化)。"
+    },
+    {
+      "word": "preserve",
+      "pos": "動",
+      "pronunciation": "プリザーヴ",
+      "ipa": "prizə́ːrv",
+      "meaning": "保存する、維持する",
+      "booster": "pre-(前もって)+servare(守る、ラテン語)。「あらかじめ守っておく」が原義。"
+    },
+    {
+      "word": "cost-effective",
+      "pos": "形",
+      "pronunciation": "コスト イフェクティヴ",
+      "ipa": "kɔ́ːst iféktiv",
+      "meaning": "費用対効果の高い",
+      "booster": "cost(費用)+effective(効果的な)。そのまま「費用に対して効果的な」。"
+    },
+    {
+      "word": "correlation",
+      "pos": "名",
+      "pronunciation": "コーリレイション",
+      "ipa": "kɔ̀rəléiʃən",
+      "meaning": "相関関係",
+      "booster": "co-(共に)+relation(関係)。「共に関係し合うこと」。"
+    },
+    {
+      "word": "overwhelm",
+      "pos": "動",
+      "pronunciation": "オウヴァーウェルム",
+      "ipa": "òuvərwélm",
+      "meaning": "圧倒する、押し流す",
+      "booster": "over-(過度に)+whelm(覆う、古英語)。「上から覆いかぶさる」が原義。"
+    },
+    {
+      "word": "outward",
+      "pos": "副",
+      "pronunciation": "アウトワード",
+      "ipa": "áutwərd",
+      "meaning": "外側へ",
+      "booster": "out(外)+ward(方向を表す接尾辞)。inwardの対義語。"
+    },
+    {
+      "word": "residential",
+      "pos": "形",
+      "pronunciation": "レズィデンシャル",
+      "ipa": "rèzədénʃəl",
+      "meaning": "居住用の",
+      "booster": "reside(住む)+-ential(形容詞化)。"
+    }
+  ]
+}

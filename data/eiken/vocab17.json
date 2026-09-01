@@ -1,0 +1,70 @@
+{
+  "number": 17,
+  "title": "ファストファッションの環境負荷",
+  "words": [
+    {
+      "word": "trendy",
+      "pos": "形",
+      "pronunciation": "トレンディ",
+      "ipa": "tréndi",
+      "meaning": "流行の",
+      "booster": "trend(流行、傾向)+-y(形容詞化)。"
+    },
+    {
+      "word": "accessible",
+      "pos": "形",
+      "pronunciation": "アクセスィブル",
+      "ipa": "æksésəbl",
+      "meaning": "手に入りやすい",
+      "booster": "access(接近)+-ible(できる)。DAY7のaccessibilityと同根。"
+    },
+    {
+      "word": "garment",
+      "pos": "名",
+      "pronunciation": "ガーメント",
+      "ipa": "gάːrmənt",
+      "meaning": "衣服",
+      "booster": "古フランス語garnement(装備、身支度)が語源。"
+    },
+    {
+      "word": "textile",
+      "pos": "名",
+      "pronunciation": "テクスタイル",
+      "ipa": "tékstail",
+      "meaning": "織物、繊維",
+      "booster": "ラテン語texere(織る)が語源。textとも同根で「織り合わされたもの」。"
+    },
+    {
+      "word": "discard",
+      "pos": "動",
+      "pronunciation": "ディスカード",
+      "ipa": "diskάːrd",
+      "meaning": "捨てる、処分する",
+      "booster": "dis-(離れて)+card(カード)。元々トランプ用語で「カードを捨てる」から転じた。"
+    },
+    {
+      "word": "derive",
+      "pos": "動",
+      "pronunciation": "ディライヴ",
+      "ipa": "diráiv",
+      "meaning": "由来する、引き出す",
+      "booster": "de-(下に)+rivus(川、ラテン語)。「川の流れをたどる」が原義。"
+    },
+    {
+      "word": "combined",
+      "pos": "形",
+      "pronunciation": "コンバインド",
+      "ipa": "kəmbáind",
+      "meaning": "合わせた、結合した",
+      "booster": "combine(結合する)+-ed。com-(共に)+bini(二つずつ)。"
+    },
+    {
+      "word": "quantity",
+      "pos": "名",
+      "pronunciation": "クワンティティ",
+      "ipa": "kwάntəti",
+      "meaning": "量",
+      "booster": "ラテン語quantus(どれくらいの)が語源。qualityと対をなす語。"
+    }
+  ]
+}

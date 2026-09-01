@@ -1,0 +1,70 @@
+{
+  "number": 24,
+  "title": "ドローン配送",
+  "words": [
+    {
+      "word": "unmanned",
+      "pos": "形",
+      "pronunciation": "アンマンド",
+      "ipa": "ʌ̀nmǽnd",
+      "meaning": "無人の",
+      "booster": "un-(否定)+manned(人が乗った)。「人が操縦していない」。"
+    },
+    {
+      "word": "congestion",
+      "pos": "名",
+      "pronunciation": "コンジェスチョン",
+      "ipa": "kəndʒéstʃən",
+      "meaning": "混雑、渋滞",
+      "booster": "con-(共に)+gerere(運ぶ、ラテン語)。「共に集まって詰まる」イメージ。"
+    },
+    {
+      "word": "essential",
+      "pos": "形",
+      "pronunciation": "イセンシャル",
+      "ipa": "isénʃəl",
+      "meaning": "必須の、不可欠な",
+      "booster": "essence(本質)+-ial(形容詞化)。「本質に関わるほど重要な」。"
+    },
+    {
+      "word": "consent",
+      "pos": "名",
+      "pronunciation": "コンセント",
+      "ipa": "kənsént",
+      "meaning": "同意",
+      "booster": "con-(共に)+sentire(感じる、ラテン語)。「共に同じように感じること」が原義。"
+    },
+    {
+      "word": "collision",
+      "pos": "名",
+      "pronunciation": "コリジョン",
+      "ipa": "kəlíʒən",
+      "meaning": "衝突",
+      "booster": "col-(共に)+laedere(傷つける、ラテン語)。"
+    },
+    {
+      "word": "mechanical",
+      "pos": "形",
+      "pronunciation": "メカニカル",
+      "ipa": "məkǽnikəl",
+      "meaning": "機械の、機械的な",
+      "booster": "mechanism(機構)+-ical(形容詞化)。"
+    },
+    {
+      "word": "suburban",
+      "pos": "形",
+      "pronunciation": "サバーバン",
+      "ipa": "sʌ́bə̀ːrbən",
+      "meaning": "郊外の",
+      "booster": "sub-(下の、近くの)+urban(都市の)。「都市に近接した」が原義。"
+    },
+    {
+      "word": "revolutionize",
+      "pos": "動",
+      "pronunciation": "レヴォルーショナイズ",
+      "ipa": "rèvəlúːʃənàiz",
+      "meaning": "革命を起こす、一変させる",
+      "booster": "revolution(革命)+-ize(動詞化)。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "number": 9,
+  "title": "高齢ドライバーの免許返納",
+  "words": [
+    {
+      "word": "surrender",
+      "pos": "動",
+      "pronunciation": "サレンダー",
+      "ipa": "səréndər",
+      "meaning": "手放す、明け渡す",
+      "booster": "sur-(上に)+render(渡す)。「相手の上に渡す」→「明け渡す」。"
+    },
+    {
+      "word": "incentive",
+      "pos": "名",
+      "pronunciation": "インセンティヴ",
+      "ipa": "inséntiv",
+      "meaning": "動機付け、優遇措置",
+      "booster": "incent(刺激する)+-ive。ラテン語incantare(歌って鼓舞する)にも通じる。"
+    },
+    {
+      "word": "decline",
+      "pos": "名",
+      "pronunciation": "ディクライン",
+      "ipa": "dikláin",
+      "meaning": "低下、衰え",
+      "booster": "de-(下に)+clinare(傾く)。「下方に傾いていく」がそのまま意味になる。"
+    },
+    {
+      "word": "cognitive",
+      "pos": "形",
+      "pronunciation": "コグニティヴ",
+      "ipa": "kάgnətiv",
+      "meaning": "認知の",
+      "booster": "ラテン語cognosce(知る)+-ive。cognitive ability(認知能力)の形で頻出。"
+    },
+    {
+      "word": "noticeable",
+      "pos": "形",
+      "pronunciation": "ノウティサブル",
+      "ipa": "nóutisəbl",
+      "meaning": "顕著な、目立つ",
+      "booster": "notice(気づく)+-able(できる)。「気づかれるほどの」が原義。"
+    },
+    {
+      "word": "independence",
+      "pos": "名",
+      "pronunciation": "インディペンデンス",
+      "ipa": "ìndipéndəns",
+      "meaning": "自立、独立",
+      "booster": "in-(否定)+dependence(依存)。「依存しないこと」がそのまま意味に。"
+    },
+    {
+      "word": "alternative",
+      "pos": "名",
+      "pronunciation": "オールターナティヴ",
+      "ipa": "ɔːltə́ːrnətiv",
+      "meaning": "代替手段",
+      "booster": "ラテン語alter(もう一方の)が語源。"
+    },
+    {
+      "word": "pilot",
+      "pos": "動",
+      "pronunciation": "パイロット",
+      "ipa": "páilət",
+      "meaning": "試験的に行う",
+      "booster": "本来は「操縦する」だが、「まず小規模に試してみる」の意味で頻出。pilot program(試験的な取り組み)。"
+    }
+  ]
+}

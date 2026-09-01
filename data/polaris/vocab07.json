@@ -1,0 +1,166 @@
+{
+  "number": 7,
+  "title": "「私たちは『ブランドのラベル』にお金を払っているのか!」",
+  "words": [
+    {
+      "word": "unsuspecting",
+      "ipa": "ʌ̀nsəspéktiŋ",
+      "pos": "形",
+      "pronunciation": "アンサスペクティング",
+      "meaning": "疑わない",
+      "booster": "sus-は「下から」、specは「見る」というラテン語の語根。suspect(疑う)は「下から覗き見る」が原義で、それにun-(否定)がついて「疑っていない」に。spectacle(見世物)やinspect(点検する)もspec仲間。"
+    },
+    {
+      "word": "boast",
+      "ipa": "bóust",
+      "pos": "動",
+      "pronunciation": "ボウスト",
+      "meaning": "誇る",
+      "booster": "「胸を張って大声で言う」イメージの単語。boast about/of ~の形でよく使われ、単なるproudより「口に出して自慢する」ニュアンスが強い。"
+    },
+    {
+      "word": "megacorporation",
+      "ipa": "mègəkɔ̀rpəréiʃən",
+      "pos": "名",
+      "pronunciation": "メガコーポレイション",
+      "meaning": "巨大企業",
+      "booster": "mega-(巨大)+corporation(会社)。corp-はラテン語で「体」を意味し、corpse(死体)やcorporal(身体の)と同語根。megabyte・megaphoneのmegaと合わせて「体(組織)が巨大化したもの」と覚える。"
+    },
+    {
+      "word": "implication",
+      "ipa": "ìmplikéiʃən",
+      "pos": "名",
+      "pronunciation": "インプリケイション",
+      "meaning": "暗示",
+      "booster": "imply(暗示する)の名詞形。plic-はラテン語「折りたたむ」で、im-(中に)+plicで「言葉の中に折り込まれた意味」。complicate(複雑にする=一緒に折り込む)、explicit(はっきり広げた=明白な)も同じplic仲間。"
+    },
+    {
+      "word": "detectable",
+      "ipa": "ditéktəbl",
+      "pos": "形",
+      "pronunciation": "ディテクタブル",
+      "meaning": "検知できる",
+      "booster": "detect(検知する)+able(できる)。tect-はラテン語tegere「覆う」で、de-(覆いを取る)+tect=「隠れていたものを暴く」。protect(前もって覆う=保護する)も同じtect語根。"
+    },
+    {
+      "word": "exotic",
+      "ipa": "igzɑ́tik",
+      "pos": "形",
+      "pronunciation": "イグザティック",
+      "meaning": "異国風の",
+      "booster": "ギリシャ語exo-(外の)+-ic(形容詞化)。exit(出口)やexoskeleton(外骨格)と同じexo語根で「外からやってきた」が原義。転じて「異国風の、風変わりな」という意味に。"
+    },
+    {
+      "word": "consumption",
+      "ipa": "kənsʌ́mpʃən",
+      "pos": "名",
+      "pronunciation": "コンサンプション",
+      "meaning": "消費",
+      "booster": "動詞consume(消費する)の名詞形。con-(完全に)+sumere(取る、ラテン語)で「すっかり取り込む」が原義。resume(再び取る=再開する)やassume(自分の方へ取る=想定する)も同じsume語根。"
+    },
+    {
+      "word": "inferior",
+      "ipa": "infíriər",
+      "pos": "形",
+      "pronunciation": "インフィリア",
+      "meaning": "劣った",
+      "booster": "ラテン語inferus「下の」の比較級。inferno(地獄=一番下)と同語源で、「他より下にある」→「劣った」。反対語superior(sup-上+erior=優れた)とセットで覚えると効率的。"
+    },
+    {
+      "word": "rival",
+      "ipa": "ráivəl",
+      "pos": "名",
+      "pronunciation": "ライバル",
+      "meaning": "競争相手",
+      "booster": "ラテン語rivus「川」が語源。同じ川(rivus)の水を取り合う者同士、というのが原義で「競争相手」に。river(川)と同語源というのは覚えやすい豆知識。"
+    },
+    {
+      "word": "phenomenon",
+      "ipa": "fənɑ́mənɑ̀n",
+      "pos": "名",
+      "pronunciation": "フェノミナン",
+      "meaning": "現象",
+      "booster": "ギリシャ語phainein「現れる」が語源。phantom(幽霊)やphase(段階、現れ方)も同じ語根。「目に見える形で現れる出来事」が原義で「現象」に。複数形phenomenaも要チェック。"
+    },
+    {
+      "word": "illusion",
+      "ipa": "ilúːʒən",
+      "pos": "名",
+      "pronunciation": "イリュージョン",
+      "meaning": "幻想",
+      "booster": "ラテン語il-(中で)+ludere(遊ぶ、からかう)が語源。「心の中で遊ばれるもの」=幻想。allude(ほのめかす)やelude(すり抜ける)も同じludere仲間。illustrate(照らし出す)とは別語源なので注意。"
+    },
+    {
+      "word": "superior",
+      "ipa": "səpíriər",
+      "pos": "形",
+      "pronunciation": "スュペリア",
+      "meaning": "優れた",
+      "booster": "ラテン語super(上に)の比較級で「より上にある」が原義。本文のinferior(下にある→劣った)と対になる語で、seniorやexteriorなど-ior語尾の比較級グループに属す。"
+    },
+    {
+      "word": "soar",
+      "ipa": "sɔ́r",
+      "pos": "動",
+      "pronunciation": "ソア",
+      "meaning": "急上昇する",
+      "booster": "元は「鳥が空高く舞い上がる」イメージの語。株価・数値・人気などが一気に跳ね上がる場合にも使われ、本文では消費量が急増する様子を表す。同音のsore(痛い)と混同しないこと。"
+    },
+    {
+      "word": "unspoiled",
+      "ipa": "ʌnspóild",
+      "pos": "形",
+      "pronunciation": "アンスポイルド",
+      "meaning": "汚されていない、手つかずの",
+      "booster": "spoil(台無しにする)の過去分詞にun-(否定)がついた形。spoiled child(甘やかされた子)のspoilと同じ語で、「自然のままで損なわれていない」というイメージ。"
+    },
+    {
+      "word": "distinguish",
+      "ipa": "distíŋgwiʃ",
+      "pos": "動",
+      "pronunciation": "ディスティングウィッシュ",
+      "meaning": "区別する",
+      "booster": "di-(離して)+stinguere(ラテン語「印をつける」)が語源で「印をつけて分ける」が原義。extinguish(火を消す=印を完全に消す)も同じstinguere仲間。"
+    },
+    {
+      "word": "overlook",
+      "ipa": "òuvərlúk",
+      "pos": "動",
+      "pronunciation": "オウヴァルック",
+      "meaning": "見過ごす、大目に見る",
+      "booster": "over(上から)+look(見る)で「上から見下ろす」が原義。そこから「(細部を)見落とす」「(欠点を)大目に見る」の両方の意味に発展した多義語。"
+    },
+    {
+      "word": "arena",
+      "ipa": "əríːnə",
+      "pos": "名",
+      "pronunciation": "アリーナ",
+      "meaning": "(活動の)舞台、領域",
+      "booster": "ラテン語harena「砂」が語源。古代ローマの闘技場の床に砂が敷かれていたことから「競技場」の意味になり、そこから比喩的に「(競争や議論の)舞台」を表すように。"
+    },
+    {
+      "word": "generic",
+      "ipa": "dʒənérik",
+      "pos": "形",
+      "pronunciation": "ジェネリック",
+      "meaning": "一般的な、無銘柄の",
+      "booster": "gen-はラテン語で「種族、生まれ」を表す語根。genus(属)やgenerate(生み出す)と同語根で、「ある種族全体に共通する」→「特定の商標によらない一般的な」の意味に。ジェネリック医薬品のジェネリックと同じ。"
+    },
+    {
+      "word": "mislead",
+      "ipa": "mìslíːd",
+      "pos": "動",
+      "pronunciation": "ミスリード",
+      "meaning": "誤解させる、惑わす",
+      "booster": "mis-(誤って)+lead(導く)で「誤った方向に導く」が原義。日本語でも「ミスリード」とカタカナで定着した語で、本文のmisleading advertising(誤解を招く広告)はこの現在分詞形。"
+    },
+    {
+      "word": "fool",
+      "ipa": "fúːl",
+      "pos": "動",
+      "pronunciation": "フール",
+      "meaning": "だます",
+      "booster": "名詞fool(愚か者)がそのまま動詞化した語で「(人を)愚か者にする」→「だます」。fool around(ふざける)などのイディオムも頻出なので合わせて押さえておきたい。"
+    }
+  ]
+}

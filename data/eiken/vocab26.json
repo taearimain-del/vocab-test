@@ -1,0 +1,70 @@
+{
+  "number": 26,
+  "title": "元受刑者の社会復帰支援",
+  "words": [
+    {
+      "word": "recidivism",
+      "pos": "名",
+      "pronunciation": "リスィディヴィズム",
+      "ipa": "risídəvìzəm",
+      "meaning": "再犯",
+      "booster": "re-(再び)+cidere(落ちる、ラテン語)。「再び堕落に落ちること」が原義。"
+    },
+    {
+      "word": "rehabilitation",
+      "pos": "名",
+      "pronunciation": "リーハビリテイション",
+      "ipa": "rìːhəbìlətéiʃən",
+      "meaning": "更生、社会復帰",
+      "booster": "re-(再び)+habilis(適した、ラテン語)。「再び社会に適した状態にすること」。"
+    },
+    {
+      "word": "vocational",
+      "pos": "形",
+      "pronunciation": "ヴォウケイショナル",
+      "ipa": "voukéiʃənəl",
+      "meaning": "職業の",
+      "booster": "vocation(天職、職業)+-al(形容詞化)。vocational training(職業訓練)の形で頻出。"
+    },
+    {
+      "word": "mentorship",
+      "pos": "名",
+      "pronunciation": "メンターシップ",
+      "ipa": "méntərʃìp",
+      "meaning": "指導、助言",
+      "booster": "mentor(指導者、助言者)+-ship(状態・関係)。"
+    },
+    {
+      "word": "offense",
+      "pos": "名",
+      "pronunciation": "オフェンス",
+      "ipa": "əféns",
+      "meaning": "犯罪、違反",
+      "booster": "offend(違反する、罪を犯す)+-se(名詞化)。"
+    },
+    {
+      "word": "outcome",
+      "pos": "名",
+      "pronunciation": "アウトカム",
+      "ipa": "áutkʌ̀m",
+      "meaning": "結果、成果",
+      "booster": "out(外に)+come(来る)。「(過程の)外に出てきたもの」が原義。"
+    },
+    {
+      "word": "inmate",
+      "pos": "名",
+      "pronunciation": "インメイト",
+      "ipa": "ínmèit",
+      "meaning": "収容者、受刑者",
+      "booster": "in-(中に)+mate(仲間)。「(施設の)中にいる仲間」が原義。"
+    },
+    {
+      "word": "reoffend",
+      "pos": "動",
+      "pronunciation": "リーオフェンド",
+      "ipa": "rìːəfénd",
+      "meaning": "再犯する",
+      "booster": "re-(再び)+offend(違反する)。offenseの動詞形にreがついた形。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "number": 27,
+  "title": "オーバーツーリズム",
+  "words": [
+    {
+      "word": "destination",
+      "pos": "名",
+      "pronunciation": "デスティネイション",
+      "ipa": "dèstənéiʃən",
+      "meaning": "目的地",
+      "booster": "destine(運命づける)+-ation(名詞化)。「行き着くよう定められた場所」。"
+    },
+    {
+      "word": "revenue",
+      "pos": "名",
+      "pronunciation": "レヴェニュー",
+      "ipa": "révənjùː",
+      "meaning": "歳入、収益",
+      "booster": "フランス語revenir(戻ってくる)が語源。「(投資などから)戻ってくるお金」。"
+    },
+    {
+      "word": "heritage",
+      "pos": "名",
+      "pronunciation": "ヘリテッジ",
+      "ipa": "hérətidʒ",
+      "meaning": "遺産",
+      "booster": "inherit(相続する)+-age(名詞化)。「受け継がれるもの」がそのまま意味に。"
+    },
+    {
+      "word": "fragile",
+      "pos": "形",
+      "pronunciation": "フラジャイル",
+      "ipa": "frǽdʒəl",
+      "meaning": "壊れやすい",
+      "booster": "ラテン語frangere(壊す)が語源。fractureとも同根。"
+    },
+    {
+      "word": "property",
+      "pos": "名",
+      "pronunciation": "プラパティ",
+      "ipa": "prάpərti",
+      "meaning": "不動産、財産",
+      "booster": "proper(自分自身の)+-ty(名詞化)。「自分自身に属するもの」が原義。"
+    },
+    {
+      "word": "rental",
+      "pos": "名",
+      "pronunciation": "レンタル",
+      "ipa": "réntl",
+      "meaning": "賃貸",
+      "booster": "rent(賃貸料)+-al(名詞化)。"
+    },
+    {
+      "word": "permit",
+      "pos": "名",
+      "pronunciation": "パーミット",
+      "ipa": "pə́ːrmit",
+      "meaning": "許可証",
+      "booster": "per-(通して)+mittere(送る、ラテン語)。「通ることを許す」が原義。"
+    },
+    {
+      "word": "strain",
+      "pos": "動",
+      "pronunciation": "ストレイン",
+      "ipa": "stréin",
+      "meaning": "負担をかける、酷使する",
+      "booster": "ラテン語stringere(締め付ける)が語源。strict(厳格な)とも同根。"
+    }
+  ]
+}

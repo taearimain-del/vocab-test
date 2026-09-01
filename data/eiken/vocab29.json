@@ -1,0 +1,70 @@
+{
+  "number": 29,
+  "title": "金融教育の必修化",
+  "words": [
+    {
+      "word": "literacy",
+      "pos": "名",
+      "pronunciation": "リテラスィ",
+      "ipa": "lítərəsi",
+      "meaning": "読み書き能力、リテラシー",
+      "booster": "letter(文字)が語源。financial literacy(金融リテラシー)のように「特定分野を理解し活用する力」の意味にも拡張される。"
+    },
+    {
+      "word": "budgeting",
+      "pos": "名",
+      "pronunciation": "バジェティング",
+      "ipa": "bʌ́dʒitiŋ",
+      "meaning": "予算編成、家計管理",
+      "booster": "budget(予算)+-ing(名詞化)。"
+    },
+    {
+      "word": "bankruptcy",
+      "pos": "名",
+      "pronunciation": "バンクラプツィ",
+      "ipa": "bǽŋkrʌ̀ptsi",
+      "meaning": "破産",
+      "booster": "イタリア語banca rotta(壊れた台)が語源。支払い不能になった商人の作業台を壊した中世の風習に由来。"
+    },
+    {
+      "word": "curriculum",
+      "pos": "名",
+      "pronunciation": "カリキュラム",
+      "ipa": "kəríkjuləm",
+      "meaning": "カリキュラム、教育課程",
+      "booster": "ラテン語currere(走る)が語源。「(学習が進む)走路」というイメージ。"
+    },
+    {
+      "word": "inequality",
+      "pos": "名",
+      "pronunciation": "イニクワリティ",
+      "ipa": "ìnikwάləti",
+      "meaning": "不平等",
+      "booster": "in-(否定)+equality(平等)。"
+    },
+    {
+      "word": "grasp",
+      "pos": "動",
+      "pronunciation": "グラスプ",
+      "ipa": "grǽsp",
+      "meaning": "理解する、把握する",
+      "booster": "本来は「つかむ」の意味。そこから「(概念を)しっかりつかむ」→「理解する」に転じた。"
+    },
+    {
+      "word": "informed",
+      "pos": "形",
+      "pronunciation": "インフォームド",
+      "ipa": "infɔ́ːrmd",
+      "meaning": "十分な情報に基づいた",
+      "booster": "inform(知らせる)+-ed。informed decision(十分な情報に基づく意思決定)の形で頻出。"
+    },
+    {
+      "word": "debt",
+      "pos": "名",
+      "pronunciation": "デット",
+      "ipa": "dét",
+      "meaning": "負債、借金",
+      "booster": "ラテン語debere(借りがある)が語源。"
+    }
+  ]
+}

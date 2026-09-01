@@ -1,0 +1,70 @@
+{
+  "number": 16,
+  "title": "原子力発電の復権",
+  "words": [
+    {
+      "word": "reactor",
+      "pos": "名",
+      "pronunciation": "リアクター",
+      "ipa": "riǽktər",
+      "meaning": "原子炉",
+      "booster": "react(反応する)+-or(装置)。核反応を起こす装置がそのまま名前に。"
+    },
+    {
+      "word": "emit",
+      "pos": "動",
+      "pronunciation": "イミット",
+      "ipa": "imít",
+      "meaning": "排出する、放出する",
+      "booster": "e-(外へ)+mittere(送る、ラテン語)。「外に送り出す」が原義。"
+    },
+    {
+      "word": "intervention",
+      "pos": "名",
+      "pronunciation": "インターヴェンション",
+      "ipa": "ìntərvénʃən",
+      "meaning": "介入",
+      "booster": "inter-(間に)+venire(来る、ラテン語)。「間に入ってくること」。"
+    },
+    {
+      "word": "radioactive",
+      "pos": "形",
+      "pronunciation": "レイディオウアクティヴ",
+      "ipa": "rèidiouǽktiv",
+      "meaning": "放射性の",
+      "booster": "radio-(放射)+active(活性の)。"
+    },
+    {
+      "word": "upfront",
+      "pos": "形",
+      "pronunciation": "アップフラント",
+      "ipa": "ʌ́pfrʌ̀nt",
+      "meaning": "前払いの、事前の",
+      "booster": "up(前)+front(正面)。「先に正面から出す」→「前払いの」。"
+    },
+    {
+      "word": "facility",
+      "pos": "名",
+      "pronunciation": "ファスィリティ",
+      "ipa": "fəsíləti",
+      "meaning": "施設",
+      "booster": "ラテン語facilis(容易な)が語源。「物事をしやすくするもの」→「施設」。"
+    },
+    {
+      "word": "renewed",
+      "pos": "形",
+      "pronunciation": "リニューード",
+      "ipa": "rinjúːd",
+      "meaning": "再燃した、新たになった",
+      "booster": "re-(再び)+new(新しい)+-ed。renewable energy(再生可能エネルギー)とも同根。"
+    },
+    {
+      "word": "passive",
+      "pos": "形",
+      "pronunciation": "パッスィヴ",
+      "ipa": "pǽsiv",
+      "meaning": "受動的な",
+      "booster": "ラテン語pati(耐える、受ける)が語源。activeの対義語。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "number": 25,
+  "title": "語学学習アプリ",
+  "words": [
+    {
+      "word": "affordability",
+      "pos": "名",
+      "pronunciation": "アフォーダビリティ",
+      "ipa": "əfɔ̀ːrdəbíləti",
+      "meaning": "手頃さ、購入しやすさ",
+      "booster": "afford(余裕がある)+-ability(できること)。"
+    },
+    {
+      "word": "gamification",
+      "pos": "名",
+      "pronunciation": "ゲイミフィケイション",
+      "ipa": "gèimifikéiʃən",
+      "meaning": "ゲーム化",
+      "booster": "game(ゲーム)+-ification(〜化)。学習にゲームの要素を取り入れる手法。"
+    },
+    {
+      "word": "replicate",
+      "pos": "動",
+      "pronunciation": "レプリケイト",
+      "ipa": "répləkèit",
+      "meaning": "再現する、複製する",
+      "booster": "ラテン語replicare(折り返す)が語源。「同じものをもう一度折り返して作る」。"
+    },
+    {
+      "word": "fluency",
+      "pos": "名",
+      "pronunciation": "フルーエンスィ",
+      "ipa": "flúːənsi",
+      "meaning": "流暢さ",
+      "booster": "fluent(流暢な)+-cy(名詞化)。ラテン語fluere(流れる)が語源。"
+    },
+    {
+      "word": "instruction",
+      "pos": "名",
+      "pronunciation": "インストラクション",
+      "ipa": "instrʌ́kʃən",
+      "meaning": "指導、教育",
+      "booster": "instruct(指導する)+-ion(名詞化)。DAY7のinstructorと同根。"
+    },
+    {
+      "word": "download",
+      "pos": "名",
+      "pronunciation": "ダウンロウド",
+      "ipa": "dáunlòud",
+      "meaning": "ダウンロード(数)",
+      "booster": "down(下に)+load(積む)。そのまま「データを下ろして積み込む」。"
+    },
+    {
+      "word": "drill",
+      "pos": "名",
+      "pronunciation": "ドリル",
+      "ipa": "dríl",
+      "meaning": "反復練習",
+      "booster": "オランダ語drillen(穴を開ける、訓練する)が語源。「繰り返し穴を開けるように鍛える」イメージ。"
+    },
+    {
+      "word": "session",
+      "pos": "名",
+      "pronunciation": "セッション",
+      "ipa": "séʃən",
+      "meaning": "講習、活動時間",
+      "booster": "ラテン語sedere(座る)が語源。DAY1のsedentaryと同根で、「座って行う一区切りの時間」。"
+    }
+  ]
+}

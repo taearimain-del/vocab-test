@@ -1,0 +1,70 @@
+{
+  "number": 11,
+  "title": "リモートワークと地方移住",
+  "words": [
+    {
+      "word": "reverse",
+      "pos": "動",
+      "pronunciation": "リヴァース",
+      "ipa": "rivə́ːrs",
+      "meaning": "逆転させる",
+      "booster": "re-(戻す)+versus(向ける、ラテン語)。「向きを戻す」が原義。"
+    },
+    {
+      "word": "depopulated",
+      "pos": "形",
+      "pronunciation": "ディーパピュレイティド",
+      "ipa": "dìːpάpjulèitid",
+      "meaning": "過疎化した",
+      "booster": "de-(減らす)+populate(人口を増やす)+-ed。"
+    },
+    {
+      "word": "relocate",
+      "pos": "動",
+      "pronunciation": "リーロウケイト",
+      "ipa": "rìːlóukeit",
+      "meaning": "移住する、移転する",
+      "booster": "re-(再び)+locate(位置づける)。「別の場所に位置づけ直す」。"
+    },
+    {
+      "word": "infrastructure",
+      "pos": "名",
+      "pronunciation": "インフラストラクチャー",
+      "ipa": "ínfrəstrʌ̀ktʃər",
+      "meaning": "インフラ、基盤",
+      "booster": "infra-(下の)+structure(構造)。「下支えする構造物」がそのまま意味に。"
+    },
+    {
+      "word": "concentrate",
+      "pos": "動",
+      "pronunciation": "カンセントレイト",
+      "ipa": "kάnsəntrèit",
+      "meaning": "集中する",
+      "booster": "con-(共に)+center(中心)。「中心に共に集まる」が原義。"
+    },
+    {
+      "word": "modest",
+      "pos": "形",
+      "pronunciation": "マデスト",
+      "ipa": "mάdəst",
+      "meaning": "ささやかな、控えめな",
+      "booster": "ラテン語modus(程度、節度)が語源。「行き過ぎない程度の」。"
+    },
+    {
+      "word": "skeptic",
+      "pos": "名",
+      "pronunciation": "スケプティック",
+      "ipa": "sképtik",
+      "meaning": "懐疑論者",
+      "booster": "ギリシャ語skeptikos(よく考察する)が語源。"
+    },
+    {
+      "word": "reliable",
+      "pos": "形",
+      "pronunciation": "リライアブル",
+      "ipa": "riláiəbl",
+      "meaning": "信頼できる",
+      "booster": "rely(頼る)+-able(できる)。"
+    }
+  ]
+}

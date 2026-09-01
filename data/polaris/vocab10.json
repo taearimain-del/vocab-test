@@ -1,0 +1,166 @@
+{
+  "number": 10,
+  "title": "遺伝子検査の問題点",
+  "words": [
+    {
+      "word": "commercialization",
+      "pos": "名",
+      "pronunciation": "コマーシャライゼーション",
+      "ipa": "/kərˌmɜːrʃələˈzeɪʃən/",
+      "meaning": "商業化",
+      "booster": "commerce（商業）に「〜化する」のcommercialize、さらに名詞化の-ationがついた語。同じ-ize/-ationパターンはmodernization（近代化）やglobalization（グローバル化）にも共通する。"
+    },
+    {
+      "word": "irregularity",
+      "pos": "名",
+      "pronunciation": "イレギュラリティ",
+      "ipa": "/ɪˌregjəˈlærəti/",
+      "meaning": "異常",
+      "booster": "regular（規則的な）に否定接頭辞ir-がついた形。irregular, illegal, immoral, irresponsibleなど、in-はr/l/mの前でir-/il-/im-に姿を変える発音上のルールがある。"
+    },
+    {
+      "word": "pessimistic",
+      "pos": "形",
+      "pronunciation": "ペシミスティック",
+      "ipa": "/ˌpesəˈmɪstɪk/",
+      "meaning": "悲観的な",
+      "booster": "ラテン語pessimus（最悪の）が語源。反対語optimisticはoptimus（最善の）から。pessimist（悲観論者）とセットで覚えると定着しやすい。"
+    },
+    {
+      "word": "leakage",
+      "pos": "名",
+      "pronunciation": "リーケージ",
+      "ipa": "/ˈliːkɪdʒ/",
+      "meaning": "漏洩",
+      "booster": "leak（漏れる）に、行為・結果を表す名詞化接尾辞-ageがついた形。information leakage（情報漏洩）のように、水だけでなく情報が「漏れる」場合にも使われる。"
+    },
+    {
+      "word": "disadvantage",
+      "pos": "名",
+      "pronunciation": "ディスアドバンテージ",
+      "ipa": "/ˌdɪsədˈvæntɪdʒ/",
+      "meaning": "不利益",
+      "booster": "advantage（利点）に否定のdis-がついただけの単純構造。テニスの「アドバンテージ」でおなじみのadvantageと対で覚えれば一瞬で入る。"
+    },
+    {
+      "word": "entrant",
+      "pos": "名",
+      "pronunciation": "エントラント",
+      "ipa": "/ˈentrənt/",
+      "meaning": "参入者、新規参入企業",
+      "booster": "enter（入る）+antで「入る人・もの」。entrance（入り口）、entry（参入）と同語根で、market entrant（市場への新規参入者）のように使われる。"
+    },
+    {
+      "word": "entrust",
+      "pos": "動",
+      "pronunciation": "エントラスト",
+      "ipa": "/ɪnˈtrʌst/",
+      "meaning": "委託する、任せる",
+      "booster": "en-（〜にする）+trust（信頼）という構造で、「信頼して任せる」イメージ。trustee（受託者）も同じtrust語根の仲間。"
+    },
+    {
+      "word": "correlation",
+      "pos": "名",
+      "pronunciation": "コリレイション",
+      "ipa": "/ˌkɔːrəˈleɪʃən/",
+      "meaning": "相関関係",
+      "booster": "co-（共に）+relation（関係）で「相互に関係し合うこと」。統計用語correlation coefficient（相関係数）のように理系の文章にも頻出する語。"
+    },
+    {
+      "word": "unduly",
+      "pos": "副",
+      "pronunciation": "アンデューリー",
+      "ipa": "/ʌnˈduːli/",
+      "meaning": "過度に、不当に",
+      "booster": "un-（否定）+duly（正当に、due「当然の」の副詞形）で「正当な程度を超えて」のイメージ。dueは「支払い期限が来た」の意味でもおなじみ。"
+    },
+    {
+      "word": "lapse",
+      "pos": "名",
+      "pronunciation": "ラプス",
+      "ipa": "/læps/",
+      "meaning": "うっかりミス、（管理などの）ゆるみ",
+      "booster": "ラテン語labi（滑り落ちる）が語源。「気がゆるんで滑り落ちる」イメージから、小さな失敗や一時的な途絶えを指す。collapse（崩壊）も同じlab/laps語根。"
+    },
+    {
+      "word": "undergo",
+      "pos": "動",
+      "pronunciation": "アンダーゴー",
+      "ipa": "/ˌʌndərˈɡoʊ/",
+      "meaning": "（検査・治療などを）受ける、経験する",
+      "booster": "under（下に）+go（行く）の組み合わせで、「試練の下をくぐり抜ける」イメージ。undergo an operation（手術を受ける）は頻出コロケーション。"
+    },
+    {
+      "word": "accuracy",
+      "pos": "名",
+      "pronunciation": "アキュラシー",
+      "ipa": "/ˈækjərəsi/",
+      "meaning": "正確性",
+      "booster": "accurate（正確な）の名詞形。ラテン語ad-（〜へ）+cura（注意、curious「好奇心」と同語根）が語源で、「注意を払って仕上げた」精密さのイメージ。"
+    },
+    {
+      "word": "diabetes",
+      "pos": "名",
+      "pronunciation": "ダイアビーティーズ",
+      "ipa": "/ˌdaɪəˈbiːtiːz/",
+      "meaning": "糖尿病",
+      "booster": "ギリシャ語diabainein（通り抜ける）が語源で、「水分が体を素通りしてしまう病気」というイメージから名づけられた。医療系の長文で頻出する病名の一つ。"
+    },
+    {
+      "word": "venture",
+      "pos": "名",
+      "pronunciation": "ヴェンチャー",
+      "ipa": "/ˈventʃər/",
+      "meaning": "投機的事業、ベンチャー企業",
+      "booster": "adventure（冒険）から頭のadが落ちた語で、「危険を冒す事業」がもとの意味。venture capital（ベンチャーキャピタル）のように、新興企業への投資文脈で頻出。"
+    },
+    {
+      "word": "halt",
+      "pos": "動",
+      "pronunciation": "ホルト",
+      "ipa": "/hɔːlt/",
+      "meaning": "停止させる、止まる",
+      "booster": "ドイツ語halten（保持する、止まる）に由来。come to a halt（停止する）のように名詞としても使われ、stopよりやや硬い響きを持つ。"
+    },
+    {
+      "word": "solely",
+      "pos": "副",
+      "pronunciation": "ソウリー",
+      "ipa": "/ˈsoʊlli/",
+      "meaning": "もっぱら、単に",
+      "booster": "sole（唯一の、足の裏の意味もある）に副詞化の-lyがついた形。rely solely on〜（〜だけに頼る）のようにrely onとセットで覚えると使いやすい。"
+    },
+    {
+      "word": "utmost",
+      "pos": "形",
+      "pronunciation": "アトモースト",
+      "ipa": "/ˈʌtmoʊst/",
+      "meaning": "最大限の、この上ない",
+      "booster": "out（外へ）の最上級的な古い形utmostで、「これ以上外へ出られない限界」のイメージ。with utmost care（細心の注意を払って）は定型表現。"
+    },
+    {
+      "word": "acquired",
+      "pos": "形",
+      "pronunciation": "アクワイアード",
+      "ipa": "/əˈkwaɪərd/",
+      "meaning": "後天的な、習得した",
+      "booster": "acquire（獲得する＝ac-「〜へ」+quaerere「求める」）の過去分詞形。生まれつきのinnate/inbornと対で、「後から獲得した」性質を表す。"
+    },
+    {
+      "word": "reliability",
+      "pos": "名",
+      "pronunciation": "リライアビリティ",
+      "ipa": "/rɪˌlaɪəˈbɪləti/",
+      "meaning": "信頼性",
+      "booster": "rely（頼る）+able（できる）+-ityで「頼ることができる度合い」。rely on〜（〜に頼る）の名詞派生と覚えれば、reliable（信頼できる）ともつながる。"
+    },
+    {
+      "word": "examinee",
+      "pos": "名",
+      "pronunciation": "イグザミニー",
+      "ipa": "/ɪɡˌzæməˈniː/",
+      "meaning": "被験者、受験者",
+      "booster": "examine（検査する、試験する）に「〜される人」を表す接尾辞-eeがついた形。employ→employee（従業員）と同じ作りで、「調べられる側の人」を指す。"
+    }
+  ]
+}

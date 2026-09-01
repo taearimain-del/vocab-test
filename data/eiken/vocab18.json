@@ -1,0 +1,70 @@
+{
+  "number": 18,
+  "title": "AIによる採用選考",
+  "words": [
+    {
+      "word": "screen",
+      "pos": "動",
+      "pronunciation": "スクリーン",
+      "ipa": "skríːn",
+      "meaning": "ふるいにかける、選別する",
+      "booster": "「(画面の)スクリーン」と同じ語だが、動詞では「ふるいにかけて選び出す」の意味で頻出。"
+    },
+    {
+      "word": "resume",
+      "pos": "名",
+      "pronunciation": "レジュメイ",
+      "ipa": "rézumèi",
+      "meaning": "履歴書",
+      "booster": "フランス語résumé(要約)が語源。「経歴を要約したもの」。"
+    },
+    {
+      "word": "recruiter",
+      "pos": "名",
+      "pronunciation": "リクルーター",
+      "ipa": "rikrúːtər",
+      "meaning": "採用担当者",
+      "booster": "recruit(募集する)+-er(〜する人)。"
+    },
+    {
+      "word": "reinforce",
+      "pos": "動",
+      "pronunciation": "リーインフォース",
+      "ipa": "rìːinfɔ́ːrs",
+      "meaning": "強化する",
+      "booster": "re-(再び)+in-(中に)+force(力)。「さらに力を中に加える」が原義。"
+    },
+    {
+      "word": "bias",
+      "pos": "名",
+      "pronunciation": "バイアス",
+      "ipa": "báiəs",
+      "meaning": "偏見、偏り",
+      "booster": "フランス語biais(斜め)が語源。「まっすぐでない=偏った見方」。"
+    },
+    {
+      "word": "discrimination",
+      "pos": "名",
+      "pronunciation": "ディスクリミネイション",
+      "ipa": "diskrìmənéiʃən",
+      "meaning": "差別",
+      "booster": "discriminate(差別する、区別する)+-ion。dis-(離れて)+crimen(判断)。"
+    },
+    {
+      "word": "candidate",
+      "pos": "名",
+      "pronunciation": "キャンディデイト",
+      "ipa": "kǽndidèit",
+      "meaning": "候補者",
+      "booster": "ラテン語candidus(白い、清廉潔白な)が語源。古代ローマで候補者が白い服を着たことに由来。"
+    },
+    {
+      "word": "entry-level",
+      "pos": "形",
+      "pronunciation": "エントリーレベル",
+      "ipa": "éntri lèvəl",
+      "meaning": "初級レベルの、未経験者向けの",
+      "booster": "entry(入口)+level(段階)。「入口の段階」がそのまま意味に。"
+    }
+  ]
+}

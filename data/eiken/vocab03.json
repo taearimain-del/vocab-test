@@ -1,0 +1,70 @@
+{
+  "number": 3,
+  "title": "ギグエコノミーの光と影",
+  "words": [
+    {
+      "word": "freelance",
+      "pos": "形",
+      "pronunciation": "フリーランス",
+      "ipa": "frí:læns",
+      "meaning": "フリーランスの",
+      "booster": "free(自由な)+lance(槍)。中世の「主君を持たず自分の槍を自由に貸す傭兵」が語源。"
+    },
+    {
+      "word": "proponent",
+      "pos": "名",
+      "pronunciation": "プロポウネント",
+      "ipa": "prəpóunənt",
+      "meaning": "支持者",
+      "booster": "pro-(前へ)+ponere(置く)。「前に考えを置く人」→「主張する人」。opponent(反対者)の対義語。"
+    },
+    {
+      "word": "flexibility",
+      "pos": "名",
+      "pronunciation": "フレクシビリティ",
+      "ipa": "flèksəbíləti",
+      "meaning": "柔軟性",
+      "booster": "flex(曲げる)+-ibility。flexible(柔軟な)の名詞形。"
+    },
+    {
+      "word": "contractor",
+      "pos": "名",
+      "pronunciation": "コントラクター",
+      "ipa": "kəntræktər",
+      "meaning": "請負業者",
+      "booster": "contract(契約)+-or(〜する人)。independent contractor(個人事業主)の形で頻出。"
+    },
+    {
+      "word": "unpredictable",
+      "pos": "形",
+      "pronunciation": "アンプリディクタブル",
+      "ipa": "ʌ̀npridíktəbl",
+      "meaning": "予測できない",
+      "booster": "un-(否定)+predict(予測する、pre-前もって+dict言う)+-able。"
+    },
+    {
+      "word": "wage",
+      "pos": "名",
+      "pronunciation": "ウェイジ",
+      "ipa": "wéidʒ",
+      "meaning": "賃金",
+      "booster": "古フランス語wage(賭け金、報酬)が語源。minimum wage(最低賃金)の形でよく使う。"
+    },
+    {
+      "word": "maintenance",
+      "pos": "名",
+      "pronunciation": "メインテナンス",
+      "ipa": "méintənəns",
+      "meaning": "維持、整備",
+      "booster": "maintain(維持する)+-ance。vehicle maintenance(車両整備)のように使う。"
+    },
+    {
+      "word": "qualify",
+      "pos": "動",
+      "pronunciation": "クオリファイ",
+      "ipa": "kwάləfài",
+      "meaning": "資格を得る",
+      "booster": "quality(質)+-fy(〜にする)。「一定の質を満たす」が原義。"
+    }
+  ]
+}

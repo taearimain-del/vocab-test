@@ -1,0 +1,166 @@
+{
+  "number": 11,
+  "title": "高齢化社会のメリットとは？",
+  "words": [
+    {
+      "word": "demographic",
+      "pos": "形",
+      "pronunciation": "デモグラフィック",
+      "ipa": "/ˌdeməˈɡræfɪk/",
+      "meaning": "人口統計上の",
+      "booster": "ギリシャ語demos（民衆）+graphia（記述）が語源。democracy（民主主義＝demos+kratos「支配」）と同じdemos語根を持つ仲間。"
+    },
+    {
+      "word": "fertility",
+      "pos": "名",
+      "pronunciation": "ファータリティ",
+      "ipa": "/fərˈtɪləti/",
+      "meaning": "出生率",
+      "booster": "ラテン語fertilis（実り豊かな）由来。形容詞fertile（土地が肥沃な／多産の）の名詞形で、「土地が実る」イメージが「子を産む」意味にも広がった。"
+    },
+    {
+      "word": "compensate",
+      "pos": "動",
+      "pronunciation": "コンペンセイト",
+      "ipa": "/ˈkɑːmpənseɪt/",
+      "meaning": "埋め合わせる",
+      "booster": "ラテン語com-（共に）+pensare（秤にかける）が語源。「両方を天秤に乗せて釣り合わせる」イメージ。pension（年金）も同じpend/pens系（支払う）の親戚。"
+    },
+    {
+      "word": "longevity",
+      "pos": "名",
+      "pronunciation": "ロンジェヴィティ",
+      "ipa": "/lɑːnˈdʒevəti/",
+      "meaning": "長寿",
+      "booster": "ラテン語longus（長い）+aevum（生涯・時代）から。longという見た目そのままに「長く生きること」と覚えれば忘れない。"
+    },
+    {
+      "word": "workforce",
+      "pos": "名",
+      "pronunciation": "ワークフォース",
+      "ipa": "/ˈwɜːrkfɔːrs/",
+      "meaning": "労働力",
+      "booster": "work（仕事）+force（組織された人の集団）の複合語。air force（空軍）のforceと同じで、「働く人たちの集団」というイメージ。"
+    },
+    {
+      "word": "consecutive",
+      "pos": "形",
+      "pronunciation": "コンセキュティブ",
+      "ipa": "/kənˈsekjətɪv/",
+      "meaning": "連続した",
+      "booster": "con-（共に）+sequi（続く、ラテン語）が語源。sequence（連続・順序）、subsequent（その後の）と同じsequ語根の仲間。"
+    },
+    {
+      "word": "median",
+      "pos": "形",
+      "pronunciation": "ミーディアン",
+      "ipa": "/ˈmiːdiən/",
+      "meaning": "中央値の、中間の",
+      "booster": "ラテン語medius（真ん中の）由来。medium（中間・媒体）、mediate（仲裁する＝間に入る）と同じ語根で、「ちょうど真ん中」のイメージ。"
+    },
+    {
+      "word": "gloomy",
+      "pos": "形",
+      "pronunciation": "グルーミー",
+      "ipa": "/ˈɡluːmi/",
+      "meaning": "陰鬱な、暗い",
+      "booster": "gloom（薄暗がり、憂鬱）の形容詞形。天候にも心情にも使え、a gloomy sky（どんよりした空）、a gloomy future（暗い未来）のように広く用いられる。"
+    },
+    {
+      "word": "embrace",
+      "pos": "動",
+      "pronunciation": "エンブレイス",
+      "ipa": "/ɪmˈbreɪs/",
+      "meaning": "（考え方・状況を）受け入れる、抱きしめる",
+      "booster": "em-（〜の中に）+brace（腕、ラテン語bracchium）が語源で、文字通り「腕の中に抱え込む」。そこから比喩的に「進んで受け入れる」意味に発展した。"
+    },
+    {
+      "word": "burden",
+      "pos": "名",
+      "pronunciation": "バードゥン",
+      "ipa": "/ˈbɜːrdn/",
+      "meaning": "負担、重荷",
+      "booster": "古英語byrthenが語源で「運ぶもの」の意。bear（運ぶ・耐える）と語感が近く、「背負って運ぶ重荷」のイメージで覚えると定着しやすい。"
+    },
+    {
+      "word": "outperform",
+      "pos": "動",
+      "pronunciation": "アウトパフォーム",
+      "ipa": "/ˌaʊtpərˈfɔːrm/",
+      "meaning": "〜を上回る、〜より優れた成果を出す",
+      "booster": "out-（〜を超えて）+perform（成果を出す）の複合語。outdo, outnumber, outgrowなどout-系動詞は「他より優れる・上回る」という意味を作る便利な接頭辞。"
+    },
+    {
+      "word": "destiny",
+      "pos": "名",
+      "pronunciation": "デスティニー",
+      "ipa": "/ˈdestəni/",
+      "meaning": "運命",
+      "booster": "ラテン語destinare（固定する、定める）が語源。「あらかじめ定められた道」のイメージで、destined to〜（〜する運命にある）という形でもよく使われる。"
+    },
+    {
+      "word": "decline",
+      "pos": "動",
+      "pronunciation": "ディクライン",
+      "ipa": "/dɪˈklaɪn/",
+      "meaning": "減少する、衰退する",
+      "booster": "de-（下へ）+clinare（傾く、ラテン語）が語源で、「下方へ傾いていく」イメージ。名詞としても使われ、economic decline（経済の衰退）のように頻出する。"
+    },
+    {
+      "word": "terminal",
+      "pos": "形",
+      "pronunciation": "ターミナル",
+      "ipa": "/ˈtɜːrmənl/",
+      "meaning": "末期の、最終的な",
+      "booster": "ラテン語terminus（境界、終点）が語源。空港のterminal（終着駅・発着所）と同じ語根で、「これ以上先がない終わりの地点」のイメージ。"
+    },
+    {
+      "word": "symptom",
+      "pos": "名",
+      "pronunciation": "シンプトム",
+      "ipa": "/ˈsɪmptəm/",
+      "meaning": "症状、兆候",
+      "booster": "ギリシャ語syn-（共に）+piptein（落ちる）が語源で、「病気と一緒に現れ落ちてくるもの」のイメージ。医学的な症状だけでなく、社会問題の「兆候」の意味でも使われる。"
+    },
+    {
+      "word": "lifespan",
+      "pos": "名",
+      "pronunciation": "ライフスパン",
+      "ipa": "/ˈlaɪfspæn/",
+      "meaning": "寿命",
+      "booster": "life（生命）+span（一続きの期間、橋のスパンと同じ語）の複合語。「生きている期間の長さ」をそのまま表す分かりやすい単語。"
+    },
+    {
+      "word": "childlessness",
+      "pos": "名",
+      "pronunciation": "チャイルドレスネス",
+      "ipa": "/ˈtʃaɪldləsnəs/",
+      "meaning": "子供がいないこと",
+      "booster": "child（子供）に欠如を表す-less、さらに名詞化の-nessがついた形。careless（不注意な）と同じ-lessパターンで、「子を持たない状態」を表す。"
+    },
+    {
+      "word": "proportion",
+      "pos": "名",
+      "pronunciation": "プロポーション",
+      "ipa": "/prəˈpɔːrʃən/",
+      "meaning": "割合、比率",
+      "booster": "pro-（〜に応じて）+portion（部分、割り当て）が語源。「全体に対する部分の釣り合い」がもとの意味で、in proportion to〜（〜に比例して）という形も頻出。"
+    },
+    {
+      "word": "dependent",
+      "pos": "形",
+      "pronunciation": "ディペンデント",
+      "ipa": "/dɪˈpendənt/",
+      "meaning": "依存している",
+      "booster": "de-（下に）+pendere（ぶら下がる）が語源で、「何かにぶら下がって支えられている」イメージ。depend on〜（〜に頼る）の形容詞形で、independent（独立した）は反対語。"
+    },
+    {
+      "word": "exception",
+      "pos": "名",
+      "pronunciation": "イクセプション",
+      "ipa": "/ɪkˈsepʃən/",
+      "meaning": "例外",
+      "booster": "ex-（外に）+capere（取る）が語源で、「全体の枠から外に取り出されたもの」のイメージ。exceptional（例外的な、傑出した）ともつながる。"
+    }
+  ]
+}

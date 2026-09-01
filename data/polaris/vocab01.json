@@ -1,0 +1,166 @@
+{
+  "number": 1,
+  "title": "運動の「やる気スイッチ」は意外な場所にある",
+  "words": [
+    {
+      "word": "sedentary",
+      "pos": "形",
+      "pronunciation": "セデンタリー",
+      "ipa": "sédəntèri",
+      "meaning": "座りがちな",
+      "booster": "ラテン語sedere(座る)が語源。sit(座る)と同じ根っこを持ち、seat(座席)やsession(会議=座っている時間)とも仲間。"
+    },
+    {
+      "word": "microbiome",
+      "pos": "名",
+      "pronunciation": "マイクロバイオーム",
+      "ipa": "màikroubáioum",
+      "meaning": "微生物叢",
+      "booster": "micro(微小)+biome(生物群系)の合成語。bio-はbiology・biographyと同じ「命・生命」を表す語根で、体内に棲む微生物の集合体をイメージ。"
+    },
+    {
+      "word": "endurance",
+      "pos": "名",
+      "pronunciation": "インデュランス",
+      "ipa": "indjúərəns",
+      "meaning": "持久力",
+      "booster": "ラテン語durare(持続する)由来。durable(耐久性のある)と同語根で、endure(耐え忍ぶ)に名詞語尾-anceがついた形。"
+    },
+    {
+      "word": "voluntary",
+      "pos": "形",
+      "pronunciation": "ヴォランタリー",
+      "ipa": "váləntèri",
+      "meaning": "自発的な",
+      "booster": "ラテン語voluntas(意志)が語源。volunteer(ボランティア=自分の意志で動く人)と兄弟語で、「自分の意志で」という核イメージが共通。"
+    },
+    {
+      "word": "irreversibly",
+      "pos": "副",
+      "pronunciation": "イリバーシブリー",
+      "ipa": "ìrivə́ːrsəbli",
+      "meaning": "不可逆的に",
+      "booster": "ir-(否定)+reverse(逆にする、ラテン語vertere=向きを変える)+-ibly。「元の向きに戻せないほどに」というイメージで覚える。"
+    },
+    {
+      "word": "coronary",
+      "pos": "形",
+      "pronunciation": "コロナリー",
+      "ipa": "kɔ́ːrənèri",
+      "meaning": "冠状動脈の",
+      "booster": "ラテン語corona(王冠)が語源。心臓を王冠のように取り巻く血管を指す言葉で、crown(王冠)やcoronation(戴冠式)と同じ根を持つ。"
+    },
+    {
+      "word": "dwell",
+      "pos": "動",
+      "pronunciation": "ドゥエル",
+      "ipa": "dwel",
+      "meaning": "住む、とどまる",
+      "booster": "古英語dwellan(迷う・とどまる)が語源。dwelling(住居)、dweller(住民)と同根で、本文では腸内に「棲みつく」細菌を指す。"
+    },
+    {
+      "word": "transplanted",
+      "pos": "動",
+      "pronunciation": "トランスプランティッド",
+      "ipa": "trænsplǽntid",
+      "meaning": "移植された",
+      "booster": "trans-(向こうへ)+plant(植える)。原義は「別の場所へ植え替える」で、臓器移植のtransplantも同じ語根から来ている。"
+    },
+    {
+      "word": "neurotransmitter",
+      "pos": "名",
+      "pronunciation": "ニューロトランスミッター",
+      "ipa": "njùːroutrænsmítər",
+      "meaning": "神経伝達物質",
+      "booster": "neuro-(神経、ギリシャ語neuron)+transmit(送る、trans-越えて+mittere送る)+-er。神経細胞から細胞へ情報を運ぶ「送り届け役」の物質というイメージ。"
+    },
+    {
+      "word": "premature",
+      "pos": "形",
+      "pronunciation": "プリマチュア",
+      "ipa": "prìːmətʃúər",
+      "meaning": "早すぎる、時期尚早の",
+      "booster": "pre-(前に)+mature(成熟した、ラテン語maturus)。「成熟する前の」が直訳で、本文のpremature deaths(早すぎる死)のように「本来の時期より早い」ことを表す。"
+    },
+    {
+      "word": "inherited",
+      "pos": "形",
+      "pronunciation": "インヘリティッド",
+      "ipa": "inhéritid",
+      "meaning": "遺伝性の、受け継がれた",
+      "booster": "heritage(遺産)やheir(相続人)と同語源。ラテン語hereditareが元で、「親から受け継いだ」性質を指し、本文ではinherited traits(遺伝形質)として登場。"
+    },
+    {
+      "word": "conversely",
+      "pos": "副",
+      "pronunciation": "コンバースリー",
+      "ipa": "kənvə́ːrsli",
+      "meaning": "逆に、それとは対照的に",
+      "booster": "converse(逆の、con-共に+vertere向きを変える)+-ly。universe(全てが一つに向かう)やreverse(逆にする)と同じvert-語根の仲間で「向きが反転する」イメージ。"
+    },
+    {
+      "word": "inclined",
+      "pos": "形",
+      "pronunciation": "インクラインド",
+      "ipa": "inkláind",
+      "meaning": "傾向がある、〜したい気持ちがある",
+      "booster": "ラテン語clinare(傾く)が語源で、incline(傾ける)+-ed。心がある方向に「傾く」イメージから「〜する気になる」を表し、decline(下に傾く=断る)やclimate(気候)とも同語源。"
+    },
+    {
+      "word": "trigger",
+      "pos": "動",
+      "pronunciation": "トリガー",
+      "ipa": "trígər",
+      "meaning": "引き起こす、誘発する",
+      "booster": "もとは銃の「引き金」を指す名詞。引き金を引くと連鎖的に発砲が起こることから、「ある出来事のきっかけを作る」という動詞の意味に発展した。"
+    },
+    {
+      "word": "substantially",
+      "pos": "副",
+      "pronunciation": "サブスタンシャリー",
+      "ipa": "səbstǽnʃəli",
+      "meaning": "かなり、相当に",
+      "booster": "substance(実質、ラテン語substare=下に立つ)+-ial+-ly。「実質を伴うほどの量」というイメージで、「かなりの程度」を表す。"
+    },
+    {
+      "word": "counterpart",
+      "pos": "名",
+      "pronunciation": "カウンターパート",
+      "ipa": "káuntərpὰːrt",
+      "meaning": "対応するもの、相当するもの",
+      "booster": "counter-(対応して)+part(部分)。「向かい合う部分」が原義で、本文では活発なマウスに「対応する」活発でない個体を指す。"
+    },
+    {
+      "word": "deplete",
+      "pos": "動",
+      "pronunciation": "ディプリート",
+      "ipa": "diplíːt",
+      "meaning": "枯渇させる、使い果たす",
+      "booster": "de-(完全に)+plere(満たす、ラテン語)。complete(完全に満たす)やsupply(補給)と同語根で、「満ちていたものを空にする」がコアイメージ。"
+    },
+    {
+      "word": "sustain",
+      "pos": "動",
+      "pronunciation": "サステイン",
+      "ipa": "səstéin",
+      "meaning": "持続させる、支える",
+      "booster": "sus-(下から)+tenere(保つ、ラテン語)。sustainable(持続可能な)と同語源で、「下から支え続ける」イメージ。"
+    },
+    {
+      "word": "trait",
+      "pos": "名",
+      "pronunciation": "トレイト",
+      "ipa": "treit",
+      "meaning": "形質、特徴",
+      "booster": "フランス語trait(引かれた線)が語源。ラテン語trahere(引く)から来ており、tractor(トラクター=引っ張る機械)と同根で「引き出された一本の特徴」というイメージ。"
+    },
+    {
+      "word": "influence",
+      "pos": "動",
+      "pronunciation": "インフルエンス",
+      "ipa": "ínfluəns",
+      "meaning": "影響を与える",
+      "booster": "in-(中へ)+fluere(流れる、ラテン語)。fluid(流動体)と同語根で、「見えない力が流れ込んで作用する」イメージ。"
+    }
+  ]
+}

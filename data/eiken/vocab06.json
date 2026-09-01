@@ -1,0 +1,70 @@
+{
+  "number": 6,
+  "title": "再生可能エネルギー補助金",
+  "words": [
+    {
+      "word": "subsidy",
+      "pos": "名",
+      "pronunciation": "サブスィディ",
+      "ipa": "sʌ́bsədi",
+      "meaning": "補助金",
+      "booster": "sub-(下から)+sidere(座る、支える)。「下から支える資金」というイメージ。"
+    },
+    {
+      "word": "adoption",
+      "pos": "名",
+      "pronunciation": "アダプション",
+      "ipa": "ədάpʃən",
+      "meaning": "採用、導入",
+      "booster": "adopt(採用する)+-ion(名詞化)。「自分のものとして取り入れること」。"
+    },
+    {
+      "word": "credit",
+      "pos": "名",
+      "pronunciation": "クレディット",
+      "ipa": "krédit",
+      "meaning": "控除、信用",
+      "booster": "ラテン語credere(信じる)が語源。tax credit(税額控除)の形で頻出。"
+    },
+    {
+      "word": "compete",
+      "pos": "動",
+      "pronunciation": "コンピート",
+      "ipa": "kəmpíːt",
+      "meaning": "競争する",
+      "booster": "com-(共に)+petere(求める)。「共に同じものを求めて争う」が原義。"
+    },
+    {
+      "word": "burden",
+      "pos": "名",
+      "pronunciation": "バードゥン",
+      "ipa": "bə́ːrdn",
+      "meaning": "負担",
+      "booster": "古英語byrthen(運ぶもの)が語源。heavy burden(重い負担)の形でよく使う。"
+    },
+    {
+      "word": "phase out",
+      "pos": "句動",
+      "pronunciation": "フェイズ アウト",
+      "ipa": "féiz áut",
+      "meaning": "段階的に廃止する",
+      "booster": "phase(段階)+out(外へ)。「段階を踏みながら外に出していく」イメージ。"
+    },
+    {
+      "word": "profit",
+      "pos": "名",
+      "pronunciation": "プロフィット",
+      "ipa": "prάfit",
+      "meaning": "利益",
+      "booster": "ラテン語proficere(進歩する)由来。turn a profit(利益を出す)の形で使う。"
+    },
+    {
+      "word": "taxpayer",
+      "pos": "名",
+      "pronunciation": "タックスペイヤー",
+      "ipa": "tǽkspèiər",
+      "meaning": "納税者",
+      "booster": "tax(税)+payer(支払う人)。そのまま「税を払う人」。"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "number": 4,
+  "title": "ジェスチャーと言葉は脳の同じ領域を使っている",
+  "words": [
+    {
+      "word": "nonverbal",
+      "pos": "形",
+      "pronunciation": "ノンバーバル",
+      "ipa": "nὰnvə́rbəl",
+      "meaning": "非言語の",
+      "booster": "non-(否定)+verbal(言葉の)。verbal・verb(動詞)・verbose(冗長な)はすべてラテン語verbum「言葉」が語源で、nonverbalはその真逆、「言葉によらない」を表す。"
+    },
+    {
+      "word": "orchestrate",
+      "pos": "動",
+      "pronunciation": "オーケストレイト",
+      "ipa": "ɔ́rkistrèit",
+      "meaning": "まとめ上げる",
+      "booster": "orchestra(オーケストラ)が語源。指揮者が多様な楽器を一つにまとめるイメージから、「(計画・要素などを)巧みに指揮してまとめ上げる」の意味になった。"
+    },
+    {
+      "word": "empathize",
+      "pos": "動",
+      "pronunciation": "エンパサイズ",
+      "ipa": "émpəθàiz",
+      "meaning": "共感する",
+      "booster": "em-(中へ)+pathy(感情、ギリシャ語pathos)。sympathy(同情)と同じ語根pathosを持つが、symが「共に」感じるのに対しemは相手の「内側に入って」感じるニュアンス。"
+    },
+    {
+      "word": "incongruent",
+      "pos": "形",
+      "pronunciation": "インコングルーエント",
+      "ipa": "ìnkɑ́ŋgruənt",
+      "meaning": "不一致の",
+      "booster": "in-(否定)+congruent(一致した)。congruentは数学の「合同」でもおなじみの語で、in-がつくと図形や意見が「噛み合わない、食い違う」の意味になる。"
+    },
+    {
+      "word": "dissonance",
+      "pos": "名",
+      "pronunciation": "ディソナンス",
+      "ipa": "dísənəns",
+      "meaning": "不協和",
+      "booster": "dis-(不一致)+sonance(音、ラテン語sonus)。soundやsonic(音の)と同語源で、音楽の「不協和音」が原義。そこから意見や感情の「食い違い」も表すようになった。"
+    },
+    {
+      "word": "discrete",
+      "pos": "形",
+      "pronunciation": "ディスクリート",
+      "ipa": "diskrít",
+      "meaning": "個別の",
+      "booster": "dis-(分離)+crete(分かれた)で「他とは切り離され独立した」がイメージ。数学の「離散的な」も同じ単語。似た綴りのdiscreet(思慮深い)と混同しやすいので要注意。"
+    },
+    {
+      "word": "perceive",
+      "pos": "動",
+      "pronunciation": "パーシーヴ",
+      "ipa": "pərsív",
+      "meaning": "知覚する",
+      "booster": "per-(徹底的に)+ceive(掴む、ラテン語capere)。「隅々まで掴み取る」が原義で、五感や直感で「知覚する」の意味に。conceive(思いつく)、receive(受け取る)と同じcapere系の仲間。"
+    },
+    {
+      "word": "comprehension",
+      "pos": "名",
+      "pronunciation": "コンプリヘンション",
+      "ipa": "kὰmprihénʃən",
+      "meaning": "理解(力)",
+      "booster": "com-(完全に)+prehend(掴む、ラテン語prehendere)。「全体をがっちり掴む」イメージが「理解」につながる。comprehensive(包括的な)、apprehend(逮捕する=身柄を掴む)も同語源の仲間。"
+    },
+    {
+      "word": "foremost",
+      "pos": "形",
+      "pronunciation": "フォアモスト",
+      "ipa": "fɔ́rmòust",
+      "meaning": "最も重要な、一流の",
+      "booster": "fore-(前の)+most(最も)。「一番前に立つ」イメージから「最も重要な、第一人者の」の意味に。foreheadやforecastと同じfore-「前」ファミリー。"
+    },
+    {
+      "word": "dominant",
+      "pos": "形",
+      "pronunciation": "ドミナント",
+      "ipa": "dɑ́mənənt",
+      "meaning": "優位な、支配的な",
+      "booster": "ラテン語dominus(主人)が語源。dominate(支配する)、dominion(支配権)と同じ仲間で、「利き手」を指すdominant handのように「主となる、優勢な」を表す。"
+    },
+    {
+      "word": "mismatch",
+      "pos": "名",
+      "pronunciation": "ミスマッチ",
+      "ipa": "mísmætʃ",
+      "meaning": "不一致、食い違い",
+      "booster": "mis-(誤った)+match(組み合わせ)。日本語のカタカナ語「ミスマッチ」そのままで、「噛み合わない組み合わせ」を意味する。本文では言葉とジェスチャーの「食い違い」を指す。"
+    },
+    {
+      "word": "crucial",
+      "pos": "形",
+      "pronunciation": "クルーシャル",
+      "ipa": "krúʃəl",
+      "meaning": "極めて重要な",
+      "booster": "ラテン語crux(十字架)が語源。十字路で進路を決める「決定的瞬間」のイメージから「極めて重要な」の意味に。crucifix(十字架像)と同語源の意外な仲間。"
+    },
+    {
+      "word": "convey",
+      "pos": "動",
+      "pronunciation": "コンヴェイ",
+      "ipa": "kənvéi",
+      "meaning": "伝える、運ぶ",
+      "booster": "con-(共に)+vey(運ぶ、ラテン語viaに由来)。vehicle(乗り物)やvoyage(航海)と同語源で、「情報や意味を運んで伝える」というイメージ。"
+    },
+    {
+      "word": "integrate",
+      "pos": "動",
+      "pronunciation": "インテグレイト",
+      "ipa": "íntəgrèit",
+      "meaning": "統合する",
+      "booster": "ラテン語integer(全体の、無傷の)が語源。in-(否定)+tangere(触れる)で「触れられていない=欠けのない全体」。バラバラな要素を一つの全体にまとめる、が原義。"
+    },
+    {
+      "word": "fascinating",
+      "pos": "形",
+      "pronunciation": "ファシネイティング",
+      "ipa": "fǽsənèitiŋ",
+      "meaning": "魅力的な、興味をそそる",
+      "booster": "fascinate(魅了する)の現在分詞形。ラテン語fascinare(魔法をかける)が語源で、「呪文にかけられたように引き込まれる」イメージ。"
+    },
+    {
+      "word": "originate",
+      "pos": "動",
+      "pronunciation": "オリジネイト",
+      "ipa": "ərídʒənèit",
+      "meaning": "起源を持つ、生じる",
+      "booster": "origin(起源)+ -ate(〜化する)。original(独創的な)と同語源で、「あるものが最初に生まれ出る」イメージ。"
+    },
+    {
+      "word": "cluster",
+      "pos": "名",
+      "pronunciation": "クラスター",
+      "ipa": "klʌ́stər",
+      "meaning": "集団、集まり",
+      "booster": "元々は「ぶどうなどの房」を指す語。そこから同じ性質のものが房状に「かたまって集まったもの」を意味するようになった。コンピュータのクラスターも同じ発想。"
+    },
+    {
+      "word": "cooperate",
+      "pos": "動",
+      "pronunciation": "コウオペレイト",
+      "ipa": "kouɑ́pərèit",
+      "meaning": "協力する",
+      "booster": "co-(共に)+operate(働く、ラテン語operari)。「共に働く」が直訳で、operation(作戦・手術)ともつながる仲間。"
+    },
+    {
+      "word": "confirm",
+      "pos": "動",
+      "pronunciation": "コンファーム",
+      "ipa": "kənfə́rm",
+      "meaning": "確認する、裏付ける",
+      "booster": "con-(完全に)+firm(固い、確かな)。「しっかり固める」が原義で、「(仮説・予約などを)確定させる、裏付ける」の意味になった。"
+    },
+    {
+      "word": "demonstrate",
+      "pos": "動",
+      "pronunciation": "デモンストレイト",
+      "ipa": "démənstrèit",
+      "meaning": "実証する、示す",
+      "booster": "de-(強調)+monstrate(示す、ラテン語monstrare)。monster(怪物、本来は神の警告として示されるもの)と同語源で、「はっきりと示して見せる」がコア。"
+    }
+  ]
+}

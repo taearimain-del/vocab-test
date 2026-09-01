@@ -1,0 +1,70 @@
+{
+  "number": 28,
+  "title": "有給育児休暇の義務化",
+  "words": [
+    {
+      "word": "parental",
+      "pos": "形",
+      "pronunciation": "パレンタル",
+      "ipa": "pəréntl",
+      "meaning": "親の",
+      "booster": "parent(親)+-al(形容詞化)。"
+    },
+    {
+      "word": "bond",
+      "pos": "動",
+      "pronunciation": "バンド",
+      "ipa": "bάnd",
+      "meaning": "絆を結ぶ、結びつく",
+      "booster": "そのまま「結びつき」を表す語。名詞にも動詞にもなる。"
+    },
+    {
+      "word": "absence",
+      "pos": "名",
+      "pronunciation": "アブセンス",
+      "ipa": "ǽbsəns",
+      "meaning": "不在、欠席",
+      "booster": "absent(不在の)+-ce(名詞化)。ab-(離れて)+esse(いる、ラテン語)。"
+    },
+    {
+      "word": "temporary",
+      "pos": "形",
+      "pronunciation": "テンポラリー",
+      "ipa": "témpərèri",
+      "meaning": "一時的な",
+      "booster": "ラテン語tempus(時間)が語源。「一時の、時間限定の」。"
+    },
+    {
+      "word": "generous",
+      "pos": "形",
+      "pronunciation": "ジェネラス",
+      "ipa": "dʒénərəs",
+      "meaning": "気前の良い、寛大な",
+      "booster": "ラテン語genus(生まれ、家柄)が語源。「高貴な生まれにふさわしい寛大さ」から転じた。"
+    },
+    {
+      "word": "consistent",
+      "pos": "形",
+      "pronunciation": "コンスィステント",
+      "ipa": "kənsístənt",
+      "meaning": "一貫した",
+      "booster": "con-(共に)+sistere(立つ、ラテン語)。「共にしっかり立っている」が原義。"
+    },
+    {
+      "word": "involved",
+      "pos": "形",
+      "pronunciation": "インヴァルヴド",
+      "ipa": "invάlvd",
+      "meaning": "関わっている、熱心な",
+      "booster": "involve(巻き込む)+-ed。in-(中に)+volvere(巻く)。"
+    },
+    {
+      "word": "client",
+      "pos": "名",
+      "pronunciation": "クライアント",
+      "ipa": "kláiənt",
+      "meaning": "顧客",
+      "booster": "ラテン語cliens(保護を受ける者)が語源。"
+    }
+  ]
+}

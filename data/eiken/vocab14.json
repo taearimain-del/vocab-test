@@ -1,0 +1,70 @@
+{
+  "number": 14,
+  "title": "自動運転車の安全性",
+  "words": [
+    {
+      "word": "autonomous",
+      "pos": "形",
+      "pronunciation": "オータナマス",
+      "ipa": "ɔːtάnəməs",
+      "meaning": "自律型の",
+      "booster": "auto-(自己)+nomos(法、ギリシャ語)。「自分自身の法則で動く」が原義。"
+    },
+    {
+      "word": "sensor",
+      "pos": "名",
+      "pronunciation": "センサー",
+      "ipa": "sénsər",
+      "meaning": "センサー、感知装置",
+      "booster": "sense(感知する)+-or(装置・人)。"
+    },
+    {
+      "word": "distraction",
+      "pos": "名",
+      "pronunciation": "ディストラクション",
+      "ipa": "distrǽkʃən",
+      "meaning": "注意散漫",
+      "booster": "dis-(離れて)+tract(引く)+-ion。「注意を引き離すもの」。"
+    },
+    {
+      "word": "fatigue",
+      "pos": "名",
+      "pronunciation": "ファティーグ",
+      "ipa": "fətíːg",
+      "meaning": "疲労",
+      "booster": "フランス語fatiguer(疲れさせる)が語源。"
+    },
+    {
+      "word": "high-profile",
+      "pos": "形",
+      "pronunciation": "ハイプロファイル",
+      "ipa": "hái próufail",
+      "meaning": "注目度の高い",
+      "booster": "high(高い)+profile(輪郭、知名度)。「世間の注目を集める」の意味。"
+    },
+    {
+      "word": "liability",
+      "pos": "名",
+      "pronunciation": "ライアビリティ",
+      "ipa": "làiəbíləti",
+      "meaning": "法的責任",
+      "booster": "liable(責任のある)+-ity(名詞化)。"
+    },
+    {
+      "word": "regulator",
+      "pos": "名",
+      "pronunciation": "レギュレイター",
+      "ipa": "régjulèitər",
+      "meaning": "規制当局",
+      "booster": "regulate(規制する)+-or(〜する人・機関)。"
+    },
+    {
+      "word": "lawsuit",
+      "pos": "名",
+      "pronunciation": "ローステュート",
+      "ipa": "lɔ́ːsùːt",
+      "meaning": "訴訟",
+      "booster": "law(法律)+suit(訴え)。そのまま「法的な訴え」。"
+    }
+  ]
+}

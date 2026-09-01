@@ -1,0 +1,166 @@
+{
+  "number": 9,
+  "title": "恐竜は鳥か爬虫類か、それとも……",
+  "words": [
+    {
+      "word": "metabolism",
+      "ipa": "mətǽbəlìzəm",
+      "pos": "名",
+      "pronunciation": "メタボリズム",
+      "meaning": "代謝",
+      "booster": "ギリシャ語meta-(変化)+ballein(投げる)が語源。「体の中で物質を変化させて投げ出す働き」がそのまま代謝の意味に。日本語の「メタボ(メタボリック症候群)」もこの語根から。"
+    },
+    {
+      "word": "ectotherm",
+      "ipa": "éktouθə̀rm",
+      "pos": "名",
+      "pronunciation": "エクトサーム",
+      "meaning": "外温動物",
+      "booster": "ecto-(外側、ギリシャ語)+therm(熱)。exoskeleton(外骨格)のexoと近い仲間で、「体の外から熱をもらう動物」=変温動物。thermometer(温度計)もtherm仲間。"
+    },
+    {
+      "word": "endotherm",
+      "ipa": "éndouθə̀rm",
+      "pos": "名",
+      "pronunciation": "エンドサーム",
+      "meaning": "内温動物",
+      "booster": "endo-(内側、ギリシャ語)+therm(熱)。endoscope(内視鏡)のendoと同じで、「体の内側で熱を作る動物」=温血動物。ectothermと対で覚えると効率的。"
+    },
+    {
+      "word": "paleontologist",
+      "ipa": "pèiliɑ̀ntɑ́lədʒist",
+      "pos": "名",
+      "pronunciation": "ペイリアントロジスト",
+      "meaning": "古生物学者",
+      "booster": "paleo-(古い、ギリシャ語palaios)+onto(存在)+-logist(〜を研究する人)。Paleolithic(旧石器時代)も同じpaleo語根で、「大昔の生き物を研究する人」というそのままの成り立ち。"
+    },
+    {
+      "word": "sluggard",
+      "ipa": "slʌ́gərd",
+      "pos": "名",
+      "pronunciation": "スラガード",
+      "meaning": "のろまな生き物",
+      "booster": "slug(ナメクジ)+ard(〜する人、やや軽蔑的な接尾辞)。ナメクジのようにのろのろした人・生物というイメージそのままの単語。drunkard(酒飲み)も同じ-ard仲間。"
+    },
+    {
+      "word": "rekindle",
+      "ipa": "rìːkíndl",
+      "pos": "動",
+      "pronunciation": "リーキンドル",
+      "meaning": "再燃させる",
+      "booster": "re-(再び)+kindle(火をつける)。「再び火をつける」が原義で、議論・興味などを「再燃させる」の意味に。kindling(焚き付け)も同語根。"
+    },
+    {
+      "word": "bask",
+      "ipa": "bǽsk",
+      "pos": "動",
+      "pronunciation": "バスク",
+      "meaning": "日光浴する",
+      "booster": "「日光や暖かさの中で心地よく過ごす」という意味の動詞。ナメクジ的なsluggard(のろま)が日向ぼっこするイメージとセットで覚えると本文と結びつきやすい。"
+    },
+    {
+      "word": "simplistic",
+      "ipa": "simplístik",
+      "pos": "形",
+      "pronunciation": "シンプリスティック",
+      "meaning": "単純化しすぎた",
+      "booster": "simple(単純な)+-istic(〜的な)。simpleより「単純化しすぎて浅はか」という否定的ニュアンスが強い点に注意。simplify(単純化する)と混同しないこと。"
+    },
+    {
+      "word": "spectrum",
+      "ipa": "spéktrəm",
+      "pos": "名",
+      "pronunciation": "スペクトラム",
+      "meaning": "範囲、スペクトル",
+      "booster": "ラテン語specere「見る」が語源。「見えるものの範囲」が原義で、光のスペクトルから転じて「連続的な範囲・幅」の意味に。spectacle(見世物)、inspect(点検する)も同じspec仲間。"
+    },
+    {
+      "word": "census",
+      "ipa": "sénsəs",
+      "pos": "名",
+      "pronunciation": "センサス",
+      "meaning": "調査、集計",
+      "booster": "ラテン語censere「評価する、査定する」が語源。人口調査を意味するcensusはそのまま英語化した語。censor(検閲官=評価する人)も同じ語根。"
+    },
+    {
+      "word": "extinct",
+      "ipa": "ikstíŋkt",
+      "pos": "形",
+      "pronunciation": "イクスティンクト",
+      "meaning": "絶滅した",
+      "booster": "ラテン語ex-(外へ)+stinguere(消す)が語源。「完全に消え去った」が原義で「絶滅した」に。extinguish(消火する)も同じ語根の仲間。"
+    },
+    {
+      "word": "correlation",
+      "ipa": "kɔ̀rəléiʃən",
+      "pos": "名",
+      "pronunciation": "コリレイション",
+      "meaning": "相関",
+      "booster": "cor-(共に)+relation(関係)。「互いに関係し合うこと」=相関。correlate(相関する)、relate(関連づける)と合わせて覚える。"
+    },
+    {
+      "word": "reptilian",
+      "ipa": "reptíliən",
+      "pos": "形",
+      "pronunciation": "レプティリアン",
+      "meaning": "爬虫類の",
+      "booster": "reptile(爬虫類)の形容詞形。ラテン語repere「這う」が語源で、「地を這うもの」が原義。本文のreptilian brutes(爬虫類のような獣)のように、やや否定的なニュアンスで使われることもある。"
+    },
+    {
+      "word": "capitalize",
+      "ipa": "kǽpitəlàiz",
+      "pos": "動",
+      "pronunciation": "キャピタライズ",
+      "meaning": "(~を)利用する、活用する",
+      "booster": "capital(元手、資本)が語源で「資本にする」が原義。capitalize on ~の形で「~を(自分の利益のために)うまく利用する」という意味になる頻出表現。"
+    },
+    {
+      "word": "tabulate",
+      "ipa": "tǽbjəlèit",
+      "pos": "動",
+      "pronunciation": "タビュレイト",
+      "meaning": "表にまとめる、集計する",
+      "booster": "ラテン語tabula「板、表」が語源。table(表、テーブル)と同語源で、「データを表の形に整理する」がそのまま意味に直結する。"
+    },
+    {
+      "word": "expend",
+      "ipa": "ikspénd",
+      "pos": "動",
+      "pronunciation": "イクスペンド",
+      "meaning": "費やす、消費する",
+      "booster": "ex-(外へ)+pendere(ラテン語「支払う、量る」)が語源で「外へ支払い出す」が原義。expense(費用)、expenditure(支出)も同じpend仲間。spend(費やす)と意味が近いのでセットで覚える。"
+    },
+    {
+      "word": "peculiarity",
+      "ipa": "pikjùːliǽrəti",
+      "pos": "名",
+      "pronunciation": "ピキュリアリティ",
+      "meaning": "特異性、風変わりな点",
+      "booster": "peculiar(独特の、奇妙な)の名詞形。ラテン語peculium「私有財産」が語源で、「その人(もの)だけが持つ特有のもの」が原義。"
+    },
+    {
+      "word": "pinpoint",
+      "ipa": "pínpòint",
+      "pos": "動",
+      "pronunciation": "ピンポイント",
+      "meaning": "正確に特定する",
+      "booster": "pin(ピン)+point(点)で「ピンで刺すように一点を指し示す」が原義。日本語の「ピンポイントで」というカタカナ語とほぼ同じ感覚で使える。"
+    },
+    {
+      "word": "massive",
+      "ipa": "mǽsiv",
+      "pos": "形",
+      "pronunciation": "マッシブ",
+      "meaning": "大規模な、巨大な",
+      "booster": "mass(かたまり、質量)の形容詞形。「大きなかたまりのような」が原義で、規模や量の大きさを強調する語。massive study(大規模な研究)のように学術的文脈でも頻出。"
+    },
+    {
+      "word": "long-standing",
+      "ipa": "lɔ́ːŋstæ̀ndiŋ",
+      "pos": "形",
+      "pronunciation": "ロングスタンディング",
+      "meaning": "長年にわたる、根強い",
+      "booster": "long(長い)+standing(立っている、存在している)の複合語で「長い間存在し続けている」が原義。本文のlong-standing debate(長年続く論争)のように、議論や伝統・問題に対してよく使われる。"
+    }
+  ]
+}

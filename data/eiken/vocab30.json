@@ -1,0 +1,70 @@
+{
+  "number": 30,
+  "title": "都市部の混雑税",
+  "words": [
+    {
+      "word": "designated",
+      "pos": "形",
+      "pronunciation": "デズィグネイティド",
+      "ipa": "dézignèitid",
+      "meaning": "指定された",
+      "booster": "designate(指定する)+-ed。de-(はっきりと)+signare(印をつける、ラテン語)。"
+    },
+    {
+      "word": "implement",
+      "pos": "動",
+      "pronunciation": "インプリメント",
+      "ipa": "ímpləmènt",
+      "meaning": "実施する",
+      "booster": "ラテン語implere(満たす)が語源。「道具を用いて仕事を満たし遂げる」イメージ。"
+    },
+    {
+      "word": "reinvest",
+      "pos": "動",
+      "pronunciation": "リーインヴェスト",
+      "ipa": "rìːinvést",
+      "meaning": "再投資する",
+      "booster": "re-(再び)+invest(投資する)。"
+    },
+    {
+      "word": "commerce",
+      "pos": "名",
+      "pronunciation": "カマース",
+      "ipa": "kάmərs",
+      "meaning": "商業",
+      "booster": "com-(共に)+merx(商品、ラテン語)。「商品を共にやり取りすること」。"
+    },
+    {
+      "word": "lower-income",
+      "pos": "形",
+      "pronunciation": "ロウアー インカム",
+      "ipa": "lóuər ínkʌm",
+      "meaning": "低所得の",
+      "booster": "lower(より低い)+income(収入)。"
+    },
+    {
+      "word": "offset",
+      "pos": "動",
+      "pronunciation": "オフセット",
+      "ipa": "ɔ́ːfsèt",
+      "meaning": "相殺する、埋め合わせる",
+      "booster": "off(離れて)+set(置く)。「一方に置いてバランスを取る」イメージ。"
+    },
+    {
+      "word": "measure",
+      "pos": "名",
+      "pronunciation": "メジャー",
+      "ipa": "méʒər",
+      "meaning": "対策、方法",
+      "booster": "ラテン語mensura(測定)が語源。「(問題解決のために)測って講じる手立て」。"
+    },
+    {
+      "word": "pollution",
+      "pos": "名",
+      "pronunciation": "ポリューション",
+      "ipa": "pəljúːʃən",
+      "meaning": "汚染",
+      "booster": "pollute(汚染する)+-ion(名詞化)。"
+    }
+  ]
+}

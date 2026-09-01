@@ -1,0 +1,166 @@
+{
+  "number": 3,
+  "title": "「週4日勤務」でハッピーになれるのか？",
+  "words": [
+    {
+      "word": "burnout",
+      "pos": "名",
+      "pronunciation": "バーンアウト",
+      "ipa": "bə́ːrnàut",
+      "meaning": "燃え尽き症候群",
+      "booster": "burn(燃える)+out(尽きる)の合成語。ろうそくが燃え尽きるイメージそのままなので、直感的に覚えやすい。"
+    },
+    {
+      "word": "overwhelmed",
+      "pos": "形",
+      "pronunciation": "オーバーウェルムド",
+      "ipa": "òuvərwélmd",
+      "meaning": "圧倒された",
+      "booster": "over-(超えて)+whelm(覆いかぶさる・ひっくり返す、古英語由来)。大波にすっぽり飲み込まれるイメージで「圧倒される」感覚をつかむ。"
+    },
+    {
+      "word": "diligent",
+      "pos": "形",
+      "pronunciation": "ディリジェント",
+      "ipa": "dílidʒənt",
+      "meaning": "勤勉な",
+      "booster": "ラテン語diligere(大切に選び取る、愛する)が語源。di-(離して)+legere(選ぶ、collect・selectと同根)で、「一つひとつ丁寧に選ぶほど注意深い」→「勤勉な」に発展した。"
+    },
+    {
+      "word": "compressed",
+      "pos": "形",
+      "pronunciation": "コンプレスト",
+      "ipa": "kəmprést",
+      "meaning": "圧縮された",
+      "booster": "com-(共に・強意)+press(押す)。express(外に押し出す=表現する)やimpress(内に押し込む=印象づける)と同じpress語根の仲間。"
+    },
+    {
+      "word": "disengaged",
+      "pos": "形",
+      "pronunciation": "ディスエンゲージド",
+      "ipa": "dìsingéidʒd",
+      "meaning": "意欲を失った",
+      "booster": "dis-(否定)+engage(引き込む・関わる)。engagementの「婚約」も同語源で「深く関わる」意味を持ち、disがつくとその関わりから外れたイメージになる。"
+    },
+    {
+      "word": "incentivize",
+      "pos": "動",
+      "pronunciation": "インセンティバイズ",
+      "ipa": "inséntəvàiz",
+      "meaning": "奨励する",
+      "booster": "名詞incentive(動機づけ・報奨)を動詞化した語。ラテン語incentivum(鼓舞する歌)が語源で、「やる気に火をつける」イメージで覚えると定着しやすい。"
+    },
+    {
+      "word": "thrive",
+      "pos": "動",
+      "pronunciation": "スライヴ",
+      "ipa": "θraiv",
+      "meaning": "繁栄する、うまくいく",
+      "booster": "古ノルド語thrifask(つかみ取る)が語源。何かをしっかりつかみ取って成長していくイメージで「繁栄する・うまくいく」を覚える。"
+    },
+    {
+      "word": "misconceptions",
+      "pos": "名",
+      "pronunciation": "ミスコンセプションズ",
+      "ipa": "mìskənsépʃənz",
+      "meaning": "誤解",
+      "booster": "mis-(誤り)+conception(概念、con-+capere把握する)。conceive(思いつく)やcapture(捉える)と同根で、「間違って把握してしまったこと」を表す。"
+    },
+    {
+      "word": "foster",
+      "pos": "動",
+      "pronunciation": "フォスター",
+      "ipa": "fɔ́stər",
+      "meaning": "育む、助長する",
+      "booster": "古英語fostrian(養う)が語源。foster child(里子)のfosterと同じ語で、「大切に養い育てて成長を促す」イメージ。"
+    },
+    {
+      "word": "resentful",
+      "pos": "形",
+      "pronunciation": "リゼントフル",
+      "ipa": "rizéntfəl",
+      "meaning": "憤慨した、不満を抱いた",
+      "booster": "re-(再び)+sentire(感じる、ラテン語)+-ful。sense(感覚)やsentiment(感情)と同根で、「嫌な感情が何度もぶり返す」イメージ。"
+    },
+    {
+      "word": "rigorous",
+      "pos": "形",
+      "pronunciation": "リゴラス",
+      "ipa": "rígərəs",
+      "meaning": "厳格な、厳密な",
+      "booster": "ラテン語rigere(硬直する)が語源。rigid(硬直した)と同語源で、「融通が利かないほど厳しい」イメージで覚える。"
+    },
+    {
+      "word": "diminish",
+      "pos": "動",
+      "pronunciation": "ディミニッシュ",
+      "ipa": "dimíniʃ",
+      "meaning": "減少させる",
+      "booster": "ラテン語minuere(小さくする)が語源。minor(小さい)やminute(微小な)と同根で、「どんどん小さく削っていく」イメージ。"
+    },
+    {
+      "word": "overworked",
+      "pos": "形",
+      "pronunciation": "オーバーワークト",
+      "ipa": "òuvərwə́ːrkt",
+      "meaning": "働きすぎの",
+      "booster": "over-(過剰に)+work(働く)+-ed。「許容量を超えて働かされた」状態を表し、burnout(燃え尽き)の一歩手前のイメージ。"
+    },
+    {
+      "word": "decline",
+      "pos": "動",
+      "pronunciation": "ディクライン",
+      "ipa": "dikláin",
+      "meaning": "低下する、衰える",
+      "booster": "de-(下へ)+clinare(傾く、ラテン語)。incline(傾ける)と同根で、「下向きに傾いていく」イメージから「低下する・断る」両方の意味に発展した。"
+    },
+    {
+      "word": "sacrifice",
+      "pos": "動",
+      "pronunciation": "サクリファイス",
+      "ipa": "sǽkrəfàis",
+      "meaning": "犠牲にする",
+      "booster": "ラテン語sacer(神聖な)+facere(作る)。「神への捧げ物にする」が原義で、そこから「大切なものを差し出す」に発展した。"
+    },
+    {
+      "word": "retain",
+      "pos": "動",
+      "pronunciation": "リテイン",
+      "ipa": "ritéin",
+      "meaning": "保持する、つなぎとめる",
+      "booster": "re-(後ろに)+tenere(保つ、ラテン語)。maintain(保つ)と同根で、「手放さずに引き止めておく」イメージ。"
+    },
+    {
+      "word": "devote",
+      "pos": "動",
+      "pronunciation": "ディヴォート",
+      "ipa": "divóut",
+      "meaning": "捧げる、専念する",
+      "booster": "de-(完全に)+vovere(誓う、ラテン語)。vow(誓い)と同根で、「誓いを立てて完全に差し出す」イメージ。"
+    },
+    {
+      "word": "unrealistic",
+      "pos": "形",
+      "pronunciation": "アンリアリスティック",
+      "ipa": "ʌ̀nriəlístik",
+      "meaning": "非現実的な",
+      "booster": "un-(否定)+realistic(現実的な、real+-istic)。realの語根はラテン語res(もの)で、「実際の物事から離れた」イメージ。"
+    },
+    {
+      "word": "fulfill",
+      "pos": "動",
+      "pronunciation": "フルフィル",
+      "ipa": "fulfíl",
+      "meaning": "果たす、満たす",
+      "booster": "full(満たされた)+fill(満たす)が重なった語。「完全にいっぱいに満たす」が原義で、約束や義務を「果たす」意味に発展した。"
+    },
+    {
+      "word": "align",
+      "pos": "動",
+      "pronunciation": "アライン",
+      "ipa": "əláin",
+      "meaning": "一致させる、揃える",
+      "booster": "a-(〜へ)+line(線、ラテン語linea)。「同じ線の上に並べる」イメージから「調和させる・一致させる」を表す。"
+    }
+  ]
+}

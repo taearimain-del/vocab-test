@@ -1,0 +1,70 @@
+{
+  "number": 10,
+  "title": "遺伝子組み換え作物",
+  "words": [
+    {
+      "word": "tolerance",
+      "pos": "名",
+      "pronunciation": "タラランス",
+      "ipa": "tάlərəns",
+      "meaning": "耐性",
+      "booster": "tolerate(耐える)+-ance(名詞化)。tolerance to drought(干ばつへの耐性)。"
+    },
+    {
+      "word": "widespread",
+      "pos": "形",
+      "pronunciation": "ワイドスプレッド",
+      "ipa": "wáidsprèd",
+      "meaning": "広範囲の",
+      "booster": "wide(広い)+spread(広がった)。そのまま「広く広がった」。"
+    },
+    {
+      "word": "outbreak",
+      "pos": "名",
+      "pronunciation": "アウトブレイク",
+      "ipa": "áutbrèik",
+      "meaning": "発生、大発生",
+      "booster": "out(外に)+break(破れる)。「殻を破って外に出てくる」イメージ。"
+    },
+    {
+      "word": "pesticide",
+      "pos": "名",
+      "pronunciation": "ペスティサイド",
+      "ipa": "péstəsàid",
+      "meaning": "殺虫剤、農薬",
+      "booster": "pest(害虫)+-cide(殺す、ラテン語caedere)。insecticideと同じ作りの語。"
+    },
+    {
+      "word": "yield",
+      "pos": "名",
+      "pronunciation": "イールド",
+      "ipa": "jíːld",
+      "meaning": "収穫量、産出量",
+      "booster": "古英語gieldan(与える、支払う)が語源。"
+    },
+    {
+      "word": "patent",
+      "pos": "名",
+      "pronunciation": "パテント",
+      "ipa": "pǽtnt",
+      "meaning": "特許",
+      "booster": "ラテン語patere(開いている)が語源。「(発明を)公開する代わりに独占権を得る」制度。"
+    },
+    {
+      "word": "excessive",
+      "pos": "形",
+      "pronunciation": "イクセッスィヴ",
+      "ipa": "iksésiv",
+      "meaning": "過度の",
+      "booster": "excess(過剰)+-ive(形容詞化)。"
+    },
+    {
+      "word": "disadvantage",
+      "pos": "名",
+      "pronunciation": "ディスアドヴァンティッジ",
+      "ipa": "dìsədvǽntidʒ",
+      "meaning": "不利",
+      "booster": "dis-(否定)+advantage(利点)。"
+    }
+  ]
+}

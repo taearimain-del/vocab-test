@@ -1,0 +1,166 @@
+{
+  "number": 12,
+  "title": "子どもが移民となる理由",
+  "words": [
+    {
+      "word": "phenomenon",
+      "pos": "名",
+      "pronunciation": "フェノミナン",
+      "ipa": "/fəˈnɑːmənɑːn/",
+      "meaning": "現象",
+      "booster": "ギリシャ語phainesthai（現れる）が語源。複数形はphenomenaという不規則変化で、datum→dataと同じくギリシャ・ラテン起源の単語に多いパターン。"
+    },
+    {
+      "word": "unaccompanied",
+      "pos": "形",
+      "pronunciation": "アナカンパニード",
+      "ipa": "/ˌʌnəˈkʌmpənid/",
+      "meaning": "同伴者のいない",
+      "booster": "accompany（同行する＝ac-「〜へ」+company「仲間」）にun-（否定）がついた形。unaccompanied minor（保護者なしの未成年）は空港・移民関連の頻出表現。"
+    },
+    {
+      "word": "internally displaced",
+      "pos": "形",
+      "pronunciation": "インターナリー・ディスプレイスト",
+      "ipa": "/ɪnˈtɜːrnəli dɪˈspleɪst/",
+      "meaning": "国内避難した",
+      "booster": "displace＝dis-（離れて）+place（場所）で「本来の場所から追い出す」。internally（国内で）と組み合わさり、国境は越えず住処だけ追われた人を指す難民関連の定型表現（IDP）。"
+    },
+    {
+      "word": "reunification",
+      "pos": "名",
+      "pronunciation": "リーユニフィケーション",
+      "ipa": "/ˌriːjuːnəfɪˈkeɪʃən/",
+      "meaning": "再統合",
+      "booster": "re-（再び）+unify（uni「一つ」+-fy「〜化する」＝統一する）+-ation。family reunification（家族再統合）は移民政策で頻出のキーワード。"
+    },
+    {
+      "word": "vulnerability",
+      "pos": "名",
+      "pronunciation": "ヴァルナラビリティ",
+      "ipa": "/ˌvʌlnərəˈbɪləti/",
+      "meaning": "脆弱性",
+      "booster": "ラテン語vulnus（傷）が語源で、vulnerable（傷つきやすい）の名詞形。同じvulnus由来のvulture（ハゲタカ＝傷ついた獲物を狙う鳥）と結びつけると忘れにくい。"
+    },
+    {
+      "word": "subsequent",
+      "pos": "形",
+      "pronunciation": "サブシークウェント",
+      "ipa": "/ˈsʌbsɪkwənt/",
+      "meaning": "その後の、続く",
+      "booster": "sub-（下に）+sequi（続く）が語源で、「後に続いて起こる」イメージ。consequent（結果として起こる）、sequence（連続）と同じsequ語根の仲間。"
+    },
+    {
+      "word": "custody",
+      "pos": "名",
+      "pronunciation": "カスタディ",
+      "ipa": "/ˈkʌstədi/",
+      "meaning": "保護、監護、拘留",
+      "booster": "ラテン語custodia（見張り、保管）由来。in custody（拘留中）、child custody（子の親権）のように、法律・家族関連の文脈で頻出する語。"
+    },
+    {
+      "word": "typify",
+      "pos": "動",
+      "pronunciation": "ティピファイ",
+      "ipa": "/ˈtɪpəfaɪ/",
+      "meaning": "〜を代表する、〜の典型となる",
+      "booster": "type（型、タイプ）+-fy（〜化する）の組み合わせ。typical（典型的な）と同じtype語根で、「あるタイプの見本となる」イメージ。"
+    },
+    {
+      "word": "prolonged",
+      "pos": "形",
+      "pronunciation": "プロロングド",
+      "ipa": "/prəˈlɔːŋd/",
+      "meaning": "長期化した、長引く",
+      "booster": "pro-（前へ）+long（長い）から成るprolongの過去分詞形。「時間を前へ前へと引き延ばす」イメージで、a prolonged illness（長患い）のように使う。"
+    },
+    {
+      "word": "spur",
+      "pos": "動",
+      "pronunciation": "スパー",
+      "ipa": "/spɜːr/",
+      "meaning": "〜を駆り立てる、促進する",
+      "booster": "元は馬につける「拍車」を意味する名詞。そこから「拍車をかけて急がせる」という比喩で動詞化し、spur economic growth（経済成長を促す）のように使われる。"
+    },
+    {
+      "word": "asylum",
+      "pos": "名",
+      "pronunciation": "アサイラム",
+      "ipa": "/əˈsaɪləm/",
+      "meaning": "亡命、保護、避難所",
+      "booster": "ギリシャ語asylon（不可侵の場所）が語源。seek asylum（亡命を求める）、asylum seeker（亡命希望者）は難民・移民関連の必須表現。"
+    },
+    {
+      "word": "poverty",
+      "pos": "名",
+      "pronunciation": "パヴァティ",
+      "ipa": "/ˈpɑːvərti/",
+      "meaning": "貧困",
+      "booster": "ラテン語pauper（貧しい）が語源。poor（貧しい）の名詞形で、poverty line（貧困線）のように社会問題を扱う文章で頻出。"
+    },
+    {
+      "word": "conflict",
+      "pos": "名",
+      "pronunciation": "カンフリクト",
+      "ipa": "/ˈkɑːnflɪkt/",
+      "meaning": "紛争、対立",
+      "booster": "con-（共に）+fligere（打つ、ラテン語）が語源で、「互いに打ち合う」イメージ。国家間の武力衝突から意見の対立まで幅広く使われる。"
+    },
+    {
+      "word": "agency",
+      "pos": "名",
+      "pronunciation": "エイジェンシー",
+      "ipa": "/ˈeɪdʒənsi/",
+      "meaning": "主体性、行為主体性、代理店",
+      "booster": "agent（行為者、代理人）に抽象名詞化の-cyがついた形。「自ら動く力・主体として振る舞う能力」という意味で、社会学の文章では「主体性」の訳が重要。"
+    },
+    {
+      "word": "distinction",
+      "pos": "名",
+      "pronunciation": "ディスティンクション",
+      "ipa": "/dɪˈstɪŋkʃən/",
+      "meaning": "区別",
+      "booster": "distinguish（区別する＝dis-「離れて」+stinguere「刺す、印をつける」）の名詞形。make a distinction between A and B（AとBを区別する）の形で頻出。"
+    },
+    {
+      "word": "breadwinner",
+      "pos": "名",
+      "pronunciation": "ブレッドウィナー",
+      "ipa": "/ˈbredˌwɪnər/",
+      "meaning": "一家の稼ぎ手",
+      "booster": "bread（パン＝生活の糧）+winner（勝ち取る人）の複合語。「家族が食べていくためのパンを稼ぎ取る人」という直訳イメージそのままの単語。"
+    },
+    {
+      "word": "uproot",
+      "pos": "動",
+      "pronunciation": "アップルート",
+      "ipa": "/ʌpˈruːt/",
+      "meaning": "故郷から引き離す、根こそぎにする",
+      "booster": "up（上へ）+root（根）で、植物を「根こそぎ引き抜く」がもとの意味。そこから比喩的に、人が住み慣れた土地から引き離される場合にも使われる。"
+    },
+    {
+      "word": "refugee",
+      "pos": "名",
+      "pronunciation": "レフュジー",
+      "ipa": "/ˌrefjʊˈdʒiː/",
+      "meaning": "難民",
+      "booster": "refuge（避難、逃げ場）に「〜する人」を表す-eeがついた形。take refuge（避難する）のrefugeと合わせて覚えると定着しやすい。"
+    },
+    {
+      "word": "mobility",
+      "pos": "名",
+      "pronunciation": "モビリティ",
+      "ipa": "/moʊˈbɪləti/",
+      "meaning": "流動性、移動性",
+      "booster": "mobile（動きやすい、可動性の）の名詞形。social/economic mobility（社会的・経済的流動性）のように、階層間の移動しやすさを表す文脈で頻出。"
+    },
+    {
+      "word": "discrimination",
+      "pos": "名",
+      "pronunciation": "ディスクリミネーション",
+      "ipa": "/dɪˌskrɪməˈneɪʃən/",
+      "meaning": "差別",
+      "booster": "dis-（分けて）+crimen（区別、判断、ラテン語）が語源。discriminate against〜（〜を差別する）という動詞形とセットで覚えるとよい。"
+    }
+  ]
+}

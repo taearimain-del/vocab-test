@@ -1,0 +1,70 @@
+{
+  "number": 19,
+  "title": "介護ロボット",
+  "words": [
+    {
+      "word": "caregiver",
+      "pos": "名",
+      "pronunciation": "ケアギヴァー",
+      "ipa": "kéərgìvər",
+      "meaning": "介護者、世話をする人",
+      "booster": "care(世話)+giver(与える人)。そのまま「世話を与える人」。"
+    },
+    {
+      "word": "relieve",
+      "pos": "動",
+      "pronunciation": "リリーヴ",
+      "ipa": "rilíːv",
+      "meaning": "和らげる、軽減する",
+      "booster": "re-(再び)+levare(軽くする、ラテン語)。「負担を再び軽くする」が原義。"
+    },
+    {
+      "word": "overworked",
+      "pos": "形",
+      "pronunciation": "オウヴァーワークト",
+      "ipa": "óuvərwə̀ːrkt",
+      "meaning": "働きすぎの、酷使された",
+      "booster": "over-(過度に)+worked(働かされた)。"
+    },
+    {
+      "word": "round-the-clock",
+      "pos": "形",
+      "pronunciation": "ラウンド ザ クロック",
+      "ipa": "ráund ðə klάk",
+      "meaning": "24時間体制の",
+      "booster": "そのまま「時計を一周して」→「昼夜を問わず」の意味。"
+    },
+    {
+      "word": "isolation",
+      "pos": "名",
+      "pronunciation": "アイソレイション",
+      "ipa": "àisəléiʃən",
+      "meaning": "孤立",
+      "booster": "isolate(孤立させる)+-ion。ラテン語insula(島)が語源で、「島のように孤立すること」。"
+    },
+    {
+      "word": "genuine",
+      "pos": "形",
+      "pronunciation": "ジェニュイン",
+      "ipa": "dʒénjuin",
+      "meaning": "本物の、心からの",
+      "booster": "ラテン語genuinus(生まれながらの)が語源。「生まれつき本物の」というイメージ。"
+    },
+    {
+      "word": "inaccessible",
+      "pos": "形",
+      "pronunciation": "インアクセスィブル",
+      "ipa": "ìnæksésəbl",
+      "meaning": "手に入らない、利用できない",
+      "booster": "in-(否定)+accessible(利用しやすい)。DAY17のaccessibleの否定形。"
+    },
+    {
+      "word": "nursing home",
+      "pos": "名",
+      "pronunciation": "ナースィング ホウム",
+      "ipa": "nə́ːrsiŋ hòum",
+      "meaning": "老人ホーム、介護施設",
+      "booster": "nurse(看護する)+home(家)。そのまま「看護する家」。"
+    }
+  ]
+}

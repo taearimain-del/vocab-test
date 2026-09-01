@@ -1,0 +1,166 @@
+{
+  "number": 6,
+  "title": "「創造性あふれる人の特徴」",
+  "words": [
+    {
+      "word": "novelty",
+      "pos": "名",
+      "pronunciation": "ノヴェルティ",
+      "ipa": "nɑ́vəlti",
+      "meaning": "目新しさ",
+      "booster": "ラテン語novus(新しい)が語源で、novel(小説/新しい)と同じ仲間。novice(初心者=まだ新しい人)、renovate(改装する=再び新しくする)ともつながる「新しさ」ファミリー。"
+    },
+    {
+      "word": "fruitful",
+      "pos": "形",
+      "pronunciation": "フルートフル",
+      "ipa": "frútfəl",
+      "meaning": "実り多い",
+      "booster": "fruit(果実)+ful(満ちた)。文字通り「果実がたわわに実った」イメージから「成果の多い」の意味に。逆に実を結ばない「無駄な」はfruitlessで、セットで覚えると効率的。"
+    },
+    {
+      "word": "transferable",
+      "pos": "形",
+      "pronunciation": "トランスファラブル",
+      "ipa": "trænsfə́rəbl",
+      "meaning": "応用できる",
+      "booster": "trans-(越えて)+fer(運ぶ、ラテン語ferre)+able(できる)。「別の場所へ運べる」が原義で、本文では「ある分野のスキルを別分野へ運べる」→「応用できる」の意味になっている。"
+    },
+    {
+      "word": "improvise",
+      "pos": "動",
+      "pronunciation": "インプロヴァイズ",
+      "ipa": "ímprəvàiz",
+      "meaning": "即興で行う",
+      "booster": "im-(否定)+provise(前もって見る、provide「備える」と同語源)。「前もって準備しない」が原義で、そこから「即興でやる」に。ジャズの「アドリブ=インプロ」もこの単語から。"
+    },
+    {
+      "word": "camouflage",
+      "pos": "名",
+      "pronunciation": "カムフラージュ",
+      "ipa": "kǽməflɑ̀ʒ",
+      "meaning": "擬態",
+      "booster": "フランス語camoufler(変装する、目くらましする)が語源で、日本語にも「カムフラージュ」としてそのまま定着している外来語。生物の保護色から軍事の迷彩まで幅広く使われる。"
+    },
+    {
+      "word": "discipline",
+      "pos": "名",
+      "pronunciation": "ディシプリン",
+      "ipa": "dísəplin",
+      "meaning": "分野、規律",
+      "booster": "ラテン語discere(学ぶ)が語源で、disciple(弟子=学ぶ人)と同じ仲間。「学問の一分野」の意味と「規律・訓練」の意味の両方を持つ多義語。"
+    },
+    {
+      "word": "endeavor",
+      "pos": "名",
+      "pronunciation": "エンデヴァー",
+      "ipa": "endévər",
+      "meaning": "試み、努力",
+      "booster": "en-(〜にする)+devoir(義務、フランス語)。「義務を果たそうと努める」が原義で、NASAのスペースシャトル「エンデバー号」の名前としても有名。"
+    },
+    {
+      "word": "pursue",
+      "pos": "動",
+      "pronunciation": "パースー",
+      "ipa": "pərsú",
+      "meaning": "追求する、従事する",
+      "booster": "per-(徹底的に)+sequi(追う、ラテン語)。「どこまでも追いかける」がイメージで、目標や趣味を「追求する」の意味に。sequence(連続)、consequence(結果)と同語源。"
+    },
+    {
+      "word": "persistently",
+      "pos": "副",
+      "pronunciation": "パーシステントリー",
+      "ipa": "pərsístəntli",
+      "meaning": "粘り強く",
+      "booster": "per-(徹底的に)+sist(立つ、ラテン語sistere)。「最後までじっと立ち続ける」がイメージで「粘り強く、しつこく」の意味に。insist(主張する)、resist(抵抗する)と同じsist系の仲間。"
+    },
+    {
+      "word": "adolescent",
+      "pos": "名",
+      "pronunciation": "アドレセント",
+      "ipa": "æ̀dəlésənt",
+      "meaning": "青年、思春期の若者",
+      "booster": "ラテン語adolescere(成長する)が語源。adult(大人)と同じ語根で、「成長しつつある人」つまり思春期の若者を指す。名詞adolescence(思春期)とセットで覚えたい。"
+    },
+    {
+      "word": "quotient",
+      "pos": "名",
+      "pronunciation": "クォウシェント",
+      "ipa": "kwóuʃənt",
+      "meaning": "指数、商",
+      "booster": "ラテン語quotiens(いくつ、何倍)が語源。IQ(intelligence quotient)でおなじみの単語で、数学の「商(割り算の答え)」を意味する。quota(割り当て)とも同語源。"
+    },
+    {
+      "word": "abstract",
+      "pos": "動",
+      "pronunciation": "アブストラクト",
+      "ipa": "æbstrǽkt",
+      "meaning": "抽象化する",
+      "booster": "abs-(離れて)+tract(引く、ラテン語trahere)。「具体的なものから引き離す」が原義で、細部を取り除き本質だけを取り出すイメージ。"
+    },
+    {
+      "word": "synthesize",
+      "pos": "動",
+      "pronunciation": "シンセサイズ",
+      "ipa": "sínθəsàiz",
+      "meaning": "統合する、合成する",
+      "booster": "syn-(共に)+thesis(置くこと)。「複数の要素を一つに組み合わせて置く」が原義。シンセサイザー(synthesizer)は音を合成する楽器で、まさに同語源。"
+    },
+    {
+      "word": "beneficial",
+      "pos": "形",
+      "pronunciation": "ベネフィシャル",
+      "ipa": "bènəfíʃəl",
+      "meaning": "有益な",
+      "booster": "bene-(良い)+fic(作る、ラテン語facere)。benefit(利益)の形容詞形で、「良い結果を作り出す」がコアイメージ。"
+    },
+    {
+      "word": "by-product",
+      "pos": "名",
+      "pronunciation": "バイプロダクト",
+      "ipa": "báiprὰdʌkt",
+      "meaning": "副産物",
+      "booster": "by-(側にある、副次的な)+product(生産物)。主目的の過程で「ついでに生まれるもの」を指し、比喩的に「思わぬ副次的成果」の意味でも使われる。"
+    },
+    {
+      "word": "breed",
+      "pos": "動",
+      "pronunciation": "ブリード",
+      "ipa": "brid",
+      "meaning": "生み出す、繁殖させる",
+      "booster": "本来は動物が「子を産み育てる」の意味だが、比喩的に「(状況などが)〜を生み出す」に拡張される。creativity breeds more creativityは「創造性が創造性を生む」好循環を表す。"
+    },
+    {
+      "word": "eventually",
+      "pos": "副",
+      "pronunciation": "イヴェンチュアリー",
+      "ipa": "ivéntʃuəli",
+      "meaning": "最終的に、やがて",
+      "booster": "event(出来事)+ual+ly。「様々な出来事を経た結果として」というニュアンスで、紆余曲折の末にたどり着く結末を表す副詞。"
+    },
+    {
+      "word": "potential",
+      "pos": "名",
+      "pronunciation": "ポテンシャル",
+      "ipa": "pəténʃəl",
+      "meaning": "可能性、潜在能力",
+      "booster": "ラテン語potentia(力)が語源で、power・possibleと同じ語根pot-を持つ。「まだ発揮されていない力」がそのまま「潜在能力」の意味になる。"
+    },
+    {
+      "word": "convincing",
+      "pos": "形",
+      "pronunciation": "コンヴィンシング",
+      "ipa": "kənvínsiŋ",
+      "meaning": "説得力のある",
+      "booster": "convince(納得させる)の現在分詞。con-(完全に)+vincere(勝つ、征服する)が語源で、「相手の疑いに打ち勝つ」ほど説得力がある、というイメージ。"
+    },
+    {
+      "word": "genius",
+      "pos": "名",
+      "pronunciation": "ジーニアス",
+      "ipa": "dʒínjəs",
+      "meaning": "天才、才能",
+      "booster": "ラテン語genius(守護霊、生まれ持った才能)が語源。generate(生み出す)やgene(遺伝子)と同じgen-(生まれる)ファミリーで、「生まれながらの特別な力」がコア。"
+    }
+  ]
+}

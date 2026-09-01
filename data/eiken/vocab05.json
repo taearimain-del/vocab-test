@@ -1,0 +1,70 @@
+{
+  "number": 5,
+  "title": "ベーシックインカムの是非",
+  "words": [
+    {
+      "word": "unconditional",
+      "pos": "形",
+      "pronunciation": "アンコンディショナル",
+      "ipa": "ʌ̀nkəndíʃənəl",
+      "meaning": "無条件の",
+      "booster": "un-(否定)+conditional(条件付きの)。conditionの否定形。"
+    },
+    {
+      "word": "advocate",
+      "pos": "動",
+      "pronunciation": "アドヴォケイト",
+      "ipa": "ǽdvəkèit",
+      "meaning": "主張する／支持者",
+      "booster": "ad-(〜へ)+vocare(呼ぶ)。「弁護のために呼び寄せる人」が原義で、lawyer(弁護士)に近いニュアンス。"
+    },
+    {
+      "word": "eliminate",
+      "pos": "動",
+      "pronunciation": "イリミネイト",
+      "ipa": "ilímənèit",
+      "meaning": "排除する、なくす",
+      "booster": "e-(外へ)+limen(敷居、境界)。「敷居の外に出す」が原義。"
+    },
+    {
+      "word": "recipient",
+      "pos": "名",
+      "pronunciation": "リスィピエント",
+      "ipa": "risípiənt",
+      "meaning": "受給者、受取人",
+      "booster": "re-(戻して)+capere(取る)。receive(受け取る)と同根。"
+    },
+    {
+      "word": "contend",
+      "pos": "動",
+      "pronunciation": "コンテンド",
+      "ipa": "kənténd",
+      "meaning": "主張する",
+      "booster": "con-(共に)+tendere(伸ばす、張る)。「互いに張り合う」→「論争して主張する」。"
+    },
+    {
+      "word": "substantial",
+      "pos": "形",
+      "pronunciation": "サブスタンシャル",
+      "ipa": "səbstǽnʃəl",
+      "meaning": "相当な、実質的な",
+      "booster": "substance(実体)+-ial。「実質のある」がそのまま意味になる。"
+    },
+    {
+      "word": "motivation",
+      "pos": "名",
+      "pronunciation": "モウティヴェイション",
+      "ipa": "mòutəvéiʃən",
+      "meaning": "意欲、動機",
+      "booster": "motive(動機)+-ation。motor(モーター=動かすもの)と同根。"
+    },
+    {
+      "word": "annually",
+      "pos": "副",
+      "pronunciation": "アニュアリー",
+      "ipa": "ǽnjuəli",
+      "meaning": "毎年",
+      "booster": "annus(ラテン語で「年」)+-ally。anniversary(記念日=年が巡ってくる日)と同根。"
+    }
+  ]
+}

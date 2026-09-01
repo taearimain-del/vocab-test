@@ -1,0 +1,70 @@
+{
+  "number": 7,
+  "title": "オンライン教育と対面授業",
+  "words": [
+    {
+      "word": "degree",
+      "pos": "名",
+      "pronunciation": "ディグリー",
+      "ipa": "digríː",
+      "meaning": "学位",
+      "booster": "ラテン語gradus(段階)が語源。「段階を上って得るもの」というイメージ。"
+    },
+    {
+      "word": "accessibility",
+      "pos": "名",
+      "pronunciation": "アクセシビリティ",
+      "ipa": "æksèsəbíləti",
+      "meaning": "利用しやすさ",
+      "booster": "access(接近)+-ibility(できること)。"
+    },
+    {
+      "word": "institution",
+      "pos": "名",
+      "pronunciation": "インスティテューション",
+      "ipa": "ìnstətjúːʃən",
+      "meaning": "機関、施設",
+      "booster": "ラテン語instituere(設立する)が語源。"
+    },
+    {
+      "word": "discipline",
+      "pos": "名",
+      "pronunciation": "ディスィプリン",
+      "ipa": "dísəplin",
+      "meaning": "規律、自制心",
+      "booster": "ラテン語discipulus(弟子)が語源。self-discipline(自己規律)の形で頻出。"
+    },
+    {
+      "word": "instructor",
+      "pos": "名",
+      "pronunciation": "インストラクター",
+      "ipa": "instrʌ́ktər",
+      "meaning": "指導者",
+      "booster": "instruct(教える)+-or(〜する人)。"
+    },
+    {
+      "word": "equivalent",
+      "pos": "形",
+      "pronunciation": "イクウィヴァレント",
+      "ipa": "ikwívələnt",
+      "meaning": "同等の",
+      "booster": "equi-(等しい)+valent(価値のある)。「同じ価値を持つ」が原義。"
+    },
+    {
+      "word": "completion",
+      "pos": "名",
+      "pronunciation": "コンプリーション",
+      "ipa": "kəmplíːʃən",
+      "meaning": "完了",
+      "booster": "complete(完成させる)+-ion。completion rates(修了率)の形で頻出。"
+    },
+    {
+      "word": "face-to-face",
+      "pos": "形",
+      "pronunciation": "フェイス トゥ フェイス",
+      "ipa": "féis tə féis",
+      "meaning": "対面の",
+      "booster": "そのまま「顔と顔を合わせて」。オンラインとの対比でよく使う。"
+    }
+  ]
+}

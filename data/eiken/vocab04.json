@@ -1,0 +1,70 @@
+{
+  "number": 4,
+  "title": "海のマイクロプラスチック",
+  "words": [
+    {
+      "word": "particle",
+      "pos": "名",
+      "pronunciation": "パーティクル",
+      "ipa": "pάːrtikl",
+      "meaning": "粒子",
+      "booster": "ラテン語particula(小さな部分)が語源。part(部分)の指小形。"
+    },
+    {
+      "word": "breakdown",
+      "pos": "名",
+      "pronunciation": "ブレイクダウン",
+      "ipa": "bréikdàun",
+      "meaning": "分解、崩壊",
+      "booster": "break(壊す)+down(下に)。「バラバラに壊れること」がそのまま意味になる。"
+    },
+    {
+      "word": "synthetic",
+      "pos": "形",
+      "pronunciation": "シンセティック",
+      "ipa": "sinθétik",
+      "meaning": "合成の",
+      "booster": "syn-(共に)+tithenai(置く)。「複数の物を組み合わせて作った」が原義。naturalの対義語。"
+    },
+    {
+      "word": "filtration",
+      "pos": "名",
+      "pronunciation": "フィルトレイション",
+      "ipa": "filtréiʃən",
+      "meaning": "ろ過",
+      "booster": "filter(フィルター、こす)+-ation。中世ラテン語filtrum(フェルト=こす道具)が語源。"
+    },
+    {
+      "word": "regulation",
+      "pos": "名",
+      "pronunciation": "レギュレイション",
+      "ipa": "règjuléiʃən",
+      "meaning": "規制",
+      "booster": "regulate(規制する)+-ion。ラテン語regula(定規、規則)が語源。"
+    },
+    {
+      "word": "accumulate",
+      "pos": "動",
+      "pronunciation": "アキュミュレイト",
+      "ipa": "əkjúːmjulèit",
+      "meaning": "蓄積する",
+      "booster": "ac-(〜へ)+cumulare(積む)。cumulative(累積的な)と同根。"
+    },
+    {
+      "word": "persist",
+      "pos": "動",
+      "pronunciation": "パースィスト",
+      "ipa": "pərsíst",
+      "meaning": "持続する、しつこく続く",
+      "booster": "per-(通して)+sistere(立つ)。「最後まで立ち続ける」が原義。"
+    },
+    {
+      "word": "waterway",
+      "pos": "名",
+      "pronunciation": "ウォーターウェイ",
+      "ipa": "wɔ́ːtərwèi",
+      "meaning": "水路",
+      "booster": "water(水)+way(道)。そのまま「水の道」。"
+    }
+  ]
+}

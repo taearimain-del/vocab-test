@@ -1,0 +1,166 @@
+{
+  "number": 8,
+  "title": "地球に似た系外惑星「ケプラー186f」を発見",
+  "words": [
+    {
+      "word": "habitable",
+      "ipa": "hǽbitəbl",
+      "pos": "形",
+      "pronunciation": "ハビタブル",
+      "meaning": "生存可能な",
+      "booster": "ラテン語habitare「住む」が語源。habitat(生息地)、inhabit(〜に住む)と同じ仲間。「habitable zone=人が住める(生存可能な)領域」とセットで覚えると本文にも直結する。"
+    },
+    {
+      "word": "constellation",
+      "ipa": "kɑ̀nstəléiʃən",
+      "pos": "名",
+      "pronunciation": "コンステレイション",
+      "meaning": "星座",
+      "booster": "con-(共に)+stella(星、ラテン語)で「星々が集まったもの」。stellar(星の、一流の)も同じstella語根を持つ。"
+    },
+    {
+      "word": "composition",
+      "ipa": "kɑ̀mpəzíʃən",
+      "pos": "名",
+      "pronunciation": "コンポジション",
+      "meaning": "組成",
+      "booster": "com-(共に)+pos(置く、ラテン語ponere)で「一緒に置かれたもの」=構成・組成。compose(構成する、作曲する)、component(構成要素)も同じpos仲間。"
+    },
+    {
+      "word": "exoplanet",
+      "ipa": "éksouplæ̀nit",
+      "pos": "名",
+      "pronunciation": "エクソプラネット",
+      "meaning": "系外惑星",
+      "booster": "exo-はギリシャ語で「外の」を意味する接頭辞。exoskeleton(外骨格)やexit(外へ出る)と同じ。exo+planetで文字通り「太陽系の外の惑星」。"
+    },
+    {
+      "word": "rocky",
+      "ipa": "rɑ́ki",
+      "pos": "形",
+      "pronunciation": "ロッキー",
+      "meaning": "岩石質の",
+      "booster": "rock(岩)+y(形容詞化の語尾)。Rocky Mountains(ロッキー山脈)を思い浮かべれば、「岩だらけの」イメージがそのまま単語の意味になる。"
+    },
+    {
+      "word": "astronomers",
+      "ipa": "əstrɑ́nəmərz",
+      "pos": "名",
+      "pronunciation": "アストロノマーズ",
+      "meaning": "天文学者",
+      "booster": "ギリシャ語astro-(星)+nomos(法則)で「星の法則を扱う人」=天文学者。astronaut(星への旅人=宇宙飛行士)も同じastro語根。"
+    },
+    {
+      "word": "numerous",
+      "ipa": "núːmərəs",
+      "pos": "形",
+      "pronunciation": "ニューメラス",
+      "meaning": "多数の",
+      "booster": "ラテン語numerus「数」が語源。number(数)と同語源で「数が多い」。numeral(数字)、enumerate(一つ一つ数え上げる)も仲間。"
+    },
+    {
+      "word": "companion",
+      "ipa": "kəmpǽnjən",
+      "pos": "名",
+      "pronunciation": "コンパニオン",
+      "meaning": "伴う仲間、伴星",
+      "booster": "ラテン語com-(共に)+panis(パン)が語源。「一緒にパンを食べる仲間」が原義で「相棒、伴う天体」に。company(会社、仲間)も同じ語根。"
+    },
+    {
+      "word": "simultaneously",
+      "ipa": "sàiməltéiniəsli",
+      "pos": "副",
+      "pronunciation": "サイマルテイニアスリー",
+      "meaning": "同時に",
+      "booster": "ラテン語simul「同時に」が語源。simulate(同時に似せる=模倣する)、simultaneous(同時の)と同じ語根。複数の出来事が並行して起こるイメージで覚える。"
+    },
+    {
+      "word": "atmospheric",
+      "ipa": "æ̀tməsfírik",
+      "pos": "形",
+      "pronunciation": "アトモスフェリック",
+      "meaning": "大気の",
+      "booster": "ギリシャ語atmos(蒸気)+sphaira(球)からatmosphere(大気圏)。その形容詞形がatmospheric。sphere(球体)やhemisphere(半球)も同じsphaira仲間。"
+    },
+    {
+      "word": "quest",
+      "ipa": "kwést",
+      "pos": "名",
+      "pronunciation": "クエスト",
+      "meaning": "探求",
+      "booster": "ラテン語quaerere「探し求める」が語源。question(問い=探し求める行為)、request(再び求める=要求する)、conquest(完全に求め取る=征服)も同じ語根。"
+    },
+    {
+      "word": "resides",
+      "ipa": "rizáidz",
+      "pos": "動",
+      "pronunciation": "リザイズ",
+      "meaning": "位置する、存在する",
+      "booster": "ラテン語re-(再び、後ろに)+sedere(座る)が語源。「その場に座り続ける」→「存在する、位置する」。resident(居住者)、sediment(沈殿物=座って落ち着いたもの)も仲間。"
+    },
+    {
+      "word": "orbit",
+      "ipa": "ɔ́rbit",
+      "pos": "動",
+      "pronunciation": "オービット",
+      "meaning": "軌道を回る",
+      "booster": "ラテン語orbis「円、輪」が語源。「星の周りを円を描いて回る」がそのままの意味。名詞としても「軌道」の意味で使われ、orbital(軌道の)も同語根。"
+    },
+    {
+      "word": "resemble",
+      "ipa": "rizémbl",
+      "pos": "動",
+      "pronunciation": "リゼンブル",
+      "meaning": "似ている",
+      "booster": "re-(再び)+semble(似せる、ラテン語simulare)が語源。名詞形resemblance(類似)とセットで覚える。simulate(模倣する)も同じsim語根の仲間。"
+    },
+    {
+      "word": "dependent",
+      "ipa": "dipéndənt",
+      "pos": "形",
+      "pronunciation": "ディペンデント",
+      "meaning": "依存している",
+      "booster": "de-(下に)+pend(ぶら下がる、ラテン語pendere)が語源。「何かにぶら下がっている」→「それに頼っている」。depend(依存する)、pendulum(振り子)も同じpend仲間。"
+    },
+    {
+      "word": "caution",
+      "ipa": "kɔ́ːʃən",
+      "pos": "動",
+      "pronunciation": "コーション",
+      "meaning": "警告する、注意を促す",
+      "booster": "ラテン語cavere「用心する」が語源。名詞としては「注意、警告」の意味でも頻出。cautious(慎重な)も同語根で合わせて覚えたい。"
+    },
+    {
+      "word": "significant",
+      "ipa": "signífikənt",
+      "pos": "形",
+      "pronunciation": "シグニフィカント",
+      "meaning": "重要な、有意な",
+      "booster": "sign(印)+-ficant(作る、ラテン語facere)が語源で「印をつけるほど意味がある」が原義。signify(意味する)、significance(重要性)も仲間。"
+    },
+    {
+      "word": "continuously",
+      "ipa": "kəntínjuəsli",
+      "pos": "副",
+      "pronunciation": "コンティニュアスリー",
+      "meaning": "継続的に、絶え間なく",
+      "booster": "continue(続ける)の形容詞continuous+ly。本文のsimultaneously(同時に)とセットで「同時に、かつ継続的に」測定した、という文脈で覚えると効率的。"
+    },
+    {
+      "word": "capable",
+      "ipa": "kéipəbl",
+      "pos": "形",
+      "pronunciation": "ケイパブル",
+      "meaning": "できる、能力がある",
+      "booster": "ラテン語capere「つかむ、含む」が語源。「(能力を)含んでいる」が原義で「~する能力がある」に。capacity(容量、能力)も同じcap語根。"
+    },
+    {
+      "word": "galaxy",
+      "ipa": "gǽləksi",
+      "pos": "名",
+      "pronunciation": "ギャラクシー",
+      "meaning": "銀河",
+      "booster": "ギリシャ語galaxias「乳の(ような)」が語源。天の川(Milky Way)が乳白色に見えたことから名付けられた語で、galaxyとMilky Wayは同じ現象を指す。"
+    }
+  ]
+}

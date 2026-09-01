@@ -1,0 +1,70 @@
+{
+  "number": 20,
+  "title": "移民向け語学教育",
+  "words": [
+    {
+      "word": "integration",
+      "pos": "名",
+      "pronunciation": "インテグレイション",
+      "ipa": "ìntəgréiʃən",
+      "meaning": "統合、社会への適応",
+      "booster": "integrate(統合する)+-ion。ラテン語integer(全体の、無傷の)が語源。"
+    },
+    {
+      "word": "immigrant",
+      "pos": "名",
+      "pronunciation": "イミグラント",
+      "ipa": "ímigrənt",
+      "meaning": "移民",
+      "booster": "im-(中に)+migrare(移動する、ラテン語)。「(国の)中に移り住む人」。"
+    },
+    {
+      "word": "unemployment",
+      "pos": "名",
+      "pronunciation": "アンイムプロイメント",
+      "ipa": "ʌ̀nimplɔ́imənt",
+      "meaning": "失業",
+      "booster": "un-(否定)+employment(雇用)。"
+    },
+    {
+      "word": "intensive",
+      "pos": "形",
+      "pronunciation": "インテンスィヴ",
+      "ipa": "inténsiv",
+      "meaning": "集中的な",
+      "booster": "ラテン語intendere(張り詰める)が語源。intensive course(集中講座)の形で頻出。"
+    },
+    {
+      "word": "qualification",
+      "pos": "名",
+      "pronunciation": "クワリフィケイション",
+      "ipa": "kwὰləfikéiʃən",
+      "meaning": "資格",
+      "booster": "qualify(資格を与える)+-cation(名詞化)。DAY3のqualifyと同根。"
+    },
+    {
+      "word": "flexible",
+      "pos": "形",
+      "pronunciation": "フレクスィブル",
+      "ipa": "fléksəbl",
+      "meaning": "柔軟な",
+      "booster": "flex(曲げる)+-ible(できる)。DAY3のflexibilityの形容詞形。"
+    },
+    {
+      "word": "scheduling",
+      "pos": "名",
+      "pronunciation": "スケジューリング",
+      "ipa": "skédʒuliŋ",
+      "meaning": "予定調整、日程編成",
+      "booster": "schedule(予定)+-ing(名詞化)。"
+    },
+    {
+      "word": "organization",
+      "pos": "名",
+      "pronunciation": "オーガニゼイション",
+      "ipa": "ɔ̀ːrgənizéiʃən",
+      "meaning": "組織、団体",
+      "booster": "organize(組織化する)+-ation(名詞化)。"
+    }
+  ]
+}

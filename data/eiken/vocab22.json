@@ -1,0 +1,70 @@
+{
+  "number": 22,
+  "title": "パーム油と森林破壊",
+  "words": [
+    {
+      "word": "plantation",
+      "pos": "名",
+      "pronunciation": "プランテイション",
+      "ipa": "plæntéiʃən",
+      "meaning": "大農園、プランテーション",
+      "booster": "plant(植える)+-ation(名詞化)。"
+    },
+    {
+      "word": "hectare",
+      "pos": "名",
+      "pronunciation": "ヘクター",
+      "ipa": "héktɛər",
+      "meaning": "ヘクタール(面積単位)",
+      "booster": "フランス語hect-(100)+are(面積単位)。1ヘクタール=100アール。"
+    },
+    {
+      "word": "deforestation",
+      "pos": "名",
+      "pronunciation": "ディーフォレステイション",
+      "ipa": "dìːfɔ̀rəstéiʃən",
+      "meaning": "森林伐採",
+      "booster": "de-(除く)+forest(森)+-ation(名詞化)。"
+    },
+    {
+      "word": "habitat",
+      "pos": "名",
+      "pronunciation": "ハビタット",
+      "ipa": "hǽbətæ̀t",
+      "meaning": "生息地",
+      "booster": "ラテン語habitare(住む)が語源。「(動植物が)住む場所」。"
+    },
+    {
+      "word": "endangered",
+      "pos": "形",
+      "pronunciation": "インデインジャード",
+      "ipa": "indéindʒərd",
+      "meaning": "絶滅危惧の",
+      "booster": "en-(〜にする)+danger(危険)+-ed。「危険な状態にされた」が原義。"
+    },
+    {
+      "word": "disrupt",
+      "pos": "動",
+      "pronunciation": "ディスラプト",
+      "ipa": "disrʌ́pt",
+      "meaning": "混乱させる、崩壊させる",
+      "booster": "dis-(離れて)+rumpere(壊す、ラテン語)。「バラバラに壊す」が原義。"
+    },
+    {
+      "word": "conservation",
+      "pos": "名",
+      "pronunciation": "カンサーヴェイション",
+      "ipa": "kὰnsərvéiʃən",
+      "meaning": "保護、保全",
+      "booster": "conserve(保護する)+-ation(名詞化)。"
+    },
+    {
+      "word": "rainfall",
+      "pos": "名",
+      "pronunciation": "レインフォール",
+      "ipa": "réinfɔ̀ːl",
+      "meaning": "降雨(量)",
+      "booster": "rain(雨)+fall(落ちる)。そのまま「雨が降ること」。"
+    }
+  ]
+}

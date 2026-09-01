@@ -1,0 +1,70 @@
+{
+  "number": 15,
+  "title": "週休3日制の実験",
+  "words": [
+    {
+      "word": "burnout",
+      "pos": "名",
+      "pronunciation": "バーンアウト",
+      "ipa": "bə́ːrnàut",
+      "meaning": "燃え尽き症候群",
+      "booster": "burn(燃える)+out(尽きる)。そのまま「燃え尽きること」。"
+    },
+    {
+      "word": "satisfaction",
+      "pos": "名",
+      "pronunciation": "サティスファクション",
+      "ipa": "sætisfǽkʃən",
+      "meaning": "満足度",
+      "booster": "satisfy(満足させる)+-action(名詞化)。ラテン語satis(十分な)+facere(作る)。"
+    },
+    {
+      "word": "retain",
+      "pos": "動",
+      "pronunciation": "リテイン",
+      "ipa": "ritéin",
+      "meaning": "維持する、引き留める",
+      "booster": "re-(後ろに)+tenere(保つ、ラテン語)。「手元に保ち続ける」が原義。"
+    },
+    {
+      "word": "competitive",
+      "pos": "形",
+      "pronunciation": "コンペティティヴ",
+      "ipa": "kəmpétətiv",
+      "meaning": "競争力のある",
+      "booster": "compete(競争する)+-itive(形容詞化)。DAY6のcompeteと同根。"
+    },
+    {
+      "word": "shortened",
+      "pos": "形",
+      "pronunciation": "ショートゥンド",
+      "ipa": "ʃɔ́ːrtnd",
+      "meaning": "短縮された",
+      "booster": "short(短い)+-en(動詞化)+-ed。"
+    },
+    {
+      "word": "sector",
+      "pos": "名",
+      "pronunciation": "セクター",
+      "ipa": "séktər",
+      "meaning": "部門、業界",
+      "booster": "ラテン語secare(切る)が語源。「(全体から)切り分けられた領域」。"
+    },
+    {
+      "word": "output",
+      "pos": "名",
+      "pronunciation": "アウトプット",
+      "ipa": "áutpùt",
+      "meaning": "生産量、産出量",
+      "booster": "out(外に)+put(置く)。そのまま「外に出されたもの」。"
+    },
+    {
+      "word": "staffing",
+      "pos": "名",
+      "pronunciation": "スタッフィング",
+      "ipa": "stǽfiŋ",
+      "meaning": "人員配置",
+      "booster": "staff(職員)+-ing(名詞化)。"
+    }
+  ]
+}

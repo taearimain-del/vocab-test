@@ -1,0 +1,70 @@
+{
+  "number": 2,
+  "title": "都市型の垂直農業",
+  "words": [
+    {
+      "word": "vertical",
+      "pos": "形",
+      "pronunciation": "ヴァーティカル",
+      "ipa": "və́ːrtikəl",
+      "meaning": "垂直の",
+      "booster": "ラテン語vertere(向きを変える)由来。horizontal(水平の)との対比でよく使われる。"
+    },
+    {
+      "word": "stack",
+      "pos": "動",
+      "pronunciation": "スタック",
+      "ipa": "stæk",
+      "meaning": "積み重ねる",
+      "booster": "古ノルド語stakkr(干し草の山)が語源。stacked layers(積み重ねられた層)のように使う。"
+    },
+    {
+      "word": "artificial",
+      "pos": "形",
+      "pronunciation": "アーティフィシャル",
+      "ipa": "ὰːrtəfíʃəl",
+      "meaning": "人工の",
+      "booster": "art(技術)+facere(作る)。「技術によって作られた」が原義で、natural(自然の)の対義語。"
+    },
+    {
+      "word": "shrink",
+      "pos": "動",
+      "pronunciation": "シュリンク",
+      "ipa": "ʃríŋk",
+      "meaning": "縮小する",
+      "booster": "古英語scrincan(縮む)。available farmland shrinks(利用可能な農地が縮小する)のように使う。"
+    },
+    {
+      "word": "conventional",
+      "pos": "形",
+      "pronunciation": "コンヴェンショナル",
+      "ipa": "kənvénʃənəl",
+      "meaning": "従来の、慣習的な",
+      "booster": "convene(集まる)+-tional。「みんなが集まって合意した」→「一般的な」というイメージ。"
+    },
+    {
+      "word": "profitably",
+      "pos": "副",
+      "pronunciation": "プロフィタブリー",
+      "ipa": "prάfitəbli",
+      "meaning": "利益を上げて",
+      "booster": "profit(利益)+-ably(できる、〜な仕方で)。grown profitably(利益が出る形で栽培される)のように使う。"
+    },
+    {
+      "word": "staple",
+      "pos": "形",
+      "pronunciation": "ステイプル",
+      "ipa": "stéipl",
+      "meaning": "主要な、必需品の",
+      "booster": "古フランス語estaple(市場)が語源。staple foods(主食)のように「生活の基本となる」の意味で使われる。"
+    },
+    {
+      "word": "expense",
+      "pos": "名",
+      "pronunciation": "イクスペンス",
+      "ipa": "ikspéns",
+      "meaning": "費用、経費",
+      "booster": "ラテン語expendere(支払う)由来。operating expenses(運営費)の形でよく使われる。"
+    }
+  ]
+}

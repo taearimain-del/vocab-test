@@ -1,0 +1,70 @@
+{
+  "number": 12,
+  "title": "男女の賃金格差",
+  "words": [
+    {
+      "word": "disclose",
+      "pos": "動",
+      "pronunciation": "ディスクロウズ",
+      "ipa": "disklóuz",
+      "meaning": "開示する、公表する",
+      "booster": "dis-(否定)+close(閉じる)。「閉じているものを開く」が原義。"
+    },
+    {
+      "word": "transparency",
+      "pos": "名",
+      "pronunciation": "トランスペアレンスィ",
+      "ipa": "trænspérənsi",
+      "meaning": "透明性",
+      "booster": "trans-(通して)+parere(見える、ラテン語)。「通して見えること」。"
+    },
+    {
+      "word": "reputation",
+      "pos": "名",
+      "pronunciation": "レピュテイション",
+      "ipa": "rèpjutéiʃən",
+      "meaning": "評判",
+      "booster": "repute(評判)+-ation(名詞化)。"
+    },
+    {
+      "word": "mandatory",
+      "pos": "形",
+      "pronunciation": "マンダトリー",
+      "ipa": "mǽndətɔ̀ːri",
+      "meaning": "義務的な",
+      "booster": "mandate(命令、義務づける)+-ory(形容詞化)。"
+    },
+    {
+      "word": "misleading",
+      "pos": "形",
+      "pronunciation": "ミスリーディング",
+      "ipa": "mislíːdiŋ",
+      "meaning": "誤解を招く",
+      "booster": "mis-(誤って)+lead(導く)+-ing。「誤った方向へ導く」が原義。"
+    },
+    {
+      "word": "administrative",
+      "pos": "形",
+      "pronunciation": "アドミニストレイティヴ",
+      "ipa": "ædmínəstrèitiv",
+      "meaning": "管理上の、事務の",
+      "booster": "administer(管理する)+-ative(形容詞化)。"
+    },
+    {
+      "word": "figure",
+      "pos": "名",
+      "pronunciation": "フィギャー",
+      "ipa": "fígjər",
+      "meaning": "数値、数字",
+      "booster": "ラテン語figura(形)が語源。「形になったもの」→「数値・図」。"
+    },
+    {
+      "word": "struggle",
+      "pos": "動",
+      "pronunciation": "ストラグル",
+      "ipa": "strʌ́gl",
+      "meaning": "苦労する、もがく",
+      "booster": "中世英語strogelen(もがく)が語源。struggle to compete(競争に苦労する)。"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "number": 5,
+  "title": "本を所有することによる魔法の効果",
+  "words": [
+    {
+      "word": "correlate",
+      "pos": "動",
+      "pronunciation": "コーリレイト",
+      "ipa": "kɔ́rəlèit",
+      "meaning": "相関する",
+      "booster": "co-(共に)+relate(関連する)。「お互いに関連し合う」がそのまま「相関する」の意味に。名詞形correlation(相関関係)は統計やデータ分析の話でも頻出する。"
+    },
+    {
+      "word": "longevity",
+      "pos": "名",
+      "pronunciation": "ロンジェヴィティ",
+      "ipa": "lɑndʒévəti",
+      "meaning": "継続期間",
+      "booster": "long(長い)+ラテン語aevum(年齢・時代)。本来は「長寿」だが、本文のように「(在籍・在職などの)長く続く期間」の意味でも使われる。lifelongやageと語源イメージが繋がる。"
+    },
+    {
+      "word": "paraphrase",
+      "pos": "動",
+      "pronunciation": "パラフレイズ",
+      "ipa": "pǽrəfrèiz",
+      "meaning": "言い換える",
+      "booster": "para-(そばに・別の形で)+phrase(句、言い回し)。「元の言葉のそばに別の言い方を並べる」がそのまま「言い換える」に。paragraph(段落)も同じpara-を持つ仲間。"
+    },
+    {
+      "word": "ontological",
+      "pos": "形",
+      "pronunciation": "オントロジカル",
+      "ipa": "ὰntəlɑ́dʒikəl",
+      "meaning": "存在論的な",
+      "booster": "ギリシャ語on(存在するもの)+logy(〜学)からontology(存在論)。「〜である」という存在そのものを扱う哲学分野の形容詞形で、難語だが「存在」の核だけ押さえれば十分。"
+    },
+    {
+      "word": "substantially",
+      "pos": "副",
+      "pronunciation": "サブスタンシャリー",
+      "ipa": "səbstǽnʃəli",
+      "meaning": "かなり",
+      "booster": "substance(実質・物質)の形容詞substantialに-lyがついた形。sub-(下に)+stance(立つ)で「下から支える実質」が原義。実質を伴うほど大きい、つまり「かなり、相当に」となる。"
+    },
+    {
+      "word": "substitute",
+      "pos": "動",
+      "pronunciation": "サブスティテュート",
+      "ipa": "sʌ́bstətùt",
+      "meaning": "代わりを務める、代用する",
+      "booster": "sub-(下に)+statuere(置く、ラテン語)。「別のものの下に据えて置き換える」が原義。名詞では「代役、代用品」の意味で、スポーツの「サブ」の語源もここ。"
+    },
+    {
+      "word": "thorough",
+      "pos": "形",
+      "pronunciation": "サロウ",
+      "ipa": "θə́rou",
+      "meaning": "徹底的な、綿密な",
+      "booster": "throughと同語源で「隅から隅まで通り抜ける」がイメージ。そこから物事を「徹底的に」行う様子を表す形容詞になった。発音がthroughとは違うので要注意。"
+    },
+    {
+      "word": "literacy",
+      "pos": "名",
+      "pronunciation": "リテラシー",
+      "ipa": "lítərəsi",
+      "meaning": "読み書き能力、識字力",
+      "booster": "ラテン語littera(文字)が語源。literature(文学)、letter(手紙・文字)と同じ仲間で、「文字を扱える能力」が原義。近年は「情報リテラシー」のように応用的な意味でも定着している。"
+    },
+    {
+      "word": "attribute",
+      "pos": "動",
+      "pronunciation": "アトリビュート",
+      "ipa": "ətríbjut",
+      "meaning": "〜のせいにする、起因すると考える",
+      "booster": "at-(〜に)+tribute(与える、ラテン語tribuere)。「ある結果をある原因に帰する」がイメージ。名詞attribute(属性・特質)としても頻出する多義語。"
+    },
+    {
+      "word": "namely",
+      "pos": "副",
+      "pronunciation": "ネイムリー",
+      "ipa": "néimli",
+      "meaning": "すなわち、つまり",
+      "booster": "name(名前)+ly。「名前を挙げて言えば」が原義で、具体例を挙げて言い換える際の「すなわち」に。that is to sayとほぼ同義の書き言葉表現。"
+    },
+    {
+      "word": "donor",
+      "pos": "名",
+      "pronunciation": "ドウナー",
+      "ipa": "dóunər",
+      "meaning": "寄贈者、提供者",
+      "booster": "ラテン語donare(与える)が語源。donate(寄付する)、donation(寄付)と同じ仲間で、「与える人」がそのまま「寄贈者・提供者」の意味になる。"
+    },
+    {
+      "word": "determine",
+      "pos": "動",
+      "pronunciation": "ディターミン",
+      "ipa": "ditə́rmin",
+      "meaning": "判断する、決定する",
+      "booster": "de-(強調)+terminus(境界、終点)。「境界線をはっきり定める」が原義で、そこから「(事実・意志を)決定する、突き止める」に。terminal(終着駅)と同語源。"
+    },
+    {
+      "word": "variable",
+      "pos": "名",
+      "pronunciation": "ヴェアリアブル",
+      "ipa": "vériəbl",
+      "meaning": "変数、変わりうる要因",
+      "booster": "vary(変化する)+able(できる)。ラテン語variare(変える)が語源で、variety(多様性)とも仲間。「変わり得るもの」がそのまま数学・統計の「変数」に。"
+    },
+    {
+      "word": "anonymous",
+      "pos": "形",
+      "pronunciation": "アノニマス",
+      "ipa": "ənɑ́nəməs",
+      "meaning": "匿名の",
+      "booster": "an-(否定)+onym(名前、ギリシャ語onoma)。「名前がない」が直訳で、synonym(同義語)、pseudonym(ペンネーム)と同じonym系ファミリー。"
+    },
+    {
+      "word": "possess",
+      "pos": "動",
+      "pronunciation": "ポゼス",
+      "ipa": "pəzés",
+      "meaning": "所有する",
+      "booster": "pos-(強調)+sedere(座る、ラテン語)。「しっかり座って動かない=手放さず持っている」がイメージ。名詞possession(所有物)とセットで覚えたい。"
+    },
+    {
+      "word": "transform",
+      "pos": "動",
+      "pronunciation": "トランスフォーム",
+      "ipa": "trænsfɔ́rm",
+      "meaning": "変える、変容させる",
+      "booster": "trans-(越えて)+form(形)。「元の形を越えて別の形に変える」が直訳で、根本から形が変わるニュアンスを持つ。"
+    },
+    {
+      "word": "realm",
+      "pos": "名",
+      "pronunciation": "レルム",
+      "ipa": "relm",
+      "meaning": "領域、世界",
+      "booster": "古フランス語reialme(王国)が語源で、royal(王の)と同語源。もとは「王が治める領土」を指したが、比喩的に「〜の世界、領域」も表すようになった。"
+    },
+    {
+      "word": "perception",
+      "pos": "名",
+      "pronunciation": "パーセプション",
+      "ipa": "pərsépʃən",
+      "meaning": "認識、知覚",
+      "booster": "perceive(知覚する)の名詞形。per-(徹底的に)+cept(掴む)で「隅々まで掴み取ること」が原義。self-perceptionは「自分自身をどう捉えるか」の意味になる。"
+    },
+    {
+      "word": "shrink",
+      "pos": "動",
+      "pronunciation": "シュリンク",
+      "ipa": "ʃriŋk",
+      "meaning": "縮小する、減る",
+      "booster": "古英語scrincan(縮む)が語源。服が洗濯で「縮む」のも数量が「減る」のも同じshrinkで表現できる。shrinkage(縮小)は名詞形。"
+    },
+    {
+      "word": "ultimately",
+      "pos": "副",
+      "pronunciation": "アルティメットリー",
+      "ipa": "ʌ́ltimətli",
+      "meaning": "最終的に",
+      "booster": "ultimate(究極の、最後の)+ly。ラテン語ultimus(最後の)が語源で、「あらゆる過程を経た末に」というニュアンスで文全体を修飾する。"
+    }
+  ]
+}

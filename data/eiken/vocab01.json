@@ -1,0 +1,70 @@
+{
+  "number": 1,
+  "title": "遠隔医療の広がりと課題",
+  "words": [
+    {
+      "word": "telemedicine",
+      "pos": "名",
+      "pronunciation": "テレメディスン",
+      "ipa": "tèlimédisin",
+      "meaning": "遠隔医療",
+      "booster": "tele-(遠く、telephoneと同じ語根)+medicine(医学)。「遠く離れた場所で行う医療」がそのまま語の成り立ち。"
+    },
+    {
+      "word": "consultation",
+      "pos": "名",
+      "pronunciation": "カンサルテイション",
+      "ipa": "kὰnsəltéiʃən",
+      "meaning": "診察、相談",
+      "booster": "consult(相談する)+-ation(名詞化)。ラテン語consulere(相談する)が語源で、consultant(コンサルタント=相談役)と同根。"
+    },
+    {
+      "word": "mobility",
+      "pos": "名",
+      "pronunciation": "モウビリティ",
+      "ipa": "moubíləti",
+      "meaning": "移動能力",
+      "booster": "mobile(動きやすい)+-ity(名詞化)。automobile(自動車=自分で動くもの)のmobileと同じ語根。"
+    },
+    {
+      "word": "unfamiliar",
+      "pos": "形",
+      "pronunciation": "アンファミリヤー",
+      "ipa": "ʌ̀nfəmíljər",
+      "meaning": "不慣れな",
+      "booster": "un-(否定)+familiar(よく知っている)。familyと同根で、「家族のようによく知っている」の否定形。"
+    },
+    {
+      "word": "widen",
+      "pos": "動",
+      "pronunciation": "ワイドゥン",
+      "ipa": "wáidn",
+      "meaning": "広げる",
+      "booster": "wide(広い)+-en(動詞化)。widen the gap(格差を広げる)の形でよく使われる。"
+    },
+    {
+      "word": "assistance",
+      "pos": "名",
+      "pronunciation": "アシスタンス",
+      "ipa": "əsístəns",
+      "meaning": "援助",
+      "booster": "assist(助ける)+-ance(名詞化)。ラテン語sistere(立つ)+ad-(そばに)で「そばに立つ」が原義。"
+    },
+    {
+      "word": "rural",
+      "pos": "形",
+      "pronunciation": "ルアラル",
+      "ipa": "rúərəl",
+      "meaning": "田舎の、地方の",
+      "booster": "ラテン語rus(田舎)が語源。urban(都会の)の反対語として頻出。"
+    },
+    {
+      "word": "crowded",
+      "pos": "形",
+      "pronunciation": "クラウディッド",
+      "ipa": "kráudid",
+      "meaning": "混雑した",
+      "booster": "crowd(群衆)+-ed。「群衆でいっぱいの」がそのまま意味になる。"
+    }
+  ]
+}

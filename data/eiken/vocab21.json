@@ -1,0 +1,70 @@
+{
+  "number": 21,
+  "title": "eスポーツは「スポーツ」か",
+  "words": [
+    {
+      "word": "reflex",
+      "pos": "名",
+      "pronunciation": "リーフレックス",
+      "ipa": "ríːfleks",
+      "meaning": "反射神経",
+      "booster": "re-(戻る)+flectere(曲げる、ラテン語)。「刺激が跳ね返ってくる反応」。"
+    },
+    {
+      "word": "rigorously",
+      "pos": "副",
+      "pronunciation": "リゴラスリー",
+      "ipa": "rígərəsli",
+      "meaning": "厳格に、徹底的に",
+      "booster": "rigor(厳格さ)+-ously(副詞化)。"
+    },
+    {
+      "word": "legitimate",
+      "pos": "形",
+      "pronunciation": "リジティメット",
+      "ipa": "lidʒítəmət",
+      "meaning": "正当な、合法的な",
+      "booster": "ラテン語legitimus(合法の)が語源。lawと同語根。"
+    },
+    {
+      "word": "dilute",
+      "pos": "動",
+      "pronunciation": "ダイリュート",
+      "ipa": "dailúːt",
+      "meaning": "薄める、弱める",
+      "booster": "ラテン語diluere(洗い流す)が語源。「濃度を薄めて弱める」イメージ。"
+    },
+    {
+      "word": "exertion",
+      "pos": "名",
+      "pronunciation": "イグザーション",
+      "ipa": "igzə́ːrʃən",
+      "meaning": "激しい運動、努力",
+      "booster": "exert(発揮する、力を尽くす)+-ion(名詞化)。"
+    },
+    {
+      "word": "inactivity",
+      "pos": "名",
+      "pronunciation": "インアクティヴィティ",
+      "ipa": "ìnæktívəti",
+      "meaning": "不活発、運動不足",
+      "booster": "in-(否定)+activity(活動)。"
+    },
+    {
+      "word": "audience",
+      "pos": "名",
+      "pronunciation": "オーディエンス",
+      "ipa": "ɔ́ːdiəns",
+      "meaning": "観客、視聴者",
+      "booster": "ラテン語audire(聞く)が語源。「聞く人々」がそのまま意味に。"
+    },
+    {
+      "word": "comparable",
+      "pos": "形",
+      "pronunciation": "カンパラブル",
+      "ipa": "kάmpərəbl",
+      "meaning": "匹敵する、同等の",
+      "booster": "compare(比較する)+-able(できる)。「比較できるほど近い」。"
+    }
+  ]
+}

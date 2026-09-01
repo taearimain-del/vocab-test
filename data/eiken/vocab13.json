@@ -1,0 +1,70 @@
+{
+  "number": 13,
+  "title": "レジ袋規制",
+  "words": [
+    {
+      "word": "reusable",
+      "pos": "形",
+      "pronunciation": "リユーザブル",
+      "ipa": "rìːjúːzəbl",
+      "meaning": "再利用可能な",
+      "booster": "re-(再び)+use(使う)+-able(できる)。"
+    },
+    {
+      "word": "litter",
+      "pos": "名",
+      "pronunciation": "リター",
+      "ipa": "lítər",
+      "meaning": "ゴミ、散乱ごみ",
+      "booster": "古フランス語litiere(寝床、敷きわら)が語源。地面に散らばるものというイメージ。"
+    },
+    {
+      "word": "durable",
+      "pos": "形",
+      "pronunciation": "デュラブル",
+      "ipa": "djúərəbl",
+      "meaning": "耐久性のある",
+      "booster": "ラテン語durare(持続する)が語源。DAY1のenduranceと同語根。"
+    },
+    {
+      "word": "disposable",
+      "pos": "形",
+      "pronunciation": "ディスポウザブル",
+      "ipa": "dispóuzəbl",
+      "meaning": "使い捨ての",
+      "booster": "dispose(処分する)+-able(できる)。"
+    },
+    {
+      "word": "coastline",
+      "pos": "名",
+      "pronunciation": "コウストライン",
+      "ipa": "kóustlàin",
+      "meaning": "海岸線",
+      "booster": "coast(海岸)+line(線)。そのまま「海岸の線」。"
+    },
+    {
+      "word": "discourage",
+      "pos": "動",
+      "pronunciation": "ディスカリッジ",
+      "ipa": "diskə́ːridʒ",
+      "meaning": "やる気をそぐ、思いとどまらせる",
+      "booster": "dis-(否定)+courage(勇気)。「勇気を奪う」が原義。"
+    },
+    {
+      "word": "sustainable",
+      "pos": "形",
+      "pronunciation": "サステイナブル",
+      "ipa": "səstéinəbl",
+      "meaning": "持続可能な",
+      "booster": "sustain(維持する)+-able(できる)。sub-(下から)+tenere(保つ)が語源。"
+    },
+    {
+      "word": "checkout",
+      "pos": "名",
+      "pronunciation": "チェックアウト",
+      "ipa": "tʃékàut",
+      "meaning": "レジ、会計",
+      "booster": "check(確認する)+out(外へ)。そのまま「確認して外に出る場所」。"
+    }
+  ]
+}
