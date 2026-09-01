@@ -55,6 +55,16 @@
   .stat-num { font-family: var(--font-mono); font-size: 20px; font-weight: 700; color: var(--accent-strong); }
   .stat-label { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
 
+  .threshold-row {
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    font-size: 12.5px; color: var(--text-muted); margin-bottom: 4px;
+  }
+  .threshold-select {
+    font-family: var(--font-body); font-size: 13px; font-weight: 600;
+    padding: 6px 8px; border-radius: 7px; border: 1px solid var(--border-strong);
+    background: var(--surface); color: var(--text); cursor: pointer;
+  }
+
   .primary-btn {
     display: block; width: 100%; text-align: center; font-size: 15px; font-weight: 700;
     padding: 15px; border-radius: var(--radius-sm); border: none; background: var(--accent); color: #fff;
@@ -130,7 +140,9 @@
   SETS.polaris.name = '英語長文ポラリス 単語帳';
   SETS.eiken.name = '英検準1級ライティング特訓 単語帳';
 
-  var MASTER_THRESHOLD = 5;
+  var DEFAULT_THRESHOLD = 5;
+  var MIN_THRESHOLD = 1;
+  var MAX_THRESHOLD = 10;
   var PROGRESS_KEY = 'vocab-test-progress-v1';
   var SYNC_CODE_KEY = 'vocab-test-sync-code';
 
@@ -146,13 +158,21 @@
 
   function ensureSetProgress(setId) {
     if (!progress[setId]) {
-      progress[setId] = { correctCounts: {}, currentRound: 0, roundHistory: [] };
+      progress[setId] = { correctCounts: {}, currentRound: 0, roundHistory: [], threshold: DEFAULT_THRESHOLD };
     }
     var sp = progress[setId];
     if (!sp.correctCounts) sp.correctCounts = {};
     if (typeof sp.currentRound !== 'number') sp.currentRound = 0;
     if (!sp.roundHistory) sp.roundHistory = [];
+    if (typeof sp.threshold !== 'number' || sp.threshold < MIN_THRESHOLD || sp.threshold > MAX_THRESHOLD) sp.threshold = DEFAULT_THRESHOLD;
     return sp;
+  }
+  // セットごとに「何回連続正解したら習得済み扱いにするか」を自由に設定できる（1〜10）。
+  function getThreshold(setId) { return ensureSetProgress(setId).threshold; }
+  function setThreshold(setId, n) {
+    var sp = ensureSetProgress(setId);
+    sp.threshold = Math.max(MIN_THRESHOLD, Math.min(MAX_THRESHOLD, n));
+    saveProgress();
   }
 
   // ===== 単語一覧・キー =====
@@ -169,14 +189,16 @@
   function totalWords(setId) { return allWords(setId).length; }
   function masteredCount(setId) {
     var sp = ensureSetProgress(setId);
+    var th = getThreshold(setId);
     var n = 0;
-    for (var k in sp.correctCounts) { if (sp.correctCounts[k] >= MASTER_THRESHOLD) n++; }
+    for (var k in sp.correctCounts) { if (sp.correctCounts[k] >= th) n++; }
     return n;
   }
 
   // ===== リセット・手動習得 =====
   function resetSetProgress(setId) {
-    progress[setId] = { correctCounts: {}, currentRound: 0, roundHistory: [] };
+    var th = getThreshold(setId); // しきい値の設定は進捗リセットとは独立に保持する
+    progress[setId] = { correctCounts: {}, currentRound: 0, roundHistory: [], threshold: th };
     saveProgress();
   }
   function resetLessonProgress(setId, lessonNumber) {
@@ -188,22 +210,24 @@
   }
   function markMastered(setId, key) {
     var sp = ensureSetProgress(setId);
-    sp.correctCounts[key] = MASTER_THRESHOLD;
+    sp.correctCounts[key] = getThreshold(setId);
     saveProgress();
   }
 
   // ===== 出題プールの決定 =====
   // correctCounts は「連続正解回数」。不正解を挟むと0に戻る。
-  // 各ラウンドの出題対象は「まだ5連続正解に達していない語」全部＝間違えた語ほど何度も出てくる、
-  // 一度も間違えず5回正解できた語はプールから消える、という運用（Fort様の紙の単語帳の回し方を再現）。
+  // 各ラウンドの出題対象は「まだしきい値に達していない語」全部＝間違えた語ほど何度も出てくる、
+  // 一度も間違えずしきい値まで正解できた語はプールから消える、という運用
+  // （Fort様の紙の単語帳の回し方を再現。しきい値は1〜10でセットごとに自由に設定できる）。
   // lessonNumber を渡すと、そのレッスン/DAYの未習得語だけに絞り込む（レッスン単位テスト用）。
   function buildRoundQueue(setId, lessonNumber) {
     var sp = ensureSetProgress(setId);
+    var th = getThreshold(setId);
     var words = allWords(setId);
     if (lessonNumber != null) {
       words = words.filter(function (item) { return item.lessonNumber === lessonNumber; });
     }
-    return words.filter(function (item) { return (sp.correctCounts[item.key] || 0) < MASTER_THRESHOLD; });
+    return words.filter(function (item) { return (sp.correctCounts[item.key] || 0) < th; });
   }
 
   // ===== 画面状態 =====
@@ -252,7 +276,7 @@
       app.appendChild(card);
     });
 
-    var foot = el('footer', null, '5回連続で正解した単語は「習得済み」としてもう出題されません。<br>不正解だった単語だけを次のラウンドで繰り返し出題します。');
+    var foot = el('footer', null, '設定した回数だけ連続で正解した単語は「習得済み」としてもう出題されません（各セット詳細画面で1〜10回に変更可）。<br>不正解だった単語だけを次のラウンドで繰り返し出題します。');
     app.appendChild(foot);
   }
 
@@ -261,6 +285,7 @@
     var total = totalWords(setId);
     var mastered = masteredCount(setId);
     var sp = ensureSetProgress(setId);
+    var th = getThreshold(setId);
 
     app.appendChild(syncCardEl());
     var back = el('a', 'back-link', '‹ 単語テストのホームへ');
@@ -277,6 +302,20 @@
       '<div class="stat-box"><div class="stat-num">' + (total - mastered) + '</div><div class="stat-label">未習得</div></div>' +
       '<div class="stat-box"><div class="stat-num">' + sp.currentRound + '</div><div class="stat-label">ラウンド</div></div>';
     app.appendChild(statRow);
+
+    var thresholdRow = el('div', 'threshold-row');
+    var thOptions = '';
+    for (var ti = MIN_THRESHOLD; ti <= MAX_THRESHOLD; ti++) {
+      thOptions += '<option value="' + ti + '"' + (ti === th ? ' selected' : '') + '>' + ti + '回</option>';
+    }
+    thresholdRow.innerHTML =
+      '<label for="threshold-select">何回連続で正解したら習得済みにする？</label>' +
+      '<select id="threshold-select" class="threshold-select">' + thOptions + '</select>';
+    thresholdRow.querySelector('select').addEventListener('change', function (e) {
+      setThreshold(setId, parseInt(e.target.value, 10));
+      render();
+    });
+    app.appendChild(thresholdRow);
 
     var queue = buildRoundQueue(setId);
     var startBtn = el('button', 'primary-btn', mastered >= total
@@ -317,7 +356,7 @@
       var lessonMastered = 0;
       lesson.words.forEach(function (w, i) {
         var key = setId + ':' + lesson.number + ':' + i;
-        if ((sp.correctCounts[key] || 0) >= MASTER_THRESHOLD) lessonMastered++;
+        if ((sp.correctCounts[key] || 0) >= th) lessonMastered++;
       });
       var acc = document.createElement('details');
       acc.className = 'word-acc';
@@ -331,7 +370,7 @@
       lesson.words.forEach(function (w, i) {
         var key = setId + ':' + lesson.number + ':' + i;
         var cnt = sp.correctCounts[key] || 0;
-        var isMastered = cnt >= MASTER_THRESHOLD;
+        var isMastered = cnt >= th;
         var tr = document.createElement('tr');
         tr.innerHTML =
           '<td class="wt-en">' + esc(w.word) + '</td>' +
@@ -462,6 +501,7 @@
   function finishRound() {
     var setId = testState.setId;
     var sp = ensureSetProgress(setId);
+    var th = getThreshold(setId);
     var newlyMastered = 0, correctN = 0;
     for (var key in testState.results) {
       var ok = testState.results[key];
@@ -470,7 +510,7 @@
         var before = sp.correctCounts[key] || 0;
         var after = before + 1;
         sp.correctCounts[key] = after;
-        if (before < MASTER_THRESHOLD && after >= MASTER_THRESHOLD) newlyMastered++;
+        if (before < th && after >= th) newlyMastered++;
       } else {
         sp.correctCounts[key] = 0; // 不正解で連続正解カウントはリセット（次のラウンドでまた出題される）
       }
