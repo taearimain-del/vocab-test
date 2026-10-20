@@ -1,7 +1,13 @@
 <meta charset="UTF-8">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#02060b" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f2f5f8" media="(prefers-color-scheme: light)">
+<style id="pt-first">html{background:#f2f5f8}@media (prefers-color-scheme: dark){html{background:#02060b}}</style>
+
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>単語テスト</title>
+<link rel="stylesheet" href="https://roadto-univ.pages.dev/theme.css">
 <style>
   :root {
     --bg: #faf6ee; --surface: #ffffff; --surface-2: #f3ede0;
@@ -136,7 +142,33 @@
 
   footer { text-align: center; font-size: 11.5px; color: var(--text-muted); margin-top: 30px; }
 </style>
+<style id="pt-align">
+/* ポータルにそろえる（2026-10-21 Fort様「ポータルからデザインをかけ離れすぎないように」「良くないアプリはUIも整えて」）。色は theme.css の --pt-* */
+/* 入力欄・ボタン・タブの共通の形（ポータルの線と角を落としたボタン） */
+input[type=text], input[type=number], input[type=time], input[type=date], input[type=search], select, textarea { background: var(--pt-bg2); color: var(--pt-text); border: 1px solid var(--pt-line2); border-radius: 0; }
+input:focus, select:focus, textarea:focus { outline: 1px solid var(--pt-hud); outline-offset: 0; border-color: var(--pt-hud); }
+select option { background: var(--pt-panel); color: var(--pt-text); }
+:root { --bg: var(--pt-bg); --surface: var(--pt-panel); --surface-2: var(--pt-bg2); --border: var(--pt-line); --border-strong: var(--pt-line2);
+  --text: var(--pt-text); --text-muted: var(--pt-text2); --accent: var(--pt-hud); --accent-strong: var(--pt-amber);
+  --ok: var(--pt-ok); --ok-bg: var(--pt-ok-weak); --ng: var(--pt-crit); --ng-bg: var(--pt-crit-weak);
+  --radius: 0px; --radius-sm: 0px; --font-body: var(--pt-jp); --font-mono: var(--pt-hudfont), var(--pt-jp); }
+html { background: var(--pt-bg); }
+body.pt-bg { padding-top: 0; }
+.eyebrow { color: var(--pt-hud); letter-spacing: .24em; }
+h1 { position: relative; display: flex; align-items: center; gap: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--pt-line2); letter-spacing: .04em; }
+h1::before { content: ""; flex: none; width: 8px; height: 8px; border: 1px solid var(--pt-hud); transform: rotate(45deg); box-shadow: var(--pt-glow); }
+h1::after { content: ""; position: absolute; left: 0; bottom: -1px; width: 64px; height: 2px; background: var(--pt-hud); box-shadow: var(--pt-glow); }
+.set-card, .stat-box { box-shadow: var(--pt-shadow); position: relative; }
+.set-card::before { content: ""; position: absolute; left: 6px; top: 6px; width: 12px; height: 12px; border: 0 solid var(--pt-hud); border-width: 1px 0 0 1px; }
+.bar-track { height: 3px; border-radius: 0; background: var(--pt-line); }
+.bar-fill { border-radius: 0; box-shadow: var(--pt-glow); }
+.primary-btn, .account-add-row button { color: var(--pt-on-hud); clip-path: var(--pt-cut); }
+.test-pos { color: var(--pt-on-hud); border-radius: 0; }
+.wrap > .pt-top { margin: 0 auto; }
+</style>
 
+<body class="pt-bg">
+<div class="wrap"><header class="pt-top"><a class="pt-brand" href="https://roadto-univ.pages.dev/" title="ポータルに戻る"><i></i>FORT_DEX</a><span class="pt-where">英単語・長文</span></header></div>
 <div class="wrap" id="app"></div>
 
 <script>
@@ -734,4 +766,5 @@
 })();
 </script>
 <!-- 滞在時間ログ（2026-10-12 Fort様「何分やったか分かるように」。原本 claude-workspace/tools/timelog/timelog.js） -->
-<script src="timelog.js" data-app="vocab-test"></script>
+<script src="timelog.js" data-app="vocab-test"></script><script src="https://roadto-univ.pages.dev/theme.js" defer></script>
+

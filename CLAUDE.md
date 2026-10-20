@@ -105,3 +105,6 @@
 
 ## 滞在時間ログ（2026-10-12）
 - `timelog.js`（原本 claude-workspace の `tools/timelog/timelog.js`）を `index.html` の末尾で読む（アプリID `vocab-test`）。アクティビティログ（fort-log）で見られる。index.html を作り直したり元からコピーし直したりしたときも、この1行を残すこと。
+
+## 見た目：ポータルにそろえる（2026-10-20）
+- 2026-10-21 Fort様「ポータルからデザインをかけ離れすぎないように」「黒っぽいのに飛んだら白っぽいのが嫌」「良くないアプリはUIも整えて」：`https://roadto-univ.pages.dev/theme.css`（ポータルの色・書体の共通部品、原本は my-portal `サイト/theme.css`）を読み、本体の `<style>` の直後の `<style id="pt-align">` で色の変数を `--pt-*` に置き換え（ダーク＝ポータルのHUD、ライト＝昼の設計図）。角丸をやめ、見出しはひし形＋下線、ボタンは角を落とし、上端に「— FORT_DEX」（ポータルに戻る）の帯。`<style id="pt-first">` は読み込み中の白い光り止め。入場の動きは末尾の theme.js。出題・同期には触っていない。build.mjs はデータの差し込みだけなので、この見た目は作り直しても消えない。
